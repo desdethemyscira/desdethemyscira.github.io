@@ -276,7 +276,7 @@ testimonial-items:
 # Logos Slider Section
 
 client-slider-items:
-  - logo: "assets/images/logos/UNAM.png"
+  - logo: "assets/images/logos/unam.png"
     url: "https://www.unam.mx/"
 
   - logo: "assets/images/logos/Filos.png"
@@ -294,7 +294,7 @@ client-slider-items:
   - logo: "assets/images/logos/UACM.png"
     url: "https://www.uacm.edu.mx/"
 
-  - logo: "assets/images/logos/UNAM.png"
+  - logo: "assets/images/logos/unam.png"
     url: "https://www.unam.mx/"
 
   - logo: "assets/images/logos/Filos.png"
