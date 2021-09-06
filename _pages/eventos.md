@@ -13,7 +13,7 @@ El seminario de investigación **Conversatorios: antigüedad y tradición clási
 
 ![Presentación](assets/images/testimonial/presentacion1.png "Naturaleza y Ser humano")
 
-#### Consulta el programa en [Naturaleza y ser humano](https://heliconian.github.io/desdethemyscira.github.io/2021/09/04/Naturaleza-y-ser-humano.-Grecia,-Roma-y-traducci%C3%B3n-cl%C3%A1sica/)
+#### Consulta el programa en [Naturaleza y ser humano](https://desdethemyscira.github.io/desdethemyscira.github.io/2021/09/04/Naturaleza-y-ser-humano.-Grecia,-Roma-y-traducci%C3%B3n-cl%C3%A1sica/)
 
 #### Inscripciones [aquí](https://forms.gle/xjC6VgQJu2PJNPweA)
 

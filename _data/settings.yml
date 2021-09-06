@@ -86,22 +86,22 @@ team:
   - title : "Dra. Evelia Arteaga Conde"
     image : "assets/images/team/member-1.jpg"
     designation : "Coordinadora"
-    url: "https://heliconian.github.io/desdethemyscira.github.io/bio_evelia"
+    url: "https://desdethemyscira.github.io/desdethemyscira.github.io/bio_evelia"
 
   - title : "Mtra. Olivia Isidro Vázquez"
     image : "assets/images/team/member-3.jpg"
     designation : "Coordinadora"
-    url: "https://heliconian.github.io/desdethemyscira.github.io/bio_olivia"
+    url: "https://desdethemyscira.github.io/desdethemyscira.github.io/bio_olivia"
 
   - title : "Dra. Martha Cecilia Jaime González"
     image : "assets/images/team/member-2.jpg"
     designation : "Coordinadora"
-    url: "https://heliconian.github.io/desdethemyscira.github.io/bio_cecilia"
+    url: "https://desdethemyscira.github.io/desdethemyscira.github.io/bio_cecilia"
 
   - title : "Dra. María Leticia López Serratos"
     image : "assets/images/team/member-4.jpg"
     designation : "Coordinadora"
-    url: "https://heliconian.github.io/desdethemyscira.github.io/bio_leticia"
+    url: "https://desdethemyscira.github.io/desdethemyscira.github.io/bio_leticia"
 
 #-------------------------------
 # Skills Section
@@ -257,13 +257,13 @@ testimonial-items:
   - name: "Naturaleza y Ser humano. Grecia, Roma y tradición clásica"
     image: "assets/images/testimonial/banner.jpg"
     designation : "Conversatorio virtual"
-    url: "https://heliconian.github.io/desdethemyscira.github.io/eventos"
+    url: "https://desdethemyscira.github.io/desdethemyscira.github.io/eventos"
     #content : "29-30 de septiembre y 1 de octubre de 2020"
 
   #- name: "Naturaleza y Ser humano. Grecia, Roma y tradición clásica"
   #  image: "assets/images/testimonial/cartel2a.png"
   #  designation : "Conversatorio virtual"
-  #  url: "https://heliconian.github.io/desdethemyscira.github.io/eventos"
+  #  url: "https://desdethemyscira.github.io/desdethemyscira.github.io/eventos"
   # content : "29-30 de septiembre y 1 de octubre de 2020"
 
   #- name: "#"

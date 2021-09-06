@@ -15,7 +15,7 @@ Los Conversatorios iniciaron como una manera de acercarnos como comunidad docent
 
 La primera emisión de nuestro Conversatorio tuvo lugar  los días 29 y 30 de septiembre y 1º. de octubre del 2020, con la temática «Enfermedad y Muerte; antigüedad y tradición Clásica.» integrada por cinco mesas en las que participaron como expositores el Mtro. David Becerra Islas, coordinador en ese momento de nuestro Colegio; la Mtra. Yésica Ramírez Pérez, la Dra. Elsa Rodríguez Brondo, el Mtro. Gabriel Sánchez Barragán el Mtro. Eduardo Pérez Torres y la Dra. Carolina Ponce, además de nosotras como organizadoras.
 
- [**Segunda emisión: Naturaleza y ser humano. Grecia, Roma y tradición clásica**](https://heliconian.github.io/desdethemyscira.github.io/eventos)
+ [**Segunda emisión: Naturaleza y ser humano. Grecia, Roma y tradición clásica**](https://desdethemyscira.github.io/desdethemyscira.github.io/eventos)
 
 Esta segunda emisión se llevará a cabo en octubre del 2021 y tendremos como invitados ponentes a la Dra. Carolina Ponce, la Dra. Sandra Álvarez, la Dra. Camila Joselevich, el Mtr. Absalom Chow, la Lic. Maricela Bravo Rubio, y el Lic. José Manuel González Montiel.  
 
