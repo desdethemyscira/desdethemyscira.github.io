@@ -1,0 +1,319 @@
+#-------------------------------
+# General Site Settings
+
+title: Conversatorios
+logo: /assets/images/logo_a.png
+author: Alejandra Gonzalez-Jimenez
+description: this is meta description
+email:  desdethemyscira@gmail.com
+phone: 555622-1880
+address: Circuito Interior. <br> Ciudad Universitaria,<br> s/n. C.P. 04510. <br> Ciudad de México.
+copyright: Copyright &copy; 2021 Designed by <a href = "http://alejandragj.com/" target = "_self">Alejandra Gonzalez-Jimenez</a> based on Themefisher.
+
+menu:
+- {name: Acerca de, link: '/Simposium/about'}
+- {name: Blog, link: '/Simposium/blog'}
+- {name: Memorias, link: '/Simposium/portfolio'}
+- {name: Eventos, link: '/Simposium/eventos'}
+- {name: Convocatorias, link: '/Simposium/bio_editable'}
+- {name: Contacto, link: '/Simposium/contact'}
+
+
+
+
+
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+google-analytics: # UA-XXXXXX-X
+
+
+#-------------------------------
+# Comment Section (Disqus)
+
+disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
+
+
+#-------------------------------
+# Hero Section
+
+hero:
+  hero-title: Conversatorios <br> Antigüedad y <br> Tradición Clásicas
+
+social:
+- {icon: "ti-facebook", link: "https://www.facebook.com/Conversatorios-Letras-cl%C3%A1sicas-FFyL-101613381687055"}
+- {icon: "ti-instagram", link: "#"}
+- {icon: "ti-youtube", link: "#"}
+- {icon: "ti-twitter", link: "#"}
+
+
+#-------------------------------
+# About (Section and Page)
+
+# About Section
+blurb:
+  Los Conversatorios iniciaron como una manera de acercarnos como comunidad docente y estudiantil durante la pandemia de Covid 2019, ya que estábamos atravesando un año muy difícil.
+
+blurb-btn-link: '/Simposium/about'
+blurb-btn-name: Conoce más
+
+
+# About Page
+
+# Work Process Section
+work-process:
+  - title : "Antología de artículos; Enfermedad y muerte. Antigüedad y tradición clásica."
+    icon : "assets/images/icons/plan.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+  - title : "Tesis; La recepción de Hilas: entre las fuentes grecolatinas y la pintura de John William Watherhouse"
+    icon : "assets/images/icons/design.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+  - title : "Libro: La mujer ática en los epigramas funerarios de los siglos IV y V a. C."
+    icon : "assets/images/icons/print.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+
+# My Team Section
+team:
+  - title : "Dra. Evelia Arteaga Conde"
+    image : "assets/images/team/member-1.jpg"
+    designation : "Coordinadora"
+    url: "https://heliconian.github.io/Simposium/bio_evelia"
+
+  - title : "Mtra. Olivia Isidro Vázquez"
+    image : "assets/images/team/member-3.jpg"
+    designation : "Coordinadora"
+    url: "https://heliconian.github.io/Simposium/bio_olivia"
+
+  - title : "Dra. Martha Cecilia Jaime González"
+    image : "assets/images/team/member-2.jpg"
+    designation : "Coordinadora"
+    url: "https://heliconian.github.io/Simposium/bio_cecilia"
+
+  - title : "Dra. María Leticia López Serratos"
+    image : "assets/images/team/member-4.jpg"
+    designation : "Coordinadora"
+    url: "https://heliconian.github.io/Simposium/bio_leticia"
+
+#-------------------------------
+# Skills Section
+
+# skills-title: Skills
+# skills:
+# - {name: Web Design, color: '#fdb157', value: '90%'}
+# - {name: Logo Design, color: '#9473e6', value: '60%'}
+# - {name: After Effects, color: '#bdecf6', value: '80%'}
+# - {name: Web App, color: '#ffbcaa', value: '70%'}
+
+
+#-------------------------------
+# Exprerience Section
+
+experience-title: Líneas de Investigación
+experience:
+- {name: Filología clásica en la interdisciplina, icon: 'icon-1.png', date: '2021', organization: 'FFyL, UNAM'}
+- {name: Tradición clásica como disciplina académica que estudia las relaciones entre el mundo antiguo y el moderno, icon: 'icon-2.png', date: '2021', organization: 'FFyL, Unam'}
+- {name: Recepción clásica; la relectura de los clásicos grecolatinos a lo largo del tiempo, icon: 'icon-3.png', date: 'Present', organization: 'FFyL, UNAM'}
+
+
+#-------------------------------
+# Education Section
+
+# education-title: Education
+# education:
+# - {name: Marters in UX Design, date: '2006', organization: 'Masassusets Institute of Technology'}
+# - {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
+# - {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
+# - {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
+
+
+#-------------------------------
+# Services Section
+
+#services-title: Eventos
+#services:
+#- {
+#    name: Conversatorio 1,
+#    icon: ti-palette,
+#    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+#    active: # Add true to select section
+#  }
+#- {
+#    name: Conversatorio 2,
+#    icon: ti-vector,
+#    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+#    active: true # Add true to select section
+#  }
+#- {
+#    name: Sesión 1,
+#    icon: ti-panel,
+#    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+#    active: # Add true to select section
+#  }
+
+
+
+#-------------------------------
+# Portfolio (Section and Page)
+
+# Portfolio Home Section
+portfolio-home-items:
+  - image : "assets/images/portfolio/Conver1.jpg"
+    url: "#"
+
+  - image : "assets/images/portfolio/Conver2.jpg"
+    url: "#"
+
+  - image : "assets/images/portfolio/Conver3.jpg"
+    url: "#"
+
+  - image : "assets/images/portfolio/Conver4.jpg"
+    url: "#"
+
+  - image : "assets/images/portfolio/Conver5.jpg"
+    url: "#"
+
+  - image : "assets/images/portfolio/Conver6.jpg"
+#      url: "#"
+
+
+# Portfolio / Memorias Page
+portfolio-label:
+- {
+    title : "SEMINARIOS",
+    type : "seminarios"
+  }
+- {
+    title : "CONVERSATORIOS",
+    type : "conversatorios"
+  }
+- {
+    title : "COLOQUIOS",
+    type : "coloquios"
+  }
+
+portfolio-items:
+  - image : "assets/images/portfolio/Conver1.jpg"
+    url: "#"
+    portfolio-type:
+     - type: "conversatorios"
+     - type: "#"
+
+  - image : "assets/images/portfolio/Conver2.jpg"
+    url: "#"
+    portfolio-type:
+      - type: "conversatorios"
+
+  - image : "assets/images/portfolio/Conver3.jpg"
+    url: "#"
+    portfolio-type:
+      - type: "conversatorios"
+
+  - image : "assets/images/portfolio/Conver6.jpg"
+    url: "#"
+    portfolio-type:
+      - type: "conversatorios"
+
+  - image : "assets/images/portfolio/Conver4.jpg"
+    url: "#"
+    portfolio-type:
+      - type: "conversatorios"
+
+  - image : "assets/images/portfolio/Conver5.jpg"
+    url: "#"
+    portfolio-type:
+      - type: "conversatorios"
+
+  - image : "assets/images/portfolio/Conver1.jpg"
+    url: "#"
+    portfolio-type:
+      - type: "conversatorios"
+
+  - image : "assets/images/portfolio/Conver3.jpg"
+    url: "#"
+    portfolio-type:
+      - type: "seminarios"
+      - type: "coloquios"
+      - type: "conversatorios"
+
+  - image : "assets/images/portfolio/Conver2.jpg"
+    url: "#"
+    portfolio-type:
+      - type: "conversatorios"
+
+
+#-------------------------------
+# Testimonials - Events Section
+
+testimonial-items:
+  - name: "Naturaleza y Ser humano. Grecia, Roma y tradición clásica"
+    image: "assets/images/testimonial/banner.jpg"
+    designation : "Conversatorio virtual"
+    url: "https://heliconian.github.io/Simposium/eventos"
+    #content : "29-30 de septiembre y 1 de octubre de 2020"
+
+  #- name: "Naturaleza y Ser humano. Grecia, Roma y tradición clásica"
+  #  image: "assets/images/testimonial/cartel2a.png"
+  #  designation : "Conversatorio virtual"
+  #  url: "https://heliconian.github.io/Simposium/eventos"
+  # content : "29-30 de septiembre y 1 de octubre de 2020"
+
+  #- name: "#"
+  #  image: "assets/images/testimonial/client-1.png"
+  #  designation: "Coordinadora"
+  #  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+
+#-------------------------------
+# Logos Slider Section
+
+client-slider-items:
+  - logo: "assets/images/logos/UNAM.png"
+    url: "https://www.unam.mx/"
+
+  - logo: "assets/images/logos/Filos.png"
+    url: "http://www.filos.unam.mx/"
+
+  - logo: "assets/images/logos/LC.png"
+    url: "http://clasicas.filos.unam.mx/"
+
+  - logo: "assets/images/logos/Filo.png"
+    url: "https://www.iifilologicas.unam.mx/"
+
+  - logo: "assets/images/logos/BNM.png"
+    url: "https://bnm.iib.unam.mx/"
+
+  - logo: "assets/images/logos/UACM.png"
+    url: "https://www.uacm.edu.mx/"
+
+  - logo: "assets/images/logos/UNAM.png"
+    url: "https://www.unam.mx/"
+
+  - logo: "assets/images/logos/Filos.png"
+    url: "http://www.filos.unam.mx/"
+
+  - logo: "assets/images/logos/LC.png"
+    url: "http://clasicas.filos.unam.mx/"
+
+  - logo: "assets/images/logos/Filo.png"
+    url: "https://www.iifilologicas.unam.mx/"
+
+  - logo: "assets/images/logos/BNM.png"
+    url: "https://bnm.iib.unam.mx/"
+
+  - logo: "assets/images/logos/UACM.png"
+    url: "https://www.uacm.edu.mx/"
+
+#-------------------------------
+# Contact Section
+
+contact-title: Dudas o comentarios
+contact-email: desdethemyscira@gmail.com
