@@ -1,5 +1,5 @@
 baseurl: "/desdethemyscira.github.io" # the subpath of your site, e.g. /blog
-url: "https://desdethemyscira.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://github.com/desdethemyscira" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
