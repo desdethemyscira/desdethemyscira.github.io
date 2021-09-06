@@ -18,7 +18,7 @@ tags:   blog
 
 #### 11:30
 
-##### <a href="/Simposium/assets/images/blog/postal_Cecilia.jpg" target="_blank">No profanar el espacio sagrado</a>
+##### <a href="/desdethemyscira.github.io/assets/images/blog/postal_Cecilia.jpg" target="_blank">No profanar el espacio sagrado</a>
 
 ##### Cecilia Jaime González
 
@@ -30,13 +30,13 @@ La comunicación versará sobre el papel del témenos en la literatura y la reli
 
 #### 17:00
 
-##### <a href="/Simposium/assets/images/blog/postal_camila.jpg" target="_blank">La serpiente</a>
+##### <a href="/desdethemyscira.github.io/assets/images/blog/postal_camila.jpg" target="_blank">La serpiente</a>
 
 ##### Camila Joselevich
 
 El pensamiento en torno a la serpiente en la Antigüedad está implicado, entre otras cosas, con el pensamiento en torno a la organización del poder. La serpiente es espíritu creador, es diosa y es madre, o es amiga y amante. A veces es diablo por astuta, malvada al servicio del demiurgo, manipuladora; otras veces, liberadora del pensamiento, salvadora por lo que abre, por lo que cura, por lo que rompe y despierta. Es protectora, médica, posibilidad crística, posibilidad de vida, y también es muerte, veneno y tierra. Es, pues, espacio de disputa política y de organización del universo social. Sobre esto hablaremos.
 
-##### <a href="/Simposium/assets/images/blog/postal_evelia.jpg" target="_blank">La *physis* individual enfocada en el bienestar común en los epigramas funerarios áticos clásicos</a>
+##### <a href="/desdethemyscira.github.io/assets/images/blog/postal_evelia.jpg" target="_blank">La *physis* individual enfocada en el bienestar común en los epigramas funerarios áticos clásicos</a>
 
 ##### Evelia Arteaga Conde
 
@@ -48,7 +48,7 @@ A partir de tal conceptualización, se analizará qué rasgos individuales se re
 
 #### 11:00
 
-##### <a href="/Simposium/assets/images/blog/postal_Sandra.jpg" target="_blank">El mundo caverna</a>
+##### <a href="/desdethemyscira.github.io/assets/images/blog/postal_Sandra.jpg" target="_blank">El mundo caverna</a>
 
 ##### Dra. Sandra Álvarez Hernández
 
@@ -56,7 +56,7 @@ Una caverna es una cavidad profunda, subterránea o entre rocas, su nombre provi
 
 Las cavernas, grutas o antros conforman un amplio *topos* en la literatura, desde la *Ilíada* y la *Odisea*, las *Metamorfosis* de Ovidio, la *Eneida*, hasta el temprano Renacimiento Italiano. Conoceremos el desarrollo de este tema, tomando en cuenta su supervivencia en el pensamiento cristiano durante la Edad Media y el giro que sufrió en el Renacimiento Italiano cuando se acuñó el término *grutesco* a partir del re-descubrimiento de la *Domus Aurea* en Roma. Si bien una caverna es una cavidad natural, su creación y recreación en diferentes expresiones artísticas a lo largo de la historia muestra que su valor simbólico no puede ser englobado en una sola palabra. Su nombre no se limita a un sustantivo, sino a una amplia variedad de verbos que engloban al cosmos entero y su orden.
 
-##### <a href="/Simposium/assets/images/blog/postal_maricela.jpg" target="_blank">La isla, una cosmovisión mediterránea</a>
+##### <a href="/desdethemyscira.github.io/assets/images/blog/postal_maricela.jpg" target="_blank">La isla, una cosmovisión mediterránea</a>
 
 ##### Maricela Bravo Rubio
 
@@ -68,7 +68,7 @@ El mundo clásico sitúa también en el espacio geográfico de la isla algunas d
 
 #### 17:00
 
-##### <a href="/Simposium/assets/images/blog/postal_tere.jpg" target="_blank">La naturaleza, inspiración para la geografía mítica</a>
+##### <a href="/desdethemyscira.github.io/assets/images/blog/postal_tere.jpg" target="_blank">La naturaleza, inspiración para la geografía mítica</a>
 
 ##### Teresita Cano Ricárdez
 
@@ -76,7 +76,7 @@ La naturaleza del espacio geográfico heleno y sus particularidades han generado
 
 En esta comunicación, analizaremos la Geografía de la *Odisea*, bajo la perspectiva de la Geografía mítica. Reconstruiremos a partir del texto homérico, la ruta del viaje, aunque en ésta no se encadenen de modo preciso todas y cada una de las sucesivas estaciones, sino que se recojan aquellas en que tienen lugar eventos míticos, por lo que su capacidad informativa, aunque escasa, nos da una perspectiva del mundo griego de la Edad de Bronce.
 
-##### <a href="/Simposium/assets/images/blog/postal_camila.jpg" target="_blank">Correspondecias entre dos himnos homéricos: el de Deméter y el de Afrodita</a>
+##### <a href="/desdethemyscira.github.io/assets/images/blog/postal_camila.jpg" target="_blank">Correspondecias entre dos himnos homéricos: el de Deméter y el de Afrodita</a>
 
 ##### José González Montiel
 
@@ -86,13 +86,13 @@ Es indiscutible que Deméter y Afrodita se desempeñan, en la mitología, como d
 
 #### 11:00
 
-##### <a href="/Simposium/assets/images/blog/postal_leti.jpg" target="_blank">¿Qué es el ser humano? Una pregunta de todos los tiempos</a>
+##### <a href="/desdethemyscira.github.io/assets/images/blog/postal_leti.jpg" target="_blank">¿Qué es el ser humano? Una pregunta de todos los tiempos</a>
 
 ##### María Leticia López Serratos
 
 Una de las cuestiones que sostienen la milenaria reflexión sobre qué es lo que nos hace hombres, seres racionales o seres humanos se centra en los rasgos que nos diferencian de los animales, pero esto sólo es la punta del iceberg en el planteamiento original: en sentido aristotélico, existe un espacio en el que confluimos con una gran variedad de entidades, todas con rasgos comunes o diferenciales. Los mecanismos dialécticos que ha seguido cada época conducen a conclusiones más o menos convincentes en cada contexto, ¿pero es posible continuar con el esquema que sobre este tema plantearon los antiguos o debemos postular definiciones más acordes con nuestros tiempos?
 
-##### <a href="/Simposium/assets/images/blog/postal_absalon.jpg" target="_blank">Femina byzantina</a>
+##### <a href="/desdethemyscira.github.io/assets/images/blog/postal_absalon.jpg" target="_blank">Femina byzantina</a>
 
 ##### Absalom García Chow
 
@@ -102,7 +102,7 @@ El “hombre bizantino” es un constructo creado por Alexander Kazdhan (1922-19
 
 #### Conferencia magistral de clausura
 
-##### <a href="/Simposium/assets/images/blog/postal_carolina.jpg" target="_blank">Materialismo lucreciano en Maquiavelo</a>
+##### <a href="/desdethemyscira.github.io/assets/images/blog/postal_carolina.jpg" target="_blank">Materialismo lucreciano en Maquiavelo</a>
 
 ##### Dra. Carolina Ponce
 
