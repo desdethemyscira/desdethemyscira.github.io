@@ -2,7 +2,7 @@
 layout: about
 title: Acerca de
 author:
-image: assets/images/about/conver_gris.png
+image: assets/images/about/themyscira-gris.png
 
 ---
 
