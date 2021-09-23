@@ -36,7 +36,9 @@ e. Usuario de Twitter o Facebook
 
 f. Categoría a la que pertenece el texto
 
-d. Dos imágenes propuestas para el artículo, con las siguientes dimensiones: una de ellas no menor a 1280x897px y la otra no mayor a 886x620px. Las imágenes deben ser libres de derechos de autor o dado el caso con reconocimiento a los creadores y de ser una obra de arte debe agregarse su ficha técnica.
+d- Palabras clave (3-5)
+
+e. Dos imágenes propuestas para el artículo, con las siguientes dimensiones: una de ellas no menor a 1280x897px y la otra no mayor a 886x620px. Las imágenes deben ser libres de derechos de autor o dado el caso con reconocimiento a los creadores y de ser una obra de arte debe agregarse su ficha técnica.
 
 ##### Recibiremos las propuestas hasta el **31 de octubre**.
 
