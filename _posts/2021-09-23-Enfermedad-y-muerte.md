@@ -18,7 +18,7 @@ tags:   Conversatorios
     src="https://www.youtube.com/embed/Qj2lcRHJ_a8" frameborder="0" allowfullscreen="true">
 </iframe>
 
-##### <a href="/desdethemyscira.github.io/assets/images/blog/olivia-1.jpeg" target="_blank">Mi corpulencia interior es fétida y mis entrañas están ocupadas por estiércol putrefacto con gusanos: enfermar y morir en las cárceles secretas de la Inquisición</a>
+## <a href="/desdethemyscira.github.io/assets/images/blog/olivia-1.jpeg" target="_blank">Mi corpulencia interior es fétida y mis entrañas están ocupadas por estiércol putrefacto con gusanos: enfermar y morir en las cárceles secretas de la Inquisición</a>
 
 #### Olivia Isidro
 
