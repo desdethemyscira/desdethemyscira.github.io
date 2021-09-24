@@ -2,7 +2,7 @@
 layout: post
 title:  Enfermedad y muerte. Antigüedad y tradición grecolatina
 date:   2021-09-23 12:05:55 +0300
-image:  /assets/images/blog/enfermedad_y_muerte.jpeg
+image:  /assets/images/blog/enfermedad_y_muerte.jpg
 author: Alejandra González Jiménez
 tags:   Conversatorios
 ---
