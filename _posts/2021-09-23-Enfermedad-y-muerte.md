@@ -101,3 +101,37 @@ En esta charla revisaremos tanto el origen como el desplazamiento de las enferme
 <iframe width="100%" height="550"
     src="https://www.youtube.com/embed/ozDIFMzTF6E" frameborder="0" allowfullscreen="true">
 </iframe>
+
+#### <a href="/desdethemyscira.github.io/assets/images/blog/carolina-1.jpeg" target="_blank">Las ricas Horas de la muerte</a>
+
+##### Carolina Ponce Hernández
+
+> Nuestras vidas son los ríos
+>
+> que van a dar en la mar,
+>
+> Qu’es el morir;
+>
+> allí van los señoríos
+>
+> derechos a se acabar
+>
+> y consumir;
+>
+>   allí los ríos caudales,
+>
+> allí los otros medianos
+>
+> e más chicos,
+>
+> allegados son yguales
+>
+> los que viuen por sus manos
+>
+> e los ricos.
+>
+> Jorge Manrique, Coplas por la muerte de su padre
+
+<iframe width="100%" height="550"
+    src="https://www.youtube.com/embed/ZS6E5bljedI" frameborder="0" allowfullscreen="true">
+</iframe>
