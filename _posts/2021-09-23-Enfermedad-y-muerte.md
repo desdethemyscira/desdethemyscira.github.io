@@ -17,3 +17,19 @@ tags:   Conversatorios
 <iframe width="100%" height="550"
     src="https://www.youtube.com/embed/Qj2lcRHJ_a8" frameborder="0" allowfullscreen="true">
 </iframe>
+
+##### <a href="/desdethemyscira.github.io/assets/images/blog/olivia-1.jpeg" target="_blank">Mi corpulencia interior es fétida y mis entrañas están ocupadas por estiércol putrefacto con gusanos: enfermar y morir en las cárceles secretas de la Inquisición</a>
+
+#### Olivia Isidro
+
+“Los calabozos que se encontraban en la parte baja o debajo del edificio inquisitorial tenían fama de ser excesivamente húmedos, porque sus paredes de adobe y su piso de tierra se empapaban con las aguas freáticas superficiales [...], podían permanecer desocupados durante períodos más o menos largos y la falta de mantenimiento contribuía a acelerar su degradación (Alberro, 2004)”. Así se describen los lugares en los que William Lamport permaneció 17 años preso por parte de la Santa Inquisición, constancia de este hecho son el proceso inquisitorial y la obra neolatina del hereje judaizante. Por ende, el tema de la presente plática gira entorno a las condiciones en las que las cárceles inquisitoriales de Nueva España menguaban la salud de sus detenidos, en específico, las del “primer rey de México”.
+
+##### <a href="/desdethemyscira.github.io/assets/images/blog/evelia-1.jpeg" target="_blank">El amor por la vida y la muerte. Distintos testimonios</a>
+
+#### Evelia Arteaga
+
+Si algo nos ha quedado claro en esta pandemia es que, en nuestra cultura, la muerte causa tristeza, duele; mucho mpas si es la de alguien cercano; además, la conciencia de la propia muerte causa miedo e incluso angustia. Así, con estas premisas, podríamos decir que amamos la vida, pero ¿cuál es la causa de ese amor?, ¿cuáles son los elementos que lo conforman? En esta plática rastreamos el concepto φιλοψυχεϊν, "amar la vida", en los testimonios de la Grecia clásica y veremos sus connotaciones en esta cultura que tanto nos ha heredado culturalmente.
+
+<iframe width="100%" height="550"
+    src="https://www.youtube.com/embed/VFFgpDv_guU" frameborder="0" allowfullscreen="true">
+</iframe>
