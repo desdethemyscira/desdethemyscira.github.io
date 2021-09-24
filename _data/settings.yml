@@ -4,7 +4,7 @@
 title: Conversatorios
 logo: /assets/images/logo_a.png
 author: Alejandra Gonzalez-Jimenez
-description: Grupo de investigación sobre temas clásicos en el mundo moderno. 
+description: Grupo de investigación sobre temas clásicos en el mundo moderno.
 email:  desdethemyscira@gmail.com
 phone: 555622-1880
 address: Circuito Interior. <br> Ciudad Universitaria,<br> s/n. C.P. 04510. <br> Ciudad de México.
@@ -70,15 +70,15 @@ blurb-btn-name: Conoce más
 work-process:
   - title : "Antología de artículos; Enfermedad y muerte. Antigüedad y tradición clásica."
     icon : "assets/images/icons/plan.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    # content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
   - title : "Tesis; La recepción de Hilas: entre las fuentes grecolatinas y la pintura de John William Watherhouse"
     icon : "assets/images/icons/design.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    # content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
   - title : "Libro: La mujer ática en los epigramas funerarios de los siglos IV y V a. C."
     icon : "assets/images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    # content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 
 # My Team Section
