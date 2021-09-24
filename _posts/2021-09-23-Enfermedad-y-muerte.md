@@ -70,7 +70,7 @@ En 1518, una mujer llamada Frau Troffea comenzó a bailar en una calle de Estras
 
 ##### María Leticia López Serratos
 
-Si hoy llegas y a Roma en Roma buscas 
+Si hoy llegas y a Roma en Roma buscas
 y a Roma en plena Roma apenas vieras,
 mira las moles de sus muros, piedras,
 montes, silentes teatros como tumbas.
@@ -90,5 +90,14 @@ y a lo inestable deja se mantenga.
 
 Ianus Vitalis,  Elegía a Roma, trad. de Leticia López
 
+#### <a href="/desdethemyscira.github.io/assets/images/blog/eduardo-1.jpeg" target="_blank">Orígenes y rutas de las enfermedades</a>
 
+##### Eduardo Pérez Torres
 
+Una gran cantidad de las enfermedades infecto-contagiosas como sarampión, tuberculosis, viruela, tos ferina, malaria, gripe, peste y cólera, son enfermedades que evolucionaron a partir de los animales y del contacto de estos con los seres humanos.
+Las rutas comerciales fueron las vías de contacto y difusión de las enfermedades y, generalmente, los puertos marítimos se convirtieron en las primeras zonas de contagio de las enfermedades.
+En esta charla revisaremos tanto el origen como el desplazamiento de las enfermedades y cómo llegaron al mundo grecolatino.
+
+<iframe width="100%" height="550"
+    src="https://www.youtube.com/embed/ozDIFMzTF6E" frameborder="0" allowfullscreen="true">
+</iframe>
