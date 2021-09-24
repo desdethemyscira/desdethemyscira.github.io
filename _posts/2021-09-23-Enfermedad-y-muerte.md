@@ -8,9 +8,9 @@ tags:   Conversatorios
 ---
 **El seminario de investigación "Conversatorios: antigüedad y tradición clásicas" llevo a cabo su primera emisión "Enfermedad y muerte. Antigüedad y tradición grecolatina" en septiembre-octubre de 2020, te invitamos a revivir esos momentos de gozo y compañía que compartimos por circunstancias complicadas que nos siguen aquejando.**
 
-##### <a href="/desdethemyscira.github.io/assets/images/blog/david-1.jpeg" target="_blank">¿De qué morían los griegos? Algunas enfermedades letales según Hipócrates y Galeno</a>
+#### <a href="/desdethemyscira.github.io/assets/images/blog/david-1.jpeg" target="_blank">¿De qué morían los griegos? Algunas enfermedades letales según Hipócrates y Galeno</a>
 
-#### David Becerra
+### David Becerra
 
 ¿De qué morían los griegos? Es un rápido viaje a la historia de la medicina en la antigua Grecia. Inicia en la época homérica, pasa por Asclepio y las primeras escuelas de medicina para luego llegar a la peste del 430 a.C. en Atenas. Haremos una estación en la escuela médica de Hipócrates y sus tratados para ver ahí algunos cuadros de padecimientos y enfermedades que podían causar la muerte del paciente. Saliendo del Pireo, viajaremos unos años hasta el Imperio romano y llegar al 165 d. C. para conocer otro terrible cuadro pandémico de la antigüedad clásica: la peste antonina o plaga de Galeno.
 
@@ -20,16 +20,32 @@ tags:   Conversatorios
 
 #### <a href="/desdethemyscira.github.io/assets/images/blog/olivia-1.jpeg" target="_blank">Mi corpulencia interior es fétida y mis entrañas están ocupadas por estiércol putrefacto con gusanos: enfermar y morir en las cárceles secretas de la Inquisición</a>
 
-#### Olivia Isidro
+### Olivia Isidro
 
 “Los calabozos que se encontraban en la parte baja o debajo del edificio inquisitorial tenían fama de ser excesivamente húmedos, porque sus paredes de adobe y su piso de tierra se empapaban con las aguas freáticas superficiales [...], podían permanecer desocupados durante períodos más o menos largos y la falta de mantenimiento contribuía a acelerar su degradación (Alberro, 2004)”. Así se describen los lugares en los que William Lamport permaneció 17 años preso por parte de la Santa Inquisición, constancia de este hecho son el proceso inquisitorial y la obra neolatina del hereje judaizante. Por ende, el tema de la presente plática gira entorno a las condiciones en las que las cárceles inquisitoriales de Nueva España menguaban la salud de sus detenidos, en específico, las del “primer rey de México”.
 
-##### <a href="/desdethemyscira.github.io/assets/images/blog/evelia-1.jpeg" target="_blank">El amor por la vida y la muerte. Distintos testimonios</a>
+#### <a href="/desdethemyscira.github.io/assets/images/blog/evelia-1.jpeg" target="_blank">El amor por la vida y la muerte. Distintos testimonios</a>
 
-#### Evelia Arteaga
+### Evelia Arteaga
 
 Si algo nos ha quedado claro en esta pandemia es que, en nuestra cultura, la muerte causa tristeza, duele; mucho mpas si es la de alguien cercano; además, la conciencia de la propia muerte causa miedo e incluso angustia. Así, con estas premisas, podríamos decir que amamos la vida, pero ¿cuál es la causa de ese amor?, ¿cuáles son los elementos que lo conforman? En esta plática rastreamos el concepto φιλοψυχεϊν, "amar la vida", en los testimonios de la Grecia clásica y veremos sus connotaciones en esta cultura que tanto nos ha heredado culturalmente.
 
 <iframe width="100%" height="550"
     src="https://www.youtube.com/embed/VFFgpDv_guU" frameborder="0" allowfullscreen="true">
+</iframe>
+
+#### <a href="/desdethemyscira.github.io/assets/images/blog/gabriel-1.jpeg" target="_blank">Medicina alternativa. La curación apolínea</a>
+
+### Gabriel Sánchez Barragán
+
+La primera visión del bello Apolo en la literatura antigua, dista mucho de la imagen esplendorosa que retrataron los artistas clásicos y helenísticos, y que acrecentaron como un ideal los románticos e incluso los filólogos de tiempos contemporáneos. El primer Apolo que conocemos es un asesino, un dios de peste y de mortandad. Pero en el antiguo pensamiento, “el dios que da algo es también el dios que lo arrebata”, por ello Apolo fue el dios de la curación… ¿acaso ésa que hoy tanto se enaltece en aras de un futuro promisorio? ¿Fue acaso Apolo el patrono de la ciencia moderna o su voz nos invita a buscar alternativas?
+
+#### <a href="/desdethemyscira.github.io/assets/images/blog/yessica-1.jpeg" target="_blank">Espiritualidad y enfermedad en tesis de medicina del siglo XVIII</a>
+
+### Yésica Ramírez Pérez
+
+Divina médica, que sanó a los hombres curándolos solamente con la palabra; en efecto, si ellos hacen esto, escuchar su palabra; ella les hará esto, procurar su sanación. Eva ofreció el perjudicial jugo de la manzana; ésta ofrece el sanador ungüento para el veneno; aunque ella atraviese el corazón con el escalpelo de los dolores; no derrama sangre, sino que la contiene expresamente en el interior de las venas. (AGN, Universidad, vol. 282, exp. 29, fol. 92, 306x419 mm. Trad. Yésica Ramírez Pérez).
+
+<iframe width="100%" height="550"
+    src="https://www.youtube.com/embed/iPEd5vhRYR4" frameborder="0" allowfullscreen="true">
 </iframe>
