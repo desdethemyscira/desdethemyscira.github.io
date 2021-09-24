@@ -119,7 +119,7 @@ allegados son yguales <br>
 los que viuen por sus manos <br>
 e los ricos.<br>
 <br>
-> Jorge Manrique, Coplas por la muerte de su padre
+Jorge Manrique, Coplas por la muerte de su padre
 
 <iframe width="100%" height="550"
     src="https://www.youtube.com/embed/ZS6E5bljedI" frameborder="0" allowfullscreen="true">
