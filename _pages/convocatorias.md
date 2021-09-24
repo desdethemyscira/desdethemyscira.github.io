@@ -16,6 +16,8 @@ Para que celebremos juntas y juntos que ya contaremos con nuestra propia página
 - Enfermedad y muerte. Antigüedad y tradición clásica
 - Naturaleza y ser humano
 
+<br>
+
 ##### Lineamientos para la publicación de textos:
 
 Recordemos que al ser notas de divulgación, tienen el propósito de acercar al público en general a conocer el mundo clásico y su tradición, por lo que pedimos que se utilice un lenguaje claro, accesible y, sobre todo, atractivo. La extensión no debe exceder las 1200 palabras.
