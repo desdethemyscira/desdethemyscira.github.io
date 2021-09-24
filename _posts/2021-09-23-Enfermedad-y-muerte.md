@@ -70,25 +70,25 @@ En 1518, una mujer llamada Frau Troffea comenzó a bailar en una calle de Estras
 
 ##### María Leticia López Serratos
 
-Si hoy llegas y a Roma en Roma buscas
-y a Roma en plena Roma apenas vieras,
-mira las moles de sus muros, piedras,
-montes, silentes teatros como tumbas.
-
-Lo que ves, Roma es: vivos cadáveres
-de aliento de amenaza y mando marchan,
-en urbe vencedora y vencida van,
-sepultada grandeza de saberes.
-
-Hoy sólo el murmullo del fluir constante
-del Tíber “Roma” musita, pero el mar
-su voz ahoga en bravura agobiante.
-
-Al verla así se entiende quién en verdad
-poder tiene: Fortuna mueve lo estable;
-y a lo inestable deja se mantenga.
-
-Ianus Vitalis,  Elegía a Roma, trad. de Leticia López
+> Si hoy llegas y a Roma en Roma buscas
+> y a Roma en plena Roma apenas vieras,
+> mira las moles de sus muros, piedras,
+> montes, silentes teatros como tumbas.
+>
+> Lo que ves, Roma es: vivos cadáveres
+> de aliento de amenaza y mando marchan,
+> en urbe vencedora y vencida van,
+> sepultada grandeza de saberes.
+>
+> Hoy sólo el murmullo del fluir constante
+> del Tíber “Roma” musita, pero el mar
+> su voz ahoga en bravura agobiante.
+>
+> Al verla así se entiende quién en verdad
+> poder tiene: Fortuna mueve lo estable;
+> y a lo inestable deja se mantenga.
+>
+> Ianus Vitalis,  Elegía a Roma, trad. de Leticia López
 
 #### <a href="/desdethemyscira.github.io/assets/images/blog/eduardo-1.jpeg" target="_blank">Orígenes y rutas de las enfermedades</a>
 
