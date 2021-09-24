@@ -8,7 +8,7 @@ tags:   Conversatorios
 ---
 **El seminario de investigación "Conversatorios: antigüedad y tradición clásicas" llevo a cabo su primera emisión "Enfermedad y muerte. Antigüedad y tradición grecolatina" en septiembre-octubre de 2020, te invitamos a revivir esos momentos de gozo y compañía que compartimos por circunstancias complicadas que nos siguen aquejando.**
 
-##### <a href="/desdethemyscira.github.io/assets/images/blog/david-1.jpg" target="_blank">¿De qué morían los griegos? Algunas enfermedades letales según Hipócrates y Galeno</a>
+##### <a href="/desdethemyscira.github.io/assets/images/blog/david-1.jpeg" target="_blank">¿De qué morían los griegos? Algunas enfermedades letales según Hipócrates y Galeno</a>
 
 #### David Becerra
 
