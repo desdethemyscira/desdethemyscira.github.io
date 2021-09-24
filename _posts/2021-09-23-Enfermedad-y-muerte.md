@@ -106,30 +106,19 @@ En esta charla revisaremos tanto el origen como el desplazamiento de las enferme
 
 ##### Carolina Ponce Hernández
 
-> Nuestras vidas son los ríos
->
-> que van a dar en la mar,
->
-> Qu’es el morir;
->
-> allí van los señoríos
->
-> derechos a se acabar
->
-> y consumir;
->
->   allí los ríos caudales,
->
-> allí los otros medianos
->
-> e más chicos,
->
-> allegados son yguales
->
-> los que viuen por sus manos
->
-> e los ricos.
->
+> Nuestras vidas son los ríos <br>
+> que van a dar en la mar, <br>
+> Qu’es el morir; <br>
+> allí van los señoríos <br>
+> derechos a se acabar <br>
+> y consumir; <br>
+>   allí los ríos caudales, <br>
+> allí los otros medianos <br>
+> e más chicos, <br>
+> allegados son yguales <br>
+> los que viuen por sus manos <br>
+> e los ricos.<br>
+<br>
 > Jorge Manrique, Coplas por la muerte de su padre
 
 <iframe width="100%" height="550"
