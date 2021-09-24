@@ -49,3 +49,43 @@ Divina médica, que sanó a los hombres curándolos solamente con la palabra; en
 <iframe width="100%" height="550"
     src="https://www.youtube.com/embed/iPEd5vhRYR4" frameborder="0" allowfullscreen="true">
 </iframe>
+
+#### <a href="/desdethemyscira.github.io/assets/images/blog/elsa-1.jpeg" target="_blank">Depresión: La teoría humoral de Hipócrates y Hermosa soledad de Jimmy Liao (2004), una lectura</a>
+
+### Elsa Rodríguez Brondo
+
+Las primeras nociones de lo que ahora llamamos depresión están en la teoría humoral de Hipócrates. De los cuatro humores, la bilis negra, conformaba una personalidad: el melancólico. En el Problema XXX de Aristóteles se relaciona directamente a la melancolía con la creación y Robert Burton dedicó su gran obra Anatomía de la melancolía a desentrañar las característica de un mal que él mismo padeció en el siglo XVII. Nunca como antes en la historia la depresión, derivada de la noción de melancolía, ha cobrado un mayor número de víctimas como ahora. Jimmy Liao, un excelente autor de libros ilustrados, nos muestra su propio proceso depresivo en Hermosa Soledad. Tal vez Hipócrates y Liao, sean dos polos de un mismo camino por entender la profunda tristeza y su luminosa cara, la creatividad.
+
+#### <a href="/desdethemyscira.github.io/assets/images/blog/cecilia-1.jpeg" target="_blank">Coreomanía: del éxtasis dionisiaco a la epidemia. Iconografía de una enfermedad</a>
+
+### Cecilia Jaime González
+
+En 1518, una mujer llamada Frau Troffea comenzó a bailar en una calle de Estrasburgo, un mes después cerca de cuatrocientos bailarines sin control ya la acompañaban. Se narra que “chillaban, cantaban, sufrían visiones, invocaban a dios y a demonios hasta que se desplomaban”. Así de bárbaro puede parecer también el espíritu dionisiaco que deshace el principio de individuación y provoca la anarquía de las mujeres griegas, las cuales parecen entrar en un estado de posesión hipnótica semidemente, cuyo éxtasis es representado por cuellos echados desmesuradamente hacia atrás y cuerpos que tras la danza desfallecen. ¿Acaso el arte encontró cánones globales para expresar los altos niveles de euforia y angustia psicológica?
+
+<iframe width="100%" height="550"
+    src="https://www.youtube.com/embed/2VSkA99sx5M" frameborder="0" allowfullscreen="true">
+</iframe>
+
+#### <a href="/desdethemyscira.github.io/assets/images/blog/leticia-1.jpeg" target="_blank">Enfermedad y muerte en el Renacimiento</a>
+
+### María Leticia López Serratos
+
+Si hoy llegas y a Roma en Roma buscas
+y a Roma en plena Roma apenas vieras,
+mira las moles de sus muros, piedras,
+montes, silentes teatros como tumbas.
+
+Lo que ves, Roma es: vivos cadáveres
+de aliento de amenaza y mando marchan,
+en urbe vencedora y vencida van,
+sepultada grandeza de saberes.
+
+Hoy sólo el murmullo del fluir constante
+del Tíber “Roma” musita, pero el mar
+su voz ahoga en bravura agobiante.
+
+Al verla así se entiende quién en verdad
+poder tiene: Fortuna mueve lo estable;
+y a lo inestable deja se mantenga.
+
+Ianus Vitalis,  Elegía a Roma, trad. de Leticia López
