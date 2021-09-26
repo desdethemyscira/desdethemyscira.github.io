@@ -1,7 +1,7 @@
 ---
 layout: bio
 title: Dra. Martha Cecilia <br> Jaime González
-author:
+author: Ale
 image: assets/images/team/member-2.jpg
 #signature:
 ---
