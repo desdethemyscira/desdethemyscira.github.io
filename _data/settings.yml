@@ -47,7 +47,7 @@ hero:
   hero-title: Conversatorios <br> Antigüedad y <br> Tradición Clásicas
 
 social:
-- {icon: "ti-facebook", link: "https://www.facebook.com/desdethemyscira/"} 
+- {icon: "ti-facebook", link: "http://www.facebook.com/desdethemyscira/"} 
 # - {icon: "ti-instagram", link: "#"}
 - {icon: "ti-youtube", link: "https://www.youtube.com/channel/UCpnDuxEbJ-c-1W_HaXMjyvA"}
 # - {icon: "ti-twitter", link: "#"}
