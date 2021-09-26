@@ -3,7 +3,7 @@ layout: post
 title:  Naturaleza y ser humano. Grecia, Roma y tradición clásica
 date:   2021-09-04 13:05:55 +0300
 image:  /assets/images/blog/naturaleza.png
-author: Ale
+author: Alejandra González Jiménez 
 tags:   blog
 ---
 **El seminario de investigación "Conversatorios: antigüedad y tradición clásicas" invita a nuestra segunda emisión (2021) en la que participarán como expositores la Dra. Carolina Ponce,  la Dra. Sandra Álvarez, la Dra. Camila Joselevich, el Mtr. Absalom Chow, la Lic. Maricela Bravo Rubio y el Lic. José Manuel González Montiel.**
