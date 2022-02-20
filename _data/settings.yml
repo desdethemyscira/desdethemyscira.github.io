@@ -260,11 +260,11 @@ testimonial-items:
     url: "https://desdethemyscira.github.io/desdethemyscira.github.io/eventos"
     #content : "29-30 de septiembre y 1 de octubre de 2020"
 
-  - name: "Primera sesión: Rodrigo Blum, La descripción arquitectónica en la poesía bizantina temprana: Paulo el Silenciario y la Écfrasis de la Iglesia de Hagia Sofía en Constantinopla"
-    image: "assets/images/testimonial/1a_ sesion.png"
+  #- name: "Rodrigo Blum, La descripción arquitectónica en la poesía bizantina temprana: Paulo el Silenciario y la Écfrasis de la Iglesia de Hagia Sofía en Constantinopla"
+    image: "assets/images/testimonial/1asesion.png"
     designation : "Primera sesión virtual"
-    url: "https://desdethemysciraffyl.mx/eventos"
-    content : "Miércoles 23 de febrero de 2022"
+    url: "https://forms.gle/MxCGtRSyaA4fnFmf7"
+  #  content : "Miércoles 23 de febrero de 2022"
 
   #- name: "#"
   #  image: "assets/images/testimonial/client-1.png"
