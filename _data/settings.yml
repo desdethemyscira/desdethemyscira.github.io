@@ -254,11 +254,11 @@ portfolio-items:
 # Testimonials - Events Section
 
 testimonial-items:
-  - name: "Naturaleza y Ser humano. Grecia, Roma y tradición clásica"
-    image: "assets/images/testimonial/banner.jpg"
-    designation : "Conversatorio virtual"
-    url: "https://desdethemyscira.github.io/desdethemyscira.github.io/eventos"
-    #content : "29-30 de septiembre y 1 de octubre de 2020"
+  - name: "María de Jesus, Ars metrica de José Jiménez. Edición, traducción y notas"
+    image: "assets/images/testimonial/2asesion.png"
+    designation : "Segunda sesión virtual"
+    url: "https://forms.gle/31ZFLh21RvuH6sJD9"
+    #content : "Miércoles 30 de marzo de 2022"
 
   - name: "Rodrigo Blum, La descripción arquitectónica en la poesía bizantina temprana: Paulo el Silenciario y la Écfrasis de la Iglesia de Hagia Sofía en Constantinopla"
     image: "assets/images/testimonial/1asesion.png"
