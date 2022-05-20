@@ -254,6 +254,11 @@ portfolio-items:
 # Testimonials - Events Section
 
 testimonial-items:
+    - name: "Santiago Campodonico, Bíos kaí Zoé: violencia, muerte y redención en el Orfismo"
+      image: "assets/images/testimonial/3sesion-sw.png"
+      designation: "Tercera sesión virtual"
+    #  content: "Miércoles 35 de mayo de 2022"
+
   - name: "María de Jesus, Ars metrica de José Jiménez. Edición, traducción y notas"
     image: "assets/images/testimonial/2asesion.png"
     designation : "Segunda sesión virtual"
@@ -266,11 +271,10 @@ testimonial-items:
     url: "https://forms.gle/MxCGtRSyaA4fnFmf7"
   #  content : "Miércoles 23 de febrero de 2022"
 
-  #- name: "#"
-  #  image: "assets/images/testimonial/client-1.png"
-  #  designation: "Coordinadora"
-  #  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
+#  - name: "Santiago Campodonico, Bíos kaí Zoé: violencia, muerte y redención en el Orfismo"
+#    image: "assets/images/testimonial/3sesion-sw.png"
+#    designation: "Tercera sesión virtual"
+  #  content: "Miércoles 35 de mayo de 2022"
 
 #-------------------------------
 # Logos Slider Section
