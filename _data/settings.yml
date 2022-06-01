@@ -254,6 +254,12 @@ portfolio-items:
 # Testimonials - Events Section
 
 testimonial-items:
+  - name: "Emociones: Corporalidad y Corporeidad"
+    image: "assets/images/testimonial/3conver.png"
+    designation: "Tercer conversatorio"
+    #url: "--"
+    #content: "Próximamente"
+  
   - name: "Santiago Campodonico, Bíos kaí Zoé: violencia, muerte y redención en el Orfismo"
     image: "assets/images/testimonial/3sesion.png"
     designation: "Tercera sesión virtual"
