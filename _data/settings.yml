@@ -8,7 +8,7 @@ description: Grupo de investigación sobre temas clásicos en el mundo moderno.
 email:  desdethemyscira@gmail.com
 phone: 555622-1880
 address: Circuito Interior. <br> Ciudad Universitaria,<br> s/n. C.P. 04510. <br> Ciudad de México.
-copyright: Copyright &copy; 2021 Designed by <a href = "http://alejandragj.com/" target = "_self">Alejandra Gonzalez-Jimenez</a> based on Themefisher.
+copyright: Copyright &copy; 2022 Designed by <a href = "http://alejandragj.com/" target = "_self">Alejandra Gonzalez-Jimenez</a> based on Themefisher.
 
 menu:
 - {name: Acerca de, link: '/desdethemyscira.github.io/about'}
@@ -259,7 +259,7 @@ testimonial-items:
     designation: "Tercer conversatorio"
     #url: "--"
     #content: "Próximamente"
-  
+
   - name: "Santiago Campodonico, Bíos kaí Zoé: violencia, muerte y redención en el Orfismo"
     image: "assets/images/testimonial/3sesion.png"
     designation: "Tercera sesión virtual"
