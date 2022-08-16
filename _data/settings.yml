@@ -255,7 +255,7 @@ portfolio-items:
 
 testimonial-items:
   - name: "Efraín Ramírez Carrada, El círculo como medio de unicidad con lo divino"
-    image: "assets/images/testimonial/4conver.png"
+    image: "assets/images/testimonial/4sesion.png"
     designation: "Cuarta sesión virtual"
     url: "https://forms.gle/1ynML66d8zBto1CJ9"
     #content: "Próximamente"
@@ -279,10 +279,10 @@ testimonial-items:
     url: "https://forms.gle/31ZFLh21RvuH6sJD9"
     #content : "Miércoles 30 de marzo de 2022"
 
-  #- name: "Rodrigo Blum, La descripción arquitectónica en la poesía bizantina temprana: Paulo el Silenciario y la Écfrasis de la Iglesia de Hagia Sofía en Constantinopla"
-  #  image: "assets/images/testimonial/1asesion.png"
-  #  designation : "Primera sesión virtual"
-  #  url: "https://forms.gle/MxCGtRSyaA4fnFmf7"
+  - name: "Rodrigo Blum, La descripción arquitectónica en la poesía bizantina temprana: Paulo el Silenciario y la Écfrasis de la Iglesia de Hagia Sofía en Constantinopla"
+    image: "assets/images/testimonial/1asesion.png"
+    designation : "Primera sesión virtual"
+    url: "https://forms.gle/MxCGtRSyaA4fnFmf7"
   #  content : "Miércoles 23 de febrero de 2022"
 
   #- name: "Santiago Campodonico, Bíos kaí Zoé: violencia, muerte y redención en el Orfismo"
