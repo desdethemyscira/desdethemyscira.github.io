@@ -260,7 +260,6 @@ testimonial-items:
     url: "https://forms.gle/1ynML66d8zBto1CJ9"
     #content: "Próximamente"
 
-testimonial-items:
   - name: "Emociones: Corporalidad y Corporeidad"
     image: "assets/images/testimonial/3conver.png"
     designation: "Tercer conversatorio"
