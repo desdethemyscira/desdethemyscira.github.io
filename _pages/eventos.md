@@ -13,7 +13,7 @@ El seminario de investigación **Conversatorios: antigüedad y tradición clási
 
 ![Presentación](assets/images/testimonial/3event.png "Emosiones: Corporalidad y corporeidad")
 
-#### Consulta el programa en [Emosiones: Corporalidad y corporeidad] <a href="/desdethemyscira.github.io/assets/images/testimonial/3event.png" target="_blank">Programa</a>
+#### Consulta el programa <a href="/desdethemyscira.github.io/assets/images/testimonial/3erprogram.pdf" target="_blank">aquí</a>
 
 #### Inscripciones [aquí](https://forms.gle/EeXP3YMfWQStEQSh7)
 
