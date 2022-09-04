@@ -6,15 +6,15 @@ image: assets/images/about/conver_gris.png
 #signature:
 ---
 
-El seminario de investigación **Conversatorios: antigüedad y tradición clásicas** invita a nuestra segunda emisión (2021) en la que participarán como expositores la Dra. Carolina Ponce,  la Dra. Sandra Álvarez, la Dra. Camila Joselevich, el Mtr. Absalom Chow, la Lic. Maricela Bravo Rubio y el Lic. José Manuel González Montiel.
+El seminario de investigación **Conversatorios: antigüedad y tradición clásicas** invita a nuestra tercera emisión (2022) en la que participarán como expositores la Dra. Carolina Ponce,  la Dra. Lidia Gambon, la Dra. Claudia Palma Cano, el Dr. David Konstan, la Mtra. Alejandra Victoria Fernández, la Mtra. Elia Sánchez Gómez, la Mtra. Olivia Isidro Vázquez y el Lic. Amaury Mendoza Toro.
 
-## Naturaleza y ser Humano
-### Grecia, Roma y tradición clásica
+## Emosiones: Corporalidad y corporeidad
+### Estudios clásicos y su tradición
 
-![Presentación](assets/images/testimonial/presentacion1.png "Naturaleza y Ser humano")
+![Presentación](assets/images/testimonial/3event.png "Emosiones: Corporalidad y corporeidad")
 
-#### Consulta el programa en [Naturaleza y ser humano](http://desdethemysciraffyl.mx/2021/09/04/Naturaleza-y-ser-humano.-Grecia,-Roma-y-traducci%C3%B3n-cl%C3%A1sica/)
+#### Consulta el programa en [Emosiones: Corporalidad y corporeidad] <a href="/desdethemyscira.github.io/assets/images/testimonial/3event.png" target="_blank">Programa</a>
 
-#### Inscripciones [aquí](https://forms.gle/xjC6VgQJu2PJNPweA)
+#### Inscripciones [aquí](https://forms.gle/EeXP3YMfWQStEQSh7)
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfprRvRzZYD_I76nSuUOr2nNAZEWY8FEgZHdtvvoVeiTe8rLw/viewform?embedded=true" width="640" height="1340" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeEHn1a5vbyNhs5SjmxG1AaU7pQ6-4Zz0yKIrooBFoPHeqyvA/viewform?embedded=true" width="640" height="3264" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
