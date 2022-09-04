@@ -254,16 +254,16 @@ portfolio-items:
 # Testimonials - Events Section
 
 testimonial-items:
- - name: "Emociones: Corporalidad y Corporeidad"
-   image: "assets/images/testimonial/3conver2.png"
-   designation: "Tercer conversatorio"
-   url: "https://desdethemysciraffyl.mx/eventos"
-   #content: "Próximamente"
-
   - name: "Efraín Ramírez Carrada, El círculo como medio de unicidad con lo divino"
     image: "assets/images/testimonial/4sesion.png"
     designation: "Cuarta sesión virtual"
     url: "https://forms.gle/1ynML66d8zBto1CJ9"
+    #content: "Próximamente"
+
+  - name: "Emociones: Corporalidad y Corporeidad"
+    image: "assets/images/testimonial/3conver2.png"
+    designation: "Tercer conversatorio"
+    url: "https://desdethemysciraffyl.mx/eventos"
     #content: "Próximamente"
 
   - name: "Santiago Campodonico, Bíos kaí Zoé: violencia, muerte y redención en el Orfismo"
