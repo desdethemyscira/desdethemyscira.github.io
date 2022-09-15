@@ -254,6 +254,12 @@ portfolio-items:
 # Testimonials - Events Section
 
 testimonial-items:
+  - name: "Mayra Paola Aranda González, Los textos preliminares en el tratado Iuris Spiritualis Practicabilium Libri XV de don Francisco Torreblanca Villalpando."
+    image: "assets/images/testimonial/5sesion.png"
+    designation: "Quinta sesión virtual"
+    url: "https://forms.gle/qFycdPgStY4JEEE67"
+    #content: "Próximamente"
+
   - name: "Emociones: Corporalidad y Corporeidad"
     image: "assets/images/testimonial/3conver2.png"
     designation: "Tercer conversatorio"
