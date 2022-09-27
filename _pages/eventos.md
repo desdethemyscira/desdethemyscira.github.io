@@ -8,7 +8,7 @@ image: assets/images/about/conver_gris.png
 
 El seminario de investigación **Conversatorios: antigüedad y tradición clásicas** invita a nuestra tercera emisión (2022) en la que participarán como expositores la Dra. Carolina Ponce,  la Dra. Lidia Gambon, la Dra. Claudia Palma Cano, el Dr. David Konstan, la Mtra. Alejandra Victoria Fernández, la Mtra. Elia Sánchez Gómez, la Mtra. Olivia Isidro Vázquez y el Lic. Amaury Mendoza Toro.
 
-## Emosiones: Corporalidad y corporeidad
+## Emociones: Corporalidad y corporeidad
 ### Estudios clásicos y su tradición
 
 ![Presentación](assets/images/testimonial/3event.png "Emosiones: Corporalidad y corporeidad")
