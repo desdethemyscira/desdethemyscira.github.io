@@ -254,6 +254,12 @@ portfolio-items:
 # Testimonials - Events Section
 
 testimonial-items:
+  - name: "Sergio Embleton Márquez, Recepción del concepto de tonus en Aureliano de Réôme."
+    image: "assets/images/testimonial/6sesion.png"
+    designation: "Sexta sesión virtual"
+    url: "https://forms.gle/ZMeSB9gWR7YP6GYv5"
+    #content: "Próximamente"
+
   - name: "Mayra Paola Aranda González, Los textos preliminares en el tratado Iuris Spiritualis Practicabilium Libri XV de don Francisco Torreblanca Villalpando."
     image: "assets/images/testimonial/5sesion.png"
     designation: "Quinta sesión virtual"
