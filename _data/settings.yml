@@ -254,7 +254,7 @@ portfolio-items:
 # Testimonials - Events Section
 
 testimonial-items:
- - name: "Alejandra González Jiménez, Safo en el borde: propuesta de edición crítica digital a través de LaTeX y TEI"
+  - name: "Alejandra González Jiménez, Safo en el borde: propuesta de edición crítica digital a través de LaTeX y TEI"
    image: "assets/images/testimonial/7sesion.png"
    designation: "Séptima sesión"
    url: "https://forms.gle/xPaAcnJddKaATg9W6"
