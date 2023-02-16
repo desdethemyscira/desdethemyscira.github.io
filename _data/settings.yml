@@ -254,6 +254,12 @@ portfolio-items:
 # Testimonials - Events Section
 
 testimonial-items:
+ - name: "Alejandra Gonzále Jiménez, Safo en el borde: propuesta de edición crítica digital a través de LaTeX y TEI"
+    image: "assets/images/testimonial/7sesion.png"
+    designation: "Sexta sesión virtual"
+    url: "https://forms.gle/xPaAcnJddKaATg9W6"
+    #content: "Próximamente"
+
   - name: "Sergio Embleton Márquez, Recepción del concepto de tonus en Aureliano de Réôme."
     image: "assets/images/testimonial/6sesion.png"
     designation: "Sexta sesión virtual"
