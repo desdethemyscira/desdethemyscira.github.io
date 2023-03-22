@@ -254,6 +254,12 @@ portfolio-items:
 # Testimonials - Events Section
 
 testimonial-items:
+  - name: "Manuel de Jesús Islas Ramírez, Religión, magia y ciencia: los prolegomena del De magia universalis naturae et artis de Gaspar Schott"
+    image: "assets/images/testimonial/8sesion.png"
+    designation: "Octava sesión virtual"
+    url: "https://forms.gle/GQK74Bsf5KE3xtC79"
+    #content: "Miércoles 22 de febrero de 2023"
+
   - name: "Alejandra González Jiménez, Safo en el borde: propuesta de edición crítica digital a través de LaTeX y TEI"
     image: "assets/images/testimonial/7sesion.png"
     designation: "Séptima sesión virtual"
