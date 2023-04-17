@@ -254,6 +254,12 @@ portfolio-items:
 # Testimonials - Events Section
 
 testimonial-items:
+  - name: "Marvin Gohan Leyva Cervantes, Medios, letras y crímenes de odio hacia la comunidad LGBT+"
+    image: "assets/images/testimonial/9sesion.png"
+    designation: "Novena sesión virtual"
+    url: "https://forms.gle/sxhcaiQx3LePyknD9"
+    #content: "Miércoles 22 de febrero de 2023"
+
   - name: "Manuel de Jesús Islas Ramírez, Religión, magia y ciencia: los prolegomena del De magia universalis naturae et artis de Gaspar Schott"
     image: "assets/images/testimonial/8sesion.png"
     designation: "Octava sesión virtual"
