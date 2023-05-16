@@ -254,6 +254,12 @@ portfolio-items:
 # Testimonials - Events Section
 
 testimonial-items:
+  - name: "Michel Dolores Briseño, La Conquista de México en De orbe novo decades de Pedro Mártir de Anglería: edición crítica, traducción y notas."
+    image: "assets/images/testimonial/10asesion.png"
+    designation: "Décima sesión virtual"
+    url: "https://forms.gle/sjcuHC7xdVDgt6ct8"
+    #content: "Miércoles 22 de febrero de 2023"
+
   - name: "Marvin Gohan Leyva Cervantes, Medios, letras y crímenes de odio hacia la comunidad LGBT+"
     image: "assets/images/testimonial/9asesion.png"
     designation: "Novena sesión virtual"
