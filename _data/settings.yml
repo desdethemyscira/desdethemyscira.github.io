@@ -254,6 +254,12 @@ portfolio-items:
 # Testimonials - Events Section
 
 testimonial-items:
+  - name: "Nos vemos en agosto"
+    image: "assets/images/testimonial/jun.png"
+    designation: "Nos vemos en agosto"
+    #url: ""
+    #content: "Miércoles 22 de febrero de 2023"
+
   - name: "Michel Dolores Briseño, La Conquista de México en De orbe novo decades de Pedro Mártir de Anglería: edición crítica, traducción y notas."
     image: "assets/images/testimonial/10asesion.png"
     designation: "Décima sesión virtual"
