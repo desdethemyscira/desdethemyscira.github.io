@@ -254,6 +254,12 @@ portfolio-items:
 # Testimonials - Events Section
 
 testimonial-items:
+  - name: "In muliere virum faciat opus est: Isotta Nogarola y la virtud masculina en tres epístolas renacentistas"
+    image: "assets/images/testimonial/11sesion.png"
+    designation: "Undécima sesión virtual"
+    url: "https://forms.gle/8GEtGwW8eFYfgprUA"
+    #content: "Jueves 31 de agosto de 2023"
+
   - name: "Nos vemos en agosto"
     image: "assets/images/testimonial/jun.png"
     designation: "Nos vemos en agosto"
