@@ -254,6 +254,12 @@ portfolio-items:
 # Testimonials - Events Section
 
 testimonial-items:
+  - name: "Propuesta didáctica para la enseñanza y análisis del vocabulario médico en la asignatura de Griego II del Colegio de Ciencias y Humanidades"
+    image: "assets/images/testimonial/13sesion.png"
+    designation: "Decimotercera sesión virtual"
+    url: "https://forms.gle/uw8W74HPzBAXS7wy7"
+    #content: "Jueves 31 de agosto de 2023"
+
   - name: "Narraciones silenciosas de una tierra desconocida. Libro de cuentos"
     image: "assets/images/testimonial/12sesion.png"
     designation: "Duodécima sesión virtual"
