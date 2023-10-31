@@ -6,15 +6,15 @@ image: assets/images/about/conver_gris.png
 #signature:
 ---
 
-El seminario de investigación **Conversatorios: antigüedad y tradición clásicas** invita a nuestra tercera emisión (2022) en la que participarán como expositores la Dra. Carolina Ponce,  la Dra. Lidia Gambon, la Dra. Claudia Palma Cano, el Dr. David Konstan, la Mtra. Alejandra Victoria Fernández, la Mtra. Elia Sánchez Gómez, la Mtra. Olivia Isidro Vázquez y el Lic. Amaury Mendoza Toro.
+El seminario de investigación **Conversatorios: antigüedad y tradición clásicas** invita a nuestra cuarta emisión (2023). 
 
-## Emociones: Corporalidad y corporeidad
-### Estudios clásicos y su tradición
+## El espacio:
+### representación, concepción y relación con el mundo grecolatino y su tradición
 
-![Presentación](assets/images/testimonial/3event.png "Emosiones: Corporalidad y corporeidad")
+![Presentación](assets/images/testimonial/4event.png "El espacio: representación, concepción y relación con el mundo grecolatino y su tradición")
 
 #### Consulta el programa <a href="/desdethemyscira.github.io/assets/images/testimonial/3erprogram.png" target="_blank">aquí</a>
 
-#### Inscripciones [aquí](https://forms.gle/EeXP3YMfWQStEQSh7)
+#### Inscripciones [aquí](https://forms.gle/6Bo6YUd5jRKY1YXD6)
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeEHn1a5vbyNhs5SjmxG1AaU7pQ6-4Zz0yKIrooBFoPHeqyvA/viewform?embedded=true" width="640" height="3264" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdrCpjjQQEaPMaImQ2Ot3i1XaYTHG5vN0PtMIdbj6UJKAlLCg/viewform?embedded=true" width="640" height="3560" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
