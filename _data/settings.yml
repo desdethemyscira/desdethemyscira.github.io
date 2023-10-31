@@ -254,6 +254,12 @@ portfolio-items:
 # Testimonials - Events Section
 
 testimonial-items:
+  - name: "IV CONVERSATORIO El espacio: representación, concepción y relación con el mundo grecolatino y su tradición. "
+    image: "assets/images/testimonial/ivconver.png"
+    designation: "IV Conversatorio virtual"
+    url: "https://forms.gle/jjZyUYjcTZzU6GQk6"
+    #content: "Jueves 31 de agosto de 2023"
+
   - name: "Propuesta didáctica para la enseñanza y análisis del vocabulario médico en la asignatura de Griego II del Colegio de Ciencias y Humanidades"
     image: "assets/images/testimonial/13sesion.png"
     designation: "Decimotercera sesión virtual"
