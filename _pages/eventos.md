@@ -8,6 +8,8 @@ image: assets/images/about/conver_gris.png
 
 ![Presentación](assets/images/testimonial/ivform.png "El espacio: representación, concepción y relación con el mundo grecolatino y su tradición" width="480" height="380")
 
+<img src="assets/images/testimonial/ivform.png" alt="El espacio: representación, concepción y relación con el mundo grecolatino y su tradición" width="150" height="150"/>
+
 ## El espacio:
 ### representación, concepción y relación con el mundo grecolatino y su tradición
 
@@ -15,9 +17,9 @@ image: assets/images/about/conver_gris.png
     src="https://www.youtube.com/embed/K7LxxbHshR8" frameborder="0" allowfullscreen="true">
 </iframe>
 
-🏛️ IV Conversatorio
-🗓️ Fecha: Del 21 al 23 de noviembre de 2023
-🌐 Organizado por el Grupo de Investigación "Desde Themyscira"
+**🏛️ IV Conversatorio**
+**🗓️ Fecha: Del 21 al 23 de noviembre de 2023**
+**🌐 Organizado por el Grupo de Investigación "Desde Themyscira"**
 
 Habitamos espacios: Universidades, campos, edificios, habitaciones, patios, mares. Foucault decía “la nuestra es la época del espacio”. Pero, más allá del espacio físico, como lugar que ocupa un objeto en el universo o como una coordenada que nos ayuda a ubicar los hechos, el espacio es un campo expandido cargado de significados complejos que ubica a los seres humanos y a los acontecimientos en una cultura y en un momento específico en el acontecer de los hechos.
 
@@ -49,6 +51,5 @@ El programa para este conversatorio estará disponible en el siguiente enlace y 
 Te puedes inscribir en el siguiente enlace, ¡no te quedes fuera y aparta tu lugar!
 #### Regístate ahora [aquí](https://forms.gle/6Bo6YUd5jRKY1YXD6)
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdrCpjjQQEaPMaImQ2Ot3i1XaYTHG5vN0PtMIdbj6UJKAlLCg/viewform?embedded=true" width="640" height="3560" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
 
 
