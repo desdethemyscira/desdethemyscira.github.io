@@ -6,7 +6,7 @@ image: assets/images/about/conver_gris.png
 #signature:
 ---
 
-<img src="assets/images/testimonial/4event.png" alt="El espacio: representación, concepción y relación con el mundo grecolatino y su tradición" height="980"/>
+<img src="assets/images/testimonial/4event.png" alt="El espacio: representación, concepción y relación con el mundo grecolatino y su tradición" height="975"/>
 
 <iframe width="100%" height="550"
     src="https://www.youtube.com/embed/K7LxxbHshR8" frameborder="0" allowfullscreen="true">
@@ -37,10 +37,9 @@ El conversatorio contará con conferencias magistrales, presentaciones de invest
 Este evento se llevará a cabo del 21 al 23 de noviembre de 2023 y será completamente virtual, lo que permitirá la participación de personas de todo el mundo. No importa dónde te encuentres, podrás unirte a nosotros para esta experiencia enriquecedora.
 
 **Programa:**
-El programa para este conversatorio estará disponible en el siguiente enlace y nuestro [Facebook](). Mantente atento a las actualizaciones para asegurarte de obtener tu lugar y conocer muy pronto el programa completo.
+El programa para este conversatorio estará disponible en el siguiente enlace y nuestro [Facebook](https://www.facebook.com/photo?fbid=865795465547973&set=pcb.863625602431626). Mantente atento a las actualizaciones para asegurarte de obtener tu lugar y conocer muy pronto el programa completo.
 
-#### Consulta nuestro programa 
-<a href="/desdethemyscira.github.io/assets/images/testimonial/IVConver23-programa.pdf" target="_blank">aquí</a>
+**Consulta nuestro programa <a href="/desdethemyscira.github.io/assets/images/testimonial/IVConver23-programa.pdf" target="_blank">aquí</a>**
 
 **¡Acompáñanos en este viaje a través del tiempo y el espacio mientras exploramos el legado de la Grecia y Roma antiguas en nuestra comprensión moderna del mundo!**
 
