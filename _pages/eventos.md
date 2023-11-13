@@ -40,7 +40,8 @@ Este evento se llevará a cabo del 21 al 23 de noviembre de 2023 y será complet
 **Programa:**
 El programa para este conversatorio estará disponible en el siguiente enlace y nuestro [Facebook](). Mantente atento a las actualizaciones para asegurarte de obtener tu lugar y conocer muy pronto el programa completo.
 
-#### Consulta nuestro programa [aquí](https://forms.gle/6Bo6YUd5jRKY1YXD6)
+#### Consulta nuestro programa 
+<a href="/desdethemyscira.github.io/assets/images/testimonial/IVConver23-programa.pdf" target="_blank">aquí</a>
 
 **¡Acompáñanos en este viaje a través del tiempo y el espacio mientras exploramos el legado de la Grecia y Roma antiguas en nuestra comprensión moderna del mundo!**
 
@@ -50,6 +51,4 @@ Te puedes inscribir en el siguiente enlace, ¡no te quedes fuera y aparta tu lug
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdrCpjjQQEaPMaImQ2Ot3i1XaYTHG5vN0PtMIdbj6UJKAlLCg/viewform?embedded=true" width="640" height="3560" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
 
-
-![Presentación]width="100%" height="550"(assets/images/testimonial/ivform.png "El espacio: representación, concepción y relación con el mundo grecolatino y su tradición")
 
