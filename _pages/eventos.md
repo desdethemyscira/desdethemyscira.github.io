@@ -6,7 +6,7 @@ image: assets/images/about/conver_gris.png
 #signature:
 ---
 
-![Presentación](assets/images/testimonial/ivform.png "El espacio: representación, concepción y relación con el mundo grecolatino y su tradición")
+![Presentación](assets/images/testimonial/ivform.png "El espacio: representación, concepción y relación con el mundo grecolatino y su tradición" width="480" height="380")
 
 ## El espacio:
 ### representación, concepción y relación con el mundo grecolatino y su tradición
