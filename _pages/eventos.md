@@ -6,13 +6,13 @@ image: assets/images/about/conver_gris.png
 #signature:
 ---
 
-![Presentación]width="100%" height="550"(assets/images/testimonial/ivform.png "El espacio: representación, concepción y relación con el mundo grecolatino y su tradición")
+![Presentación](assets/images/testimonial/ivform.png "El espacio: representación, concepción y relación con el mundo grecolatino y su tradición")
 
 ## El espacio:
 ### representación, concepción y relación con el mundo grecolatino y su tradición
 
 <iframe width="100%" height="550"
-    src="https://youtu.be/K7LxxbHshR8" frameborder="0" allowfullscreen="true">
+    src="https://www.youtube.com/watch?v=K7LxxbHshR8" frameborder="0" allowfullscreen="true">
 </iframe>
 
 🏛️ IV Conversatorio
