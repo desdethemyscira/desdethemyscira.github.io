@@ -5,9 +5,6 @@ author:
 image: assets/images/about/conver_gris.png
 #signature:
 ---
-
-<img src="assets/images/testimonial/4event.png" alt="El espacio: representación, concepción y relación con el mundo grecolatino y su tradición" height="975"/>
-
 <iframe width="100%" height="550"
     src="https://www.youtube.com/embed/K7LxxbHshR8" frameborder="0" allowfullscreen="true">
 </iframe>
