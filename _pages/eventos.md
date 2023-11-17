@@ -2,7 +2,7 @@
 layout: eventos
 title: Conversatorios <br> virtuales
 author:
-image: assets/images/about/conver_gris.png
+image: assets/images/about/perfil_conver.png
 #signature:
 ---
 <iframe width="100%" height="550"
