@@ -98,10 +98,10 @@ team:
     designation : "Coordinadora"
     url: "https://desdethemyscira.github.io/bio_cecilia"
 
-  - title : "Dra. María Leticia López Serratos"
-    image : "assets/images/team/member-4.jpg"
-    designation : "Coordinadora"
-    url: "https://desdethemyscira.github.io/bio_leticia"
+# - title : "Dra. María Leticia López Serratos"
+#   image : "assets/images/team/member-4.jpg"
+#   designation : "Coordinadora"
+#   url: "https://desdethemyscira.github.io/bio_leticia"
 
 #-------------------------------
 # Skills Section
