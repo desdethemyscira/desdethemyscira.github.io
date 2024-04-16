@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Revista Este país entrevista a Desde Themyscira 
-date:   2024-04-16 
+date:    
 image:  /assets/images/blog/entrevista.png
 author: Alejandra González Jiménez 
 tags:   blog
