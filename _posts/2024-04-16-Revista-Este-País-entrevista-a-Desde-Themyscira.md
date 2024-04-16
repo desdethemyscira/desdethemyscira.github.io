@@ -24,5 +24,5 @@ src="/assets/images/blog/ivform.png" />
 
 ¡Súmate a nuestra comunidad y sé parte del cambio en la investigación clásica! 
 
- [Facebook](https://www.facebook.com/desdethemyscira) 
- [YouTube](https://www.youtube.com/@desdethemyscira) 
+📲 [Facebook](https://www.facebook.com/desdethemyscira) 
+🎥 [YouTube](https://www.youtube.com/@desdethemyscira) 
