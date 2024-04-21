@@ -1,6 +1,6 @@
 ---
 layout: bio
-title: Mtra. Olivia <br> Isidro Vázquez
+title: Dra. Olivia <br> Isidro Vázquez
 author:
 image: assets/images/team/member-3.jpg
 signature:
