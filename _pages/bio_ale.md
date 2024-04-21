@@ -1,9 +1,9 @@
 ---
 layout: bio
-title: Dra. María Leticia <br> López Serratos
+title: Alejandra <br> González Jiménez
 author:
-image: assets/images/team/member-4.jpg
+image: assets/images/team/Alegj3.jpg
 #signature:
 ---
 
-Es Doctora en Letras (con especialidad en Letras Clásicas) por la Universidad Nacional Autónoma de México. Realizó una investigación posdoctoral sobre la obra retórico-filosófica de Rodolfo Agrícola (s. XV). Es Profesora de Carrera Titular A Definitiva en el Área de Lengua Latina, en donde ha impartido las asignaturas de Literatura Latina I-IV y Latín I-VI. Desde 2007 imparte el Seminario de Investigación y Tesis. Pertenece a la Comunidad de Aprendizaje de la FFyL, en donde, en colaboración con el Colegio de Pedagogía, ha promovido diversas actividades docentes y de investigación relacionadas con el desarrollo de habilidades lingüísticas para estudiantes y docentes de nivel superior. Ha sido profesora del Posgrado en Letras de la UNAM y de otras instituciones. Es tutora del grupo de Latín IV 0001 de la Licenciatura en Letras Clásicas. Es tutora del Posgrado en Letras de la UNAM y de las MADEMS de Letras Clásicas y Español. Ha pertenecido al Comité Académico del Posgrado en Letras y al Comité Académico Asesor del Colegio de Letras Clásicas. Ha sido asesora de numerosas tesis de licenciatura, maestría y doctorado, tanto en la UNAM, como en otras Instituciones. Ha publicado diversos libros y artículos sobre sus áreas de especialidad: lengua latina, literatura latina, tradición retórica y tradición clásica renacentista y novohispana. Su investigación central es sobre humanismo, retórica y** argumentación en la obra de Rodolfo Agrícola. Ha participado en varios proyectos de investigación y ha sido responsable de un proyecto CONACYT, en el que se realizaron diversos estudios sobre tradición clásica y del que se derivó el Seminario Permanente de Estudios Retóricos, Filológicos y Humanísticos, cuya directora honoraria es la Dra. Carolina Ponce Hernández. Ha sido invitada a diversos medios de comunicación para hablar sobre educación, tradición clásica, tradición retórica, argumentación y humanismo.
+Tex..
