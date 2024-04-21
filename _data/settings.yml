@@ -85,12 +85,12 @@ work-process:
 team:
   - title : "Dra. Evelia Arteaga Conde"
     image : "assets/images/team/member-1.jpg"
-    designation : "Coordinadora"
+    designation : "Investigadora"
     url: "https://desdethemyscira.github.io/bio_evelia"
 
   - title : "Mtra. Olivia Isidro Vázquez"
     image : "assets/images/team/member-3.jpg"
-    designation : "Coordinadora"
+    designation : "Investigadora"
     url: "https://desdethemyscira.github.io/bio_olivia"
 
   - title : "Dra. Martha Cecilia Jaime González"
