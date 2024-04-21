@@ -8,7 +8,7 @@ tags:   blog
 ---
 
 
-## *¡A toda la comunidad estudiosa de la Antigüedad griega y romana!* 🌟
+## *¡A toda la comunidad estudiosa de la Antigüedad griega y romana!* 
 
 En ["Desde Themyscira](https://www.facebook.com/desdethemyscira), un grupo horizontal  de investigación y difusión de la cultura grecolatina compuesto por Evelia Arteaga Conde, Olivia Isidro Vázquez, Cecilia Jaime González y Alejandra González Jiménez, proponemos analizar desde una postura crítica y rupturista el estudio de la cultura clásica.
 
@@ -19,6 +19,5 @@ src="/assets/images/blog/ivform.png" />
 
 📖 [¡Lee o escucha la entrevista completa aquí y únete a nuestras redes sociales!](https://estepais.com/cultura/mirada-renovada-grecia-roma-antiguas-entrevista-desde-themyscira/)
 
-
-📲 [Facebook](https://www.facebook.com/desdethemyscira) 
-🎥 [YouTube](https://www.youtube.com/@desdethemyscira) 
+[Facebook](https://www.facebook.com/desdethemyscira) <br>
+[YouTube](https://www.youtube.com/@desdethemyscira) 
