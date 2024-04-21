@@ -6,7 +6,7 @@ image: assets/images/team/Alegj3.jpg
 #signature:
 ---
 
-##### Alejandra González Jiménez 
+##### **Alejandra González Jiménez** 
 *Diseñadora, creadora de contenido y administradora del sitio web*
 
 Curiosa investigadora de las interacciones humanas y su entorno, así como de la edición de textos antiguos a través de plataformas digitales.
@@ -20,8 +20,8 @@ Fue Asistente de Módulo de desarrollo en el programa La Ciencia en tu Escuela d
 Fue miembro de SFL Latinoamérica. Como parte de esta organización fue Directora Regional para El Salvador, Directora de Comunicaciones, Editora en Jefe de su blog internacional y Miembro del Consejo Ejecutivo. Participó en la fundación, edición y publicación de la primera edición de la Revista Ama-Gi y es editora del libro Letras en Libertad. Sus contribuciones la hicieron merecedora del Premio Deirdre McCloskey al Mejor Miembro del Consejo Ejecutivo en 2018. 
 
 Entre otras actividades, Alejandra también ha participado como conferencista en torno al estudio de la educación clásica, mundo novohispano y la geografía antigua,  y como moderadora en el Coloquio de Letras Clásicas de la Facultad de Filosofía y Letras, UNAM. Dio una conferencia titulada ¿Ser o no ser mujer en el siglo XXI? en el Foro Juvenil Interdisciplinario “La Mujer en la Sociedad del Siglo XXI” en el Senado de la República LXIII Legislatura, México y moderó el conversatorio “Se Buscan Mujeres Libres” en la Cámara de Diputados en 2018. Además, fue nombrada miembro del jurado para el Concurso Juvenil de Deliberación Pública 2017 organizado por el Instituto Mexicano de la Juventud, el Instituto Nacional Electoral, el Senado de la República, el Instituto Tecnológico y de Estudios Superiores de Monterrey, el Instituto Electoral de la Ciudad de México, entre otros.  
- 
-###### Participación social y conferencias dadas
+
+##### Participación social y conferencias dadas <br>
 
 CONFERENCIA “DISEÑO Y LOCALIZACIÓN DE LAS NECRÓPOLIS EN LA ANTIGUA ROMA: UN ESTUDIO COMPARATIVO ENTRE POMPEYA Y ROMA”
 Coloquio por el 20° aniversario de la Asociación Mexicana de Estudios Clásicos
