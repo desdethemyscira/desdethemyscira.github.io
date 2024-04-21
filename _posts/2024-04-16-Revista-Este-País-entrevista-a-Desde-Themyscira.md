@@ -8,21 +8,17 @@ tags:   blog
 ---
 
 
-## 🌟 *¡Queridos entusiastas de la antigüedad griega y romana!* 🌟
+## *¡A toda la comunidad estudiosa de la Antigüedad griega y romana!* 🌟
 
-¡Es un placer invitarte a conocer más sobre Desde Themyscira! 
+En ["Desde Themyscira](https://www.facebook.com/desdethemyscira), un grupo horizontal  de investigación y difusión de la cultura grecolatina compuesto por Evelia Arteaga Conde, Olivia Isidro Vázquez, Cecilia Jaime González y Alejandra González Jiménez, proponemos analizar desde una postura crítica y rupturista el estudio de la cultura clásica.
 
-Somos un equipo de investigación de cuatro mentes inquietas, compuesto por Evelia Arteaga Conde, Olivia Isidro Vázquez, Martha Cecilia Jaime González y Alejandra González Jiménez. Desde una postura crítica y rupturista, exploramos nuevas perspectivas en el estudio de la cultura clásica.
-
-Recientemente, tuvimos el honor de ser entrevistadas por Este País, donde compartimos nuestra pasión y enfoque en el estudio de la antigüedad. Te invitamos cordialmente a leer la entrevista completa y descubrir cómo estamos desafiando paradigmas y abriendo nuevos caminos en nuestra investigación.
+Recientemente, tuvimos el honor de ser entrevistadas por la revista digital "Este País", donde compartimos nuestra pasión y enfoque en el estudio de la Antigüedad. Te invitamos cordialmente a leer o escuchar la entrevista completa y descubrir cómo estamos intentamos desafiar paradigmas y abrir nuevos caminos en nuestra investigación.
 
 <img  width="100%"
 src="/assets/images/blog/ivform.png" />
 
-📖 ¿Te animas a conocernos mejor? [¡Lee la entrevista completa aquí y únete a nuestra aventura!](https://estepais.com/cultura/mirada-renovada-grecia-roma-antiguas-entrevista-desde-themyscira/)
+📖 [¡Lee o escucha la entrevista completa aquí y únete a nuestras redes sociales!](https://estepais.com/cultura/mirada-renovada-grecia-roma-antiguas-entrevista-desde-themyscira/)
 
-
-¡Súmate a nuestra comunidad y sé parte del cambio en la investigación clásica! 
 
 📲 [Facebook](https://www.facebook.com/desdethemyscira) 
 🎥 [YouTube](https://www.youtube.com/@desdethemyscira) 
