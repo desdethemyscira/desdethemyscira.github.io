@@ -8,7 +8,7 @@ description: Grupo de investigación sobre temas clásicos en el mundo moderno.
 email:  desdethemyscira@gmail.com
 phone: 555622-1880
 address: Circuito Interior. <br> Ciudad Universitaria,<br> s/n. C.P. 04510. <br> Ciudad de México.
-copyright: Copyright &copy; 2024 Designed by <a href = "http://alejandragj.com/" target = "_self">Alejandra Gonzalez-Jimenez</a> based on Themefisher.
+copyright: Copyright &copy; 2024 Designed with 🖤 by <a href = "http://alejandragj.com/" target = "_self">Alejandra Gonzalez-Jimenez</a> based on Themefisher.
 
 menu:
 - {name: Acerca de, link: '/desdethemyscira.github.io/about'}
@@ -254,6 +254,12 @@ portfolio-items:
 # Testimonials - Events Section
 
 testimonial-items:
+  - name: "Entre el sol y la muerte. Poemario y poética"
+    image: "assets/images/testimonial/16asesion.png"
+    designation: "Decimosexta sesión virtual"
+    url: "https://forms.gle/2NcWdVyyLzru8fHj7"
+    #content: "Jueves 31 de agosto de 2023"
+
   - name: "La poesía épica de Virgilio para CCHeros. Propuesta de secuencia didáctica para asignatura Latín I del Colegio de Ciencias y Humanidades de la UNAM"
     image: "assets/images/testimonial/15sesion.png"
     designation: "Decimoquinta sesión virtual"
