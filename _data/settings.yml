@@ -254,6 +254,12 @@ portfolio-items:
 # Testimonials - Events Section
 
 testimonial-items:
+  - name: "La casa odiada por los dioses: la maldición representada en la Orestíada de Esquilo "
+    image: "assets/images/testimonial/17sesion.png"
+    designation: "Decimoséptima sesión virtual"
+    url: "https://forms.gle/Lc8eHR4giKfYDhVv6"
+    #content: "Jueves 31 de agosto de 2023"
+    
   - name: "Entre el sol y la muerte. Poemario y poética"
     image: "assets/images/testimonial/16asesion.png"
     designation: "Decimosexta sesión virtual"
