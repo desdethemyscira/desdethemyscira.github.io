@@ -28,4 +28,4 @@ El evento se llevará a cabo de manera virtual los días 5, 6 y 7 de noviembre d
 
 Te invitamos a seguir nuestras redes sociales para obtener más información sobre el **programa completo** y el **proceso de inscripción.** ¡No te pierdas esta oportunidad de reflexionar y debatir sobre las relaciones de género en una de las civilizaciones más influyentes de la historia!
 
-###¡Nos vemos en noviembre!
+## ¡Nos vemos en noviembre!
