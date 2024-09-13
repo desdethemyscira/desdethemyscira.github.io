@@ -6,10 +6,8 @@ image: assets/images/about/vconver.png
 #signature:
 ---
 <iframe width="100%" height="550"
-    src="https://www.youtube.com/watch?v=QIJQ5EYP_BA" frameborder="0" allowfullscreen="true">
+    src="https://www.youtube.com/embed/QIJQ5EYP_BA?si=KxxH0BVn5DQPubrm" frameborder="0" allowfullscreen="true">
 </iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QIJQ5EYP_BA?si=KxxH0BVn5DQPubrm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **🏛️ V Conversatorio**
 
