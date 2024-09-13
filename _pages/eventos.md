@@ -2,47 +2,30 @@
 layout: eventos
 title: Conversatorios <br> virtuales
 author:
-image: assets/images/about/perfil_conver.png
+image: assets/images/about/vconver.png
 #signature:
 ---
 <iframe width="100%" height="550"
-    src="https://www.youtube.com/embed/K7LxxbHshR8" frameborder="0" allowfullscreen="true">
+    src="https://www.youtube.com/watch?v=QIJQ5EYP_BA" frameborder="0" allowfullscreen="true">
 </iframe>
 
-**🏛️ IV Conversatorio**
+**🏛️ V Conversatorio**
 
-**🗓️ Fecha: Del 21 al 23 de noviembre de 2023**
+**🗓️ Fecha: Del 05 al 07 de noviembre de 2023**
 
 **🌐 Organizado por el Grupo de Investigación "Desde Themyscira"**
 
-Habitamos espacios: Universidades, campos, edificios, habitaciones, patios, mares. Foucault decía “la nuestra es la época del espacio”. Pero, más allá del espacio físico, como lugar que ocupa un objeto en el universo o como una coordenada que nos ayuda a ubicar los hechos, el espacio es un campo expandido cargado de significados complejos que ubica a los seres humanos y a los acontecimientos en una cultura y en un momento específico en el acontecer de los hechos.
+El grupo horizontal de investigación **Desde Themyscira** se complace en anunciar la **V Emisión de los Conversatorios de Estudios Clásicos** titulada **_Desviar la mirada: las relaciones de género en la Antigüedad Clásica_**, que se llevará a cabo de manera virtual durante la primera semana de noviembre de 2024. Este evento reunirá a expertas y apasionadas por los estudios clásicos para discutir, desde una perspectiva crítica y con enfoque de género, los conceptos e imaginarios que rodean a las figuras femeninas en las culturas grecolatinas.
 
-Su importancia parece no corresponderse con la comprensión de su alcance, por lo que en esta IV emisión de los Conversatorios Letras Clásicas indagaremos sobre las posibilidades de conceptualización del espacio, desde lo global hasta lo íntimo y sosteniendo que es una categoría en continuo devenir.
+En esta quinta edición de los conversatorios, nuestro objetivo es **"desviar la mirada"**, es decir, cuestionar y reexaminar las formas en que la mayoría de los análisis tradicionales han ignorado o distorsionado diversas realidades socioculturales en la Antigüedad Clásica. Gran parte de los estudios clásicos ha sido influenciada por visiones androcéntricas que han prevalecido en la investigación académica. Esto ha dado lugar a concepciones sesgadas y prejuicios que han invisibilizado otras formas de existencia y representación dentro de estas culturas.
 
-El grupo de investigación **Conversatorios: antigüedad y tradición clásicas** invita a nuestra cuarta emisión 2023, promete expandir nuestros horizontes y desentrañar el misterio del espacio a lo largo de tres días de fascinante exploración. Nos acompañarán especialistas de la Universidad de Vigo, de Granada, del Departamento De Filología Clásica Uned, de la Católica de Uruguay, de la Iberoamericana y del Colegio de Letras Clásicas de la UNAM.
+Nos enfocaremos en las **relaciones socioculturales de género**, con especial énfasis en las **representaciones de la mujer** en la Antigüedad. Partimos de la premisa de que el concepto de mujer (o de hombre) no es una verdad universal o natural, sino una construcción social, esculpida por dinámicas de poder que han variado a lo largo del tiempo y según el contexto histórico. Siguiendo el pensamiento de la historiadora **Joan W. Scott**, entendemos que estas construcciones de género están profundamente entrelazadas con las estructuras de poder y siempre se deben interpretar dentro de un marco temporal y cultural específico.
 
-**Sobre el Conversatorio:**
-El espacio, tanto físico como conceptual, ha sido una fuente inagotable de inspiración para la humanidad a lo largo de la historia. Desde los antiguos griegos y romanos, quienes dieron forma a nuestras ideas fundamentales sobre el cosmos y la geografía, hasta las representaciones contemporáneas que influencian nuestra percepción del mundo. En este conversatorio, reuniremos a destacadas académicas expertas para explorar:
-La concepción del espacio en la vida cotidiana de la antigua Grecia y Roma.
-La representación del espacio en la literatura grecolatina.
-El legado de estas concepciones en la cultura contemporánea.
+El conversatorio invita a todos aquellos interesados en explorar estas temáticas desde una perspectiva crítica, y en analizar cómo las construcciones de género en la Antigüedad Clásica han influido en nuestras concepciones contemporáneas de género y poder.
 
-**¿Qué esperar?**
-El conversatorio contará con conferencias magistrales, presentaciones de investigaciones originales y debates interactivos. Tendremos el honor de recibir a expertas en la materia que compartirán sus conocimientos y perspectivas enriquecedoras sobre este tema apasionante.
+¿Cuándo y cómo participar?
+El evento se llevará a cabo de manera virtual los días 5, 6 y 7 de noviembre de 2024, y contará con ponencias lideradas por especialistas en estudios clásicos y estudios de género.
 
-**Fecha y Lugar:**
-Este evento se llevará a cabo del 21 al 23 de noviembre de 2023 y será completamente virtual, lo que permitirá la participación de personas de todo el mundo. No importa dónde te encuentres, podrás unirte a nosotros para esta experiencia enriquecedora.
+Te invitamos a seguir nuestras redes sociales para obtener más información sobre el **programa completo** y el **proceso de inscripción.** ¡No te pierdas esta oportunidad de reflexionar y debatir sobre las relaciones de género en una de las civilizaciones más influyentes de la historia!
 
-**Programa:**
-El programa para este conversatorio estará disponible en el siguiente enlace y nuestro [Facebook](https://www.facebook.com/photo?fbid=865795465547973&set=pcb.863625602431626). Mantente atento a las actualizaciones para asegurarte de obtener tu lugar y conocer muy pronto el programa completo.
-
-**Consulta nuestro programa <a href="/desdethemyscira.github.io/assets/images/testimonial/IVConver23-programa.pdf" target="_blank">aquí</a>**
-
-**¡Acompáñanos en este viaje a través del tiempo y el espacio mientras exploramos el legado de la Grecia y Roma antiguas en nuestra comprensión moderna del mundo!**
-
-**Inscripciones**
-Te puedes inscribir en el siguiente enlace, ¡no te quedes fuera y aparta tu lugar!
-#### Regístate ahora [aquí](https://forms.gle/6Bo6YUd5jRKY1YXD6)
-
-
-
+###¡Nos vemos en noviembre!
