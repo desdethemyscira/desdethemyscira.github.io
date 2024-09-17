@@ -254,6 +254,12 @@ portfolio-items:
 # Testimonials - Events Section
 
 testimonial-items:
+  - name: "Las ediciones latinas del Theatrum Orbis Terrarum: una aproximación al desarrollo de la obra en el siglo XVI"
+    image: "assets/images/testimonial/18sesion.png"
+    designation: "Decimoctava sesión virtual"
+    url: "https://forms.gle/KpZpoRFkYDSCWwNV6"
+    #content: "Jueves 31 de agosto de 2023"
+
   - name: "Desviar la mirada: las relaciones de género en la Antigüedad Clásica"
     image: "assets/images/testimonial/vconverNov2024.png"
     designation: "V Conversatorio virtual"
