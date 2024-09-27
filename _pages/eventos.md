@@ -6,9 +6,6 @@ image: assets/images/about/vconver.png
 #signature:
 ---
 
-<img  width="100%"
-src="/assets/images/blog/DT-VC.png" />
-
 <iframe width="100%" height="550"
     src="https://www.youtube.com/embed/QIJQ5EYP_BA?si=KxxH0BVn5DQPubrm" frameborder="0" allowfullscreen="true">
 </iframe>
@@ -32,5 +29,8 @@ El conversatorio invita a todos aquellos interesados en explorar estas temática
 El evento se llevará a cabo de manera virtual los días 5, 6 y 7 de noviembre de 2024, y contará con ponencias lideradas por especialistas en estudios clásicos y estudios de género.
 
 Te invitamos a seguir nuestras redes sociales para obtener más información sobre el **programa completo** y el **proceso de inscripción.** ¡No te pierdas esta oportunidad de reflexionar y debatir sobre las relaciones de género en una de las civilizaciones más influyentes de la historia!
+
+<img  width="100%"
+src="/assets/images/blog/DT-VC.png" />
 
 ## ¡Nos vemos en noviembre!
