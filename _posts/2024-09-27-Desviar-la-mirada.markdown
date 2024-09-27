@@ -22,7 +22,7 @@ El grupo de investigación "[Desde Themyscira](https://desdethemysciraffyl.mx/)"
 <img  width="100%"
 src="/assets/images/blog/Candida-Martinez-Lopez.png" />
 
-- Ponente: **Cándida Martínez López** <br> (Universidad de Granada)
+- Ponente: **Cándida Martínez López** (Universidad de Granada)
 - Fecha y hora: **Martes 5 de noviembre, 11am**
 - Moderadora: **Cecilia Jaime González**
 - Descripción: En esta ponencia se abordará cómo las mujeres de las ciudades mediterráneas antiguas utilizaron la arquitectura como un medio para participar en el espacio público y obtener prestigio en sus ciudades, desafiando su exclusión de las esferas políticas y sociales.
@@ -33,18 +33,18 @@ src="/assets/images/blog/Candida-Martinez-Lopez.png" />
 <img  width="100%"
 src="/assets/images/blog/Cecilia-Perczyk.png" />
 
--Ponente: **Cecilia Perczyk** <br> (Universidad Nacional de Hurlingham, Argentina)
+-Ponente: **Cecilia Perczyk** (Universidad Nacional de Hurlingham, Argentina)
 - Fecha y hora: **Martes 5 de noviembre, 4pm**
 - Moderadora: **Elsa R. Brondo**
 - Descripción: Esta charla explorará el tratado ginecológico hipocrático, analizando cómo la fisiología femenina es representada en la Antigua Grecia y cómo la medicina de la época limitaba a las mujeres a roles reproductivos y domésticos.
 
 #### 3. Relecturas feministas de la tragedia clásica
-####*<a href="/desdethemyscira.github.io/assets/images/blog/Marta-Gonzalez.png" target="_blank">Un intento de recuperar la Orestía de Esquilo para el pensamiento feminista</a>*
+#### *<a href="/desdethemyscira.github.io/assets/images/blog/Marta-Gonzalez.png" target="_blank">Un intento de recuperar la Orestía de Esquilo para el pensamiento feminista</a>*
 
 <img  width="100%"
 src="/assets/images/blog/Marta-Gonzalez.png" />
 
-- Ponente: **Marta González González** <br> (Universidad de Málaga)
+- Ponente: **Marta González González** (Universidad de Málaga)
 - Fecha y hora: **Miércoles 6 de noviembre, 11am**
 - Moderadora: **Evelia Arteaga Conde**
 - Descripción: Esta intervención propone una relectura de la *Orestía* de Esquilo, argumentando que Atenea, a través de la persuasión, establece un nuevo modelo de poder femenino que cuestiona las lecturas tradicionales misóginas de la obra.
@@ -55,7 +55,7 @@ src="/assets/images/blog/Marta-Gonzalez.png" />
 <img  width="100%"
 src="/assets/images/blog/Elena-Garcia.png" />
 
-- Ponente: **María Elena García-Peláez** <br> (Universidad Panamericana, Ciudad de México)
+- Ponente: **María Elena García-Peláez** (Universidad Panamericana, Ciudad de México)
 - Fecha y hora: **Miércoles 6 de noviembre, 4pm**
 - Moderadora: **Mayra García Paredes**
 - Descripción: Esta charla examinará las referencias a mujeres en los textos de Aristóteles, buscando visibilizar el papel que jugaban en su pensamiento, a menudo criticado por su misoginia.
@@ -66,7 +66,7 @@ src="/assets/images/blog/Elena-Garcia.png" />
 <img  width="100%"
 src="/assets/images/blog/Henar-Gallego.png" />
 
-- Ponente: **Henar Gallego Franco** <br> (Universidad de Valladolid)
+- Ponente: **Henar Gallego Franco** (Universidad de Valladolid)
 - Fecha y hora: **Jueves 7 de noviembre, 11a**
 - Moderadora: **Mayra García Paredes**
 - Descripción: La intervención analizará los modelos normativos de feminidad en la Antigüedad, así como los arquetipos transgresores de mujeres que desafiarían las normas patriarcales.
@@ -74,7 +74,4 @@ src="/assets/images/blog/Henar-Gallego.png" />
 Este ciclo de conversatorios ofrecerá una visión profunda de las formas en que el género ha sido representado y construido en la cultura grecorromana, destacando los mecanismos de exclusión y las formas de resistencia femenina.
 
 
-
-<iframe width="100%" height="550"
-    src="https://www.youtube.com/embed/QIJQ5EYP_BA?si=KxxH0BVn5DQPubrm" frameborder="0" allowfullscreen="true">
-</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QIJQ5EYP_BA?si=iatU53mFVOXscUJK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
