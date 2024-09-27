@@ -7,9 +7,6 @@ autor: Alejandra González Jiménez
 tags: Conversatorio
 ---
 
-<img  width="100%"
-src="/assets/images/blog/DT-VC.png" />
-
 ### V Edición de los Conversatorios de Estudios Clásicos: *<a href="/desdethemyscira.github.io/assets/images/blog/Desviar-la-mirada.pdf" target="_blank">Desviar la mirada: las mujeres en la Antigüedad Clásica</a>*
 
 El grupo de investigación "[Desde Themyscira](https://desdethemysciraffyl.mx/)" organiza la V Edición de los Conversatorios de Estudios Clásicos, titulada *Desviar la mirada: las relaciones de género en la Antigüedad Clásica*, que se llevará a cabo de manera virtual la primera semana de noviembre. Este evento propone un análisis crítico de las representaciones y roles de género en la antigüedad grecorromana, desafiando las interpretaciones homogéneas y androcéntricas predominantes en los estudios clásicos.
@@ -22,7 +19,7 @@ El grupo de investigación "[Desde Themyscira](https://desdethemysciraffyl.mx/)"
 <img  width="100%"
 src="/assets/images/blog/Candida-Martinez-Lopez.png" />
 
-- Ponente: **Cándida Martínez López** (Universidad de Granada)
+- Ponente: **Cándida Martínez López**(Universidad de Granada)
 - Fecha y hora: **Martes 5 de noviembre, 11am**
 - Moderadora: **Cecilia Jaime González**
 - Descripción: En esta ponencia se abordará cómo las mujeres de las ciudades mediterráneas antiguas utilizaron la arquitectura como un medio para participar en el espacio público y obtener prestigio en sus ciudades, desafiando su exclusión de las esferas políticas y sociales.
@@ -33,7 +30,7 @@ src="/assets/images/blog/Candida-Martinez-Lopez.png" />
 <img  width="100%"
 src="/assets/images/blog/Cecilia-Perczyk.png" />
 
--Ponente: **Cecilia Perczyk** (Universidad Nacional de Hurlingham, Argentina)
+- Ponente: **Cecilia Perczyk** (Universidad Nacional de Hurlingham, Argentina)
 - Fecha y hora: **Martes 5 de noviembre, 4pm**
 - Moderadora: **Elsa R. Brondo**
 - Descripción: Esta charla explorará el tratado ginecológico hipocrático, analizando cómo la fisiología femenina es representada en la Antigua Grecia y cómo la medicina de la época limitaba a las mujeres a roles reproductivos y domésticos.
