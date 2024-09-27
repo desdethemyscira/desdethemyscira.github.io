@@ -2,8 +2,8 @@
 layout: post
 title: Desviar la mirada: las mujeres en la Antigüedad Clásica
 date: 2021-08-25 01:21 +0300
-image: /assets/images/blog/nature.png
-autor: Ale
+image: /assets/images/blog/Website DT VC Desviar la mirada Nov2024.png
+autor: Alejandra González Jiménez 
 tags: Conversatorio
 ---
 #### V Edición de los Conversatorios de Estudios Clásicos: *<a href="/desdethemyscira.github.io/assets/images/blog/Website DT VC Desviar la mirada Nov2024.png" target="_blank">Desviar la mirada: las mujeres en la Antigüedad Clásica</a>*
