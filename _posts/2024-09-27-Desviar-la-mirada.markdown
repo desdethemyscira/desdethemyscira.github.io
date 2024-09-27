@@ -10,7 +10,7 @@ tags: Conversatorio
 <img  width="100%"
 src="/assets/images/blog/DT-VC.png" />
 
-### V Edición de los Conversatorios de Estudios Clásicos: *<a href="/desdethemyscira.github.io/assets/images/blog/DT-VC.png" target="_blank">Desviar la mirada: las mujeres en la Antigüedad Clásica</a>*
+### V Edición de los Conversatorios de Estudios Clásicos: *<a href="/desdethemyscira.github.io/assets/images/blog/Desviar-la-mirada.pdf" target="_blank">Desviar la mirada: las mujeres en la Antigüedad Clásica</a>*
 
 El grupo de investigación "[Desde Themyscira](https://desdethemysciraffyl.mx/)" organiza la V Edición de los Conversatorios de Estudios Clásicos, titulada *Desviar la mirada: las relaciones de género en la Antigüedad Clásica*, que se llevará a cabo de manera virtual la primera semana de noviembre. Este evento propone un análisis crítico de las representaciones y roles de género en la antigüedad grecorromana, desafiando las interpretaciones homogéneas y androcéntricas predominantes en los estudios clásicos.
 
@@ -23,10 +23,11 @@ El grupo de investigación "[Desde Themyscira](https://desdethemysciraffyl.mx/)"
 <img  width="100%"
 src="/assets/images/blog/Candida-Martinez-Lopez.png" />
 
-- **Ponente:** Cándida Martínez López <br> (Universidad de Granada)
-- **Fecha y hora:** *Martes 5 de noviembre, 11am*
-- **Moderadora:** *Cecilia Jaime González*
-- **Descripción:** En esta ponencia se abordará cómo las mujeres de las ciudades mediterráneas antiguas utilizaron la arquitectura como un medio para participar en el espacio público y obtener prestigio en sus ciudades, desafiando su exclusión de las esferas políticas y sociales.
+- Ponente: **Cándida Martínez López** <br>
+ (Universidad de Granada)
+- Fecha y hora: **Martes 5 de noviembre, 11am**
+- Moderadora: **Cecilia Jaime González**
+- Descripción: En esta ponencia se abordará cómo las mujeres de las ciudades mediterráneas antiguas utilizaron la arquitectura como un medio para participar en el espacio público y obtener prestigio en sus ciudades, desafiando su exclusión de las esferas políticas y sociales.
 
 ### 2. Representaciones médicas de la mujer
 - **Conferencia:** *<a href="/desdethemyscira.github.io/assets/images/blog/2 - Cecilia Perczyk.png" target="_blank">La representación de la mujer en el tratado hipocrático "Sobre las enfermedades de las jóvenes</a>*
