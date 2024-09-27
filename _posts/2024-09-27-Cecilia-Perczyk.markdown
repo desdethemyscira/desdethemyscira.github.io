@@ -1,9 +1,9 @@
 ---
 layout: post
 title: La representación de la mujer en el tratado hipocrático "Sobre las enfermedades de las jóvenes
-date: 2024-09-29 04:41 +0300
+date: 2024-10-04 04:41:00 +0300
 image: /assets/images/blog/Cecilia-Perczyk.png
-author: Alejandra González Jiménez 
+author: Alejandra González Jiménez
 tags: Conversatorios
 ---
 
