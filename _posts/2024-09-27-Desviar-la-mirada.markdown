@@ -19,7 +19,7 @@ El grupo de investigación "[Desde Themyscira](https://desdethemysciraffyl.mx/)"
 <img  width="100%"
 src="/assets/images/blog/Candida-Martinez-Lopez.png" />
 
-- Ponente: **Cándida Martínez López**(Universidad de Granada)
+- Ponente: **Cándida Martínez López <br> (Universidad de Granada)**
 - Fecha y hora: **Martes 5 de noviembre, 11am**
 - Moderadora: **Cecilia Jaime González**
 - Descripción: En esta ponencia se abordará cómo las mujeres de las ciudades mediterráneas antiguas utilizaron la arquitectura como un medio para participar en el espacio público y obtener prestigio en sus ciudades, desafiando su exclusión de las esferas políticas y sociales.

@@ -34,3 +34,5 @@ Te invitamos a seguir nuestras redes sociales para obtener más información sob
 src="/assets/images/blog/DT-VC.png" />
 
 ## ¡Nos vemos en noviembre!
+
+## <p style="color: violet;"> ## ¡Nos vemos en noviembre!</p>
