@@ -3,8 +3,8 @@ layout: post
 title: Una voz hecha piedra. Prestigio y reconocimiento de las mujeres como promotoras de arquitectura en las ciudades romanas antiguas
 date: 2024-09-27 04:09:55 +0300
 image: /assets/images/blog/Candida-Martinez-Lopez.png
-autor: Alejandra González Jiménez
-tags: conversatorios
+author: Alejandra González Jiménez
+tags: Conversatorios
 ---
 
 El grupo de investigación "[Desde Themyscira](https://desdethemysciraffyl.mx/)"  tiene el honor de organizar la V Edición de los Conversatorios de Estudios Clásicos, titulada *<a href="/desdethemyscira.github.io/assets/images/blog/Desviar-la-mirada.pdf" target="_blank">Desviar la mirada: las mujeres en la Antigüedad Clásica</a>*, un evento virtual que se celebrará durante la primera semana de noviembre. Este ciclo de charlas busca cuestionar y ampliar las visiones tradicionales de las culturas grecolatinas, con un enfoque crítico hacia las interpretaciones androcéntricas y homogéneas predominantes en los estudios clásicos.
