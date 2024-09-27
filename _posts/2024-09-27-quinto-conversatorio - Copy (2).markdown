@@ -2,19 +2,24 @@
 layout: post
 title: Desviar la mirada: las mujeres en la Antigüedad Clásica
 date: 2021-08-25 01:21 +0300
-image: /assets/images/blog/Website DT VC Desviar la mirada Nov2024.png
+image: /assets/images/blog/DT-VC.png
 autor: Alejandra González Jiménez
 tags: Conversatorio
 ---
-# V Edición de los Conversatorios de Estudios Clásicos: *<a href="/desdethemyscira.github.io/assets/images/blog/Website DT VC Desviar la mirada Nov2024.png" target="_blank">Desviar la mirada: las mujeres en la Antigüedad Clásica</a>*
+
+## V Edición de los Conversatorios de Estudios Clásicos: *<a href="/desdethemyscira.github.io/assets/images/blog/DT-VC.png" target="_blank">Desviar la mirada: las mujeres en la Antigüedad Clásica</a>*
 
 El grupo de investigación "[Desde Themyscira](https://desdethemysciraffyl.mx/)" organiza la V Edición de los Conversatorios de Estudios Clásicos, titulada *Desviar la mirada: las relaciones de género en la Antigüedad Clásica*, que se llevará a cabo de manera virtual la primera semana de noviembre. Este evento propone un análisis crítico de las representaciones y roles de género en la antigüedad grecorromana, desafiando las interpretaciones homogéneas y androcéntricas predominantes en los estudios clásicos.
 
-#### Ejes temáticos del conversatorio:
+### Ejes temáticos del conversatorio:
 
-##### 1. Mujeres y espacio público
-- **Conferencia:**
-####*<a href="/desdethemyscira.github.io/assets/images/blog/1 - Cándida Martínez López.png" target="_blank">¿Una voz hecha piedra. Prestigio y reconocimiento de las mujeres como promotoras de arquitectura en las ciudades romanas antiguas</a>*
+#### 1. Mujeres y espacio público
+
+#### *<a href="/desdethemyscira.github.io/assets/images/blog/Candida-Martinez-Lopez.png" target="_blank">¿Una voz hecha piedra. Prestigio y reconocimiento de las mujeres como promotoras de arquitectura en las ciudades romanas antiguas</a>*
+
+<img  width="100%"
+src="/assets/images/blog/Candida-Martinez-Lopez.png" />
+
 - **Ponente:** Cándida Martínez López (Universidad de Granada)
 - **Fecha y hora:** Martes 5 de noviembre, 11am
 - **Moderadora:** Cecilia Jaime González
