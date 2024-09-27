@@ -25,10 +25,26 @@ Nos enfocaremos en las **relaciones socioculturales de género**, con especial �
 
 El conversatorio invita a todos aquellos interesados en explorar estas temáticas desde una perspectiva crítica, y en analizar cómo las construcciones de género en la Antigüedad Clásica han influido en nuestras concepciones contemporáneas de género y poder.
 
-¿Cuándo y cómo participar?
+**¿Cuándo y cómo participar?**
 El evento se llevará a cabo de manera virtual los días 5, 6 y 7 de noviembre de 2024, y contará con ponencias lideradas por especialistas en estudios clásicos y estudios de género.
 
 Te invitamos a seguir nuestras redes sociales para obtener más información sobre el **programa completo** y el **proceso de inscripción.** ¡No te pierdas esta oportunidad de reflexionar y debatir sobre las relaciones de género en una de las civilizaciones más influyentes de la historia!
+
+
+**Programa:**
+El programa para este conversatorio estará disponible en el siguiente enlace y nuestro [Facebook](https://www.facebook.com/photo?fbid=1115873340540183&set=pcb.1112470427547141). Mantente atento a las actualizaciones para asegurarte de obtener tu lugar.
+
+**Consulta nuestro programa <a href="/desdethemyscira.github.io/assets/images/blog/Desviar-la-mirada.pdf" target="_blank">aquí</a>**
+
+**¡No te pierdas esta oportunidad de reflexionar y debatir sobre las relaciones de género en una de las civilizaciones más influyentes de la historia!**
+
+**Inscripciones**
+Te puedes inscribir en el siguiente enlace, ¡no te quedes fuera y aparta tu lugar!
+#### Regístate ahora [aquí](https://forms.gle/8QevoKEmFCATkktA7)
+
+
+
+
 
 <img  width="100%"
 src="/assets/images/blog/DT-VC.png" />
