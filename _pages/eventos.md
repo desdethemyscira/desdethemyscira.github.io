@@ -5,9 +5,14 @@ author:
 image: assets/images/about/vconver.png
 #signature:
 ---
+
+<img  width="100%"
+src="/assets/images/blog/DT-VC.png" />
+
 <iframe width="100%" height="550"
     src="https://www.youtube.com/embed/QIJQ5EYP_BA?si=KxxH0BVn5DQPubrm" frameborder="0" allowfullscreen="true">
 </iframe>
+
 
 **🏛️ V Conversatorio**
 
