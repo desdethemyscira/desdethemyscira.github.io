@@ -4,7 +4,7 @@ title: Una voz hecha piedra. Prestigio y reconocimiento de las mujeres como prom
 date: 2021-08-25 04:09 +0300
 image: /assets/images/blog/Candida-Martinez-Lopez.png
 autor: Alejandra González Jiménez
-tags: Conversatorio
+tags: conversatorios
 ---
 
 El grupo de investigación "[Desde Themyscira](https://desdethemysciraffyl.mx/)"  tiene el honor de organizar la V Edición de los Conversatorios de Estudios Clásicos, titulada *<a href="/desdethemyscira.github.io/assets/images/blog/Desviar-la-mirada.pdf" target="_blank">Desviar la mirada: las mujeres en la Antigüedad Clásica</a>*, un evento virtual que se celebrará durante la primera semana de noviembre. Este ciclo de charlas busca cuestionar y ampliar las visiones tradicionales de las culturas grecolatinas, con un enfoque crítico hacia las interpretaciones androcéntricas y homogéneas predominantes en los estudios clásicos.
