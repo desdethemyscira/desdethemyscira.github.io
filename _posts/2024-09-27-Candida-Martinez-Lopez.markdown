@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Una voz hecha piedra. Prestigio y reconocimiento de las mujeres como promotoras de arquitectura en las ciudades romanas antiguas
-date: 2024-09-28 04:09 +0300
+date: 2024-09-27 04:09 +0300
 image: /assets/images/blog/Candida-Martinez-Lopez.png
 autor: Alejandra González Jiménez
 tags: conversatorios
