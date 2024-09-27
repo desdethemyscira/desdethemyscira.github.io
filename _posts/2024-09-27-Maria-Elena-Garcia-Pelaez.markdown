@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mujeres nombradas por Aristóteles
-date: 2024-08-18 01:21:55 +0300
+date: 2024-09-11 01:41:00 +0300
 image: /assets/images/blog/Elena-Garcia.png
 author: Alejandra González Jiménez
 tags: Conversatorios

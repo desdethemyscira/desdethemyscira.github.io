@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Un intento de recuperar la Orestía de Esquilo para el pensamiento feminista
-date: 2024-10-11 01:21:00 +0300
+date: 2024-09-11 01:31:00 +0300
 image: /assets/images/blog/Marta-Gonzalez.png
 author: Alejandra González Jiménez
 tags: Conversatorios

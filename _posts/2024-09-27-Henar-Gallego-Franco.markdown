@@ -1,7 +1,7 @@
 ---
 layout: post
 title: La norma y la excepción. Modelos de feminidad en la Antigüedad Grecorromana
-date: 2024-10-25 01:21:55 +0300
+date: 2024-09-27 01:51:55 +0300
 image: /assets/images/blog/Henar-Gallego.png
 author: Alejandra González Jiménez
 tags: Conversatorios
