@@ -71,4 +71,6 @@ src="/assets/images/blog/Henar-Gallego.png" />
 Este ciclo de conversatorios ofrecerá una visión profunda de las formas en que el género ha sido representado y construido en la cultura grecorromana, destacando los mecanismos de exclusión y las formas de resistencia femenina.
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QIJQ5EYP_BA?si=iatU53mFVOXscUJK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="550"
+    src="https://www.youtube.com/embed/QIJQ5EYP_BA?si=iatU53mFVOXscUJK" frameborder="0" allowfullscreen="true">
+</iframe>
