@@ -3,26 +3,18 @@ layout: post
 title: Una voz hecha piedra. Prestigio y reconocimiento de las mujeres como promotoras de arquitectura en las ciudades romanas antiguas
 date: 2021-08-25 04:09 +0300
 image: /assets/images/blog/Candida-Martinez-Lopez.png
-autor: Alejandra González Jiménez 
+autor: Alejandra González Jiménez
 tags: Conversatorio
 ---
 
+El grupo de investigación "[Desde Themyscira](https://desdethemysciraffyl.mx/)"  tiene el honor de organizar la V Edición de los Conversatorios de Estudios Clásicos, titulada *<a href="/desdethemyscira.github.io/assets/images/blog/Desviar-la-mirada.pdf" target="_blank">Desviar la mirada: las mujeres en la Antigüedad Clásica</a>*, un evento virtual que se celebrará durante la primera semana de noviembre. Este ciclo de charlas busca cuestionar y ampliar las visiones tradicionales de las culturas grecolatinas, con un enfoque crítico hacia las interpretaciones androcéntricas y homogéneas predominantes en los estudios clásicos.
 
+El día **Martes 5 de noviembre, 11:00 am** contaremos con la participación de la **Dra. Cándida Martínez López** (Universidad de Granada) con la ponencia títulada **"Una voz hecha piedra: Prestigio y reconocimiento de las mujeres como promotoras de arquitectura en las ciudades romanas antiguas"**
+🎙 Modera: Cecilia Jaime González
 
+Resumen:
+En las ciudades mediterráneas de la Antigüedad, las mujeres, aunque ausentes de los consejos y asambleas, encontraron en la arquitectura un medio para obtener relevancia y prestigio. A través de sus recursos económicos y en muchos casos en terrenos propios, promovieron la construcción de obras públicas como pórticos, templos, teatros, termas y bibliotecas. Estas construcciones no solo reflejan su poder, sino que, a través de inscripciones, revelan sus intereses, aspiraciones y compromisos cívicos.
 
-#### Ejes temáticos del conversatorio:
+Este matronazgo cívico no solo cambió el paisaje urbano, sino también las dinámicas de poder, alterando la posición de las mujeres y los hombres dentro de la sociedad romana. Al destacar estas contribuciones, recuperamos fragmentos de biografías olvidadas que resultan esenciales para entender el tejido social y cultural de la Antigüedad.
 
-#### 1. Mujeres y espacio público
-#### *<a href="/desdethemyscira.github.io/assets/images/blog/Candida-Martinez-Lopez.png" target="_blank">Una voz hecha piedra. Prestigio y reconocimiento de las mujeres como promotoras de arquitectura en las ciudades romanas antiguas</a>*
-
-<img  width="100%"
-src="/assets/images/blog/Candida-Martinez-Lopez.png" />
-
-- Ponente: **Cándida Martínez López <br> (Universidad de Granada)**
-- Fecha y hora: **Martes 5 de noviembre, 11am**
-- Moderadora: **Cecilia Jaime González**
-- Descripción: En esta ponencia se abordará cómo las mujeres de las ciudades mediterráneas antiguas utilizaron la arquitectura como un medio para participar en el espacio público y obtener prestigio en sus ciudades, desafiando su exclusión de las esferas políticas y sociales.
-
-- Resumen:
-Las mujeres de las ciudades mediterráneas antiguas encontraron en la arquitectura un mecanismo para habitar el espacio público y obtener relevancia y prestigio en sus respectivas ciudades. Pórticos, templos, termas, basílicas, teatros, arcos, acueductos, bibliotecas, fuentes, etc. fueron construidos por ellas con su dinero y, a veces, en suelo de su propiedad. Su voz, ausente en las asambleas y consejos de sus ciudades, se hizo piedra y se expresó en las construcciones que promovieron y en las inscripciones que las adornaron. En ellas pueden leerse sus intereses, aspiraciones, compromiso cívico o deseo de notoriedad; en ellas se atisban retazos más o menos amplios de biografías hasta ahora olvidadas, de experiencias históricas de las ciudades que no pueden entenderse sin el concurso de las mujeres.
-Hacer visible este matronazgo cívico va más allá de informar sobre las obras públicas que promovieron las mujeres. Su irrupción en el espacio público alteró las redes cotidianas de poder, la posición de hombres y mujeres en las ciudades, el prestigio y el valor de las mujeres y las posibilidades de hacer perpetuar su memoria.
+##### **¡Te esperamos en esta charla para redescubrir el legado de las mujeres en la arquitectura romana y su impacto en la vida pública!**
