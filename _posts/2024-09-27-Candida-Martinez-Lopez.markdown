@@ -9,7 +9,7 @@ tags: Conversatorio
 
 El grupo de investigación "[Desde Themyscira](https://desdethemysciraffyl.mx/)"  tiene el honor de organizar la V Edición de los Conversatorios de Estudios Clásicos, titulada *<a href="/desdethemyscira.github.io/assets/images/blog/Desviar-la-mirada.pdf" target="_blank">Desviar la mirada: las mujeres en la Antigüedad Clásica</a>*, un evento virtual que se celebrará durante la primera semana de noviembre. Este ciclo de charlas busca cuestionar y ampliar las visiones tradicionales de las culturas grecolatinas, con un enfoque crítico hacia las interpretaciones androcéntricas y homogéneas predominantes en los estudios clásicos.
 
-El día **Martes 5 de noviembre, 11:00 am** contaremos con la participación de la **Dra. Cándida Martínez López** (Universidad de Granada) con la ponencia títulada **"Una voz hecha piedra: Prestigio y reconocimiento de las mujeres como promotoras de arquitectura en las ciudades romanas antiguas"**
+El día Martes 5 de noviembre, 11:00 am contaremos con la participación de la Dra. Cándida Martínez López (Universidad de Granada) con la ponencia títulada "Una voz hecha piedra: Prestigio y reconocimiento de las mujeres como promotoras de arquitectura en las ciudades romanas antiguas"
 🎙 Modera: Cecilia Jaime González
 
 Resumen:
