@@ -75,3 +75,8 @@ Este ciclo de conversatorios ofrecerá una visión profunda de las formas en que
 <iframe width="100%" height="550"
     src="https://www.youtube.com/embed/QIJQ5EYP_BA?si=iatU53mFVOXscUJK" frameborder="0" allowfullscreen="true">
 </iframe>
+
+Te puedes inscribir en el siguiente enlace, ¡no te quedes fuera y aparta tu lugar!
+#### Regístate ahora [aquí](https://forms.gle/8QevoKEmFCATkktA7)
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc8zPluCqplV-_EBSLQktSx5j4RE9oX4F7o6Q1cFtz87LS93g/viewform?embedded=true" width="640" height="1812" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
