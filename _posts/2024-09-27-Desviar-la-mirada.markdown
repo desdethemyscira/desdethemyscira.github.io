@@ -14,7 +14,7 @@ El grupo de investigación "[Desde Themyscira](https://desdethemysciraffyl.mx/)"
 #### Ejes temáticos del conversatorio:
 
 #### 1. Mujeres y espacio público
-#### *<a href="/desdethemyscira.github.io/assets/images/blog/Candida-Martinez-Lopez.png" target="_blank">¿Una voz hecha piedra. Prestigio y reconocimiento de las mujeres como promotoras de arquitectura en las ciudades romanas antiguas</a>*
+#### *<a href="/desdethemyscira.github.io/assets/images/blog/Candida-Martinez-Lopez.png" target="_blank">Una voz hecha piedra. Prestigio y reconocimiento de las mujeres como promotoras de arquitectura en las ciudades romanas antiguas</a>*
 
 <img  width="100%"
 src="/assets/images/blog/Candida-Martinez-Lopez.png" />
@@ -70,10 +70,8 @@ src="/assets/images/blog/Henar-Gallego.png" />
 
 Este ciclo de conversatorios ofrecerá una visión profunda de las formas en que el género ha sido representado y construido en la cultura grecorromana, destacando los mecanismos de exclusión y las formas de resistencia femenina.
 
+## ¡Nos vemos en noviembre!
 
 <iframe width="100%" height="550"
     src="https://www.youtube.com/embed/QIJQ5EYP_BA?si=iatU53mFVOXscUJK" frameborder="0" allowfullscreen="true">
 </iframe>
-
-
-## ¡Nos vemos en noviembre!
