@@ -9,7 +9,7 @@ tags: Conversatorios
 
 ### V Edición de los Conversatorios de Estudios Clásicos: *<a href="/desdethemyscira.github.io/assets/images/blog/Desviar-la-mirada.pdf" target="_blank">Desviar la mirada: las mujeres en la Antigüedad Clásica</a>*
 
-El grupo de investigación "[Desde Themyscira](https://desdethemysciraffyl.mx/)" organiza la V Edición de los Conversatorios de Estudios Clásicos, titulada *Desviar la mirada: las relaciones de género en la Antigüedad Clásica*, que se llevará a cabo de manera virtual la primera semana de noviembre. Este evento propone un análisis crítico de las representaciones y roles de género en la antigüedad grecorromana, desafiando las interpretaciones homogéneas y androcéntricas predominantes en los estudios clásicos.
+El grupo de investigación "[Desde Themyscira](https://desdethemysciraffyl.mx/)" organiza la V Edición de los Conversatorios de Estudios Clásicos, titulada *Desviar la mirada: las mujeres en la Antigüedad Clásica*, que se llevará a cabo de manera virtual la primera semana de noviembre. Este evento propone un análisis crítico de las representaciones y roles de género en la antigüedad grecorromana, desafiando las interpretaciones homogéneas y androcéntricas predominantes en los estudios clásicos.
 
 #### Ejes temáticos del conversatorio:
 
