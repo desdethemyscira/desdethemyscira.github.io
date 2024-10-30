@@ -34,5 +34,5 @@ El legado de estas concepciones en la cultura contemporánea.
 **¡Acompáñanos en este viaje a través del tiempo y el espacio mientras exploramos el legado de la Grecia y Roma antiguas en nuestra comprensión moderna del mundo!**
 
 <iframe width="100%" height="550"
-    src="https://www.youtube.com/symOfLVjjC8?si=ejtjjiz5UcMPFbyt" frameborder="0" allowfullscreen="true">
+src="https://www.youtube.com/embed/videoseries?si=G2d5XdWlU243N57c&amp;list=PLi55MVqBpf5ITyg-jLnPQOZmn_NihhESU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 </iframe>
