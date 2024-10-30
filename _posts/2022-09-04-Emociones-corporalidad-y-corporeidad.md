@@ -2,7 +2,7 @@
 layout: post
 title: Emociones, coporalidad y corporeidad
 date: 2022-09-04 01:03:25 +0300
-image: /assets/images/testimoonial/3conver2.png
+image: /assets/images/testimonial/3conver2.png
 author: Alejandra González Jiménez
 tags: Conversatorios
 ---
