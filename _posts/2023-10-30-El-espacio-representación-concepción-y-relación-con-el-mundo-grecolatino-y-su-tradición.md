@@ -7,9 +7,6 @@ author: Alejandra González Jiménez
 tags: Conversatorios
 ---
 
-<img  width="100%"
-src="/assets/images/testimonial/3erprogram.png" />
-
 <iframe width="100%" height="550"
     src="https://www.youtube.com/embed/K7LxxbHshR8" frameborder="0" allowfullscreen="true">
 </iframe>
@@ -37,5 +34,5 @@ El legado de estas concepciones en la cultura contemporánea.
 **¡Acompáñanos en este viaje a través del tiempo y el espacio mientras exploramos el legado de la Grecia y Roma antiguas en nuestra comprensión moderna del mundo!**
 
 <iframe width="100%" height="550"
-    src="https://www.youtube.com/embed/K7LxxbHshR8?si=hlY1bh_Q6LgL95Jy" frameborder="0" allowfullscreen="true">
+    src="https://www.youtube.com/symOfLVjjC8?si=ejtjjiz5UcMPFbyt" frameborder="0" allowfullscreen="true">
 </iframe>
