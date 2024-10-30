@@ -20,3 +20,9 @@ La primera emisión de nuestro Conversatorio tuvo lugar  los días 29 y 30 de se
 Esta segunda emisión se llevará a cabo en octubre del 2021 y tendremos como invitados ponentes a la Dra. Carolina Ponce, la Dra. Sandra Álvarez, la Dra. Camila Joselevich, el Mtr. Absalom Chow, la Lic. Maricela Bravo Rubio, y el Lic. José Manuel González Montiel.  
 
 A través de 5 mesas temáticas abordaremos la manera en que la relación entre la naturaleza y el ser humano condiciona no solo su cotidianidad sino la conformación de comunidades enteras.
+
+[**Tercera emisión: Emociones: corporalidad y corporeidad**](https://desdethemysciraffyl.mx/2022/09/03/Emociones-corporalidad-y-corporeidad/)
+
+
+
+[**Cuarta emisión: El espacio: representación, concepción y relación con el mundo grecolatino y su tradición**](https://desdethemysciraffyl.mx/2023/10/29/El-espacio-representaci%C3%B3n-concepci%C3%B3n-y-relaci%C3%B3n-con-el-mundo-grecolatino-y-su-tradici%C3%B3n/)
