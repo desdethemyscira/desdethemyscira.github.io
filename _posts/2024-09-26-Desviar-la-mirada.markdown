@@ -16,9 +16,6 @@ El grupo de investigación "[Desde Themyscira](https://desdethemysciraffyl.mx/)"
 #### 1. Mujeres y espacio público
 #### *<a href="/desdethemyscira.github.io/assets/images/blog/Candida-Martinez-Lopez.png" target="_blank">Una voz hecha piedra. Prestigio y reconocimiento de las mujeres como promotoras de arquitectura en las ciudades romanas antiguas</a>*
 
-<img  width="100%"
-src="/assets/images/blog/Candida-Martinez-Lopez.png" />
-
 - Ponente: **Cándida Martínez López <br> (Universidad de Granada)**
 - Fecha y hora: **Martes 5 de noviembre, 11am**
 - Moderadora: **Cecilia Jaime González**
@@ -26,9 +23,6 @@ src="/assets/images/blog/Candida-Martinez-Lopez.png" />
 
 #### 2. Representaciones médicas de la mujer
 #### *<a href="/desdethemyscira.github.io/assets/images/blog/Cecilia-Perczyk.png" target="_blank">La representación de la mujer en el tratado hipocrático "Sobre las enfermedades de las jóvenes</a>*
-
-<img  width="100%"
-src="/assets/images/blog/Cecilia-Perczyk.png" />
 
 - Ponente: **Cecilia Perczyk <br> (Universidad Nacional de Hurlingham, Argentina)**
 - Fecha y hora: **Martes 5 de noviembre, 4pm**
@@ -38,9 +32,6 @@ src="/assets/images/blog/Cecilia-Perczyk.png" />
 #### 3. Relecturas feministas de la tragedia clásica
 #### *<a href="/desdethemyscira.github.io/assets/images/blog/Marta-Gonzalez.png" target="_blank">Un intento de recuperar la Orestía de Esquilo para el pensamiento feminista</a>*
 
-<img  width="100%"
-src="/assets/images/blog/Marta-Gonzalez.png" />
-
 - Ponente: **Marta González González <br> (Universidad de Málaga)**
 - Fecha y hora: **Miércoles 6 de noviembre, 11am**
 - Moderadora: **Evelia Arteaga Conde**
@@ -49,9 +40,6 @@ src="/assets/images/blog/Marta-Gonzalez.png" />
 #### 4. Mujeres en el pensamiento aristotélico
 #### *<a href="/desdethemyscira.github.io/assets/images/blog/Elena-Garcia.png" target="_blank">Mujeres nombradas por Aristóteles</a>*
 
-<img  width="100%"
-src="/assets/images/blog/Elena-Garcia.png" />
-
 - Ponente: **María Elena García-Peláez <br> (Universidad Panamericana, Ciudad de México)**
 - Fecha y hora: **Miércoles 6 de noviembre, 4pm**
 - Moderadora: **Mayra García Paredes**
@@ -59,9 +47,6 @@ src="/assets/images/blog/Elena-Garcia.png" />
 
 #### 5. Modelos de feminidad en la antigüedad
 #### *<a href="/desdethemyscira.github.io/assets/images/blog/Henar-Gallego.png" target="_blank">La norma y la excepción. Modelos de feminidad en la Antigüedad Grecorromana</a>*
-
-<img  width="100%"
-src="/assets/images/blog/Henar-Gallego.png" />
 
 - Ponente: **Henar Gallego Franco <br> (Universidad de Valladolid)**
 - Fecha y hora: **Jueves 7 de noviembre, 11a**
@@ -79,4 +64,6 @@ Este ciclo de conversatorios ofrecerá una visión profunda de las formas en que
 Te puedes inscribir en el siguiente enlace, ¡no te quedes fuera y aparta tu lugar!
 #### Regístate ahora [aquí](https://forms.gle/8QevoKEmFCATkktA7)
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc8zPluCqplV-_EBSLQktSx5j4RE9oX4F7o6Q1cFtz87LS93g/viewform?embedded=true" width="640" height="1812" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+<iframe
+src="https://docs.google.com/forms/d/e/1FAIpQLSc8zPluCqplV-_EBSLQktSx5j4RE9oX4F7o6Q1cFtz87LS93g/viewform?embedded=true" width="640" height="1812" frameborder="0" marginheight="0" marginwidth="0">Cargando…
+</iframe>
