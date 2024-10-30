@@ -1,7 +1,7 @@
 ---
 layout: post
 title: El espacio, representación, concepción y relación con el mundo grecolatino y su tradición
-date: 2022-09-04 01:03:25 +0300
+date: 2023-10-30 01:03:25 +0300
 image: /assets/images/testimonial/ivconver.png
 author: Alejandra González Jiménez
 tags: Conversatorios
