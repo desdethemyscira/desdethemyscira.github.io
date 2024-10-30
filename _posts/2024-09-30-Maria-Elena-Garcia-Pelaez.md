@@ -7,17 +7,6 @@ author: Alejandra González Jiménez
 tags: Conversatorios
 ---
 
-#### Mujeres en el pensamiento aristotélico
-#### *<a href="/desdethemyscira.github.io/assets/images/blog/Elena-Garcia.png" target="_blank">Mujeres nombradas por Aristóteles</a>*
-
-<img  width="100%"
-src="/assets/images/blog/Elena-Garcia.png" />
-
-- Ponente: **María Elena García-Peláez <br> (Universidad Panamericana, Ciudad de México)**
-- Fecha y hora: **Miércoles 6 de noviembre, 4pm**
-- Moderadora: **Mayra García Paredes**
-- Descripción: Esta charla examinará las referencias a mujeres en los textos de Aristóteles, buscando visibilizar el papel que jugaban en su pensamiento, a menudo criticado por su misoginia.
-
 El grupo de investigación "[Desde Themyscira](https://desdethemysciraffyl.mx/)" organiza la V Edición de los Conversatorios de Estudios Clásicos, titulada *<a href="/desdethemyscira.github.io/assets/images/blog/Desviar-la-mirada.pdf" target="_blank">Desviar la mirada: las mujeres en la Antigüedad Clásica</a>*, que se llevará a cabo de manera virtual la primera semana de noviembre. Este evento propone un análisis crítico de las representaciones y roles de género en la antigüedad grecorromana, desafiando las interpretaciones homogéneas y androcéntricas predominantes en los estudios clásicos.
 
 El día Miércoles 6 de noviembre, 04:00 pm contaremos con la participación de la Dra. María Elena García-Peláez (Universidad Panamericana, Ciudad de México) con la ponencia títulada **<a href="/desdethemyscira.github.io/assets/images/blog/Elena-Garcia.png" target="_blank">Mujeres nombradas por Aristóteles</a>** Modera: Mayra Huerta Paredes.
