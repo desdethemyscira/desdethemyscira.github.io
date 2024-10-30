@@ -17,7 +17,7 @@ image: assets/images/about/vconver.png
 
 **🌐 Organizado por el Grupo de Investigación "Desde Themyscira"**
 
-El grupo horizontal de investigación **Desde Themyscira** se complace en anunciar la **V Emisión de los Conversatorios de Estudios Clásicos** titulada **_Desviar la mirada: las relaciones de género en la Antigüedad Clásica_**, que se llevará a cabo de manera virtual durante la primera semana de noviembre de 2024. Este evento reunirá a expertas y apasionadas por los estudios clásicos para discutir, desde una perspectiva crítica y con enfoque de género, los conceptos e imaginarios que rodean a las figuras femeninas en las culturas grecolatinas.
+El grupo horizontal de investigación **Desde Themyscira** se complace en anunciar la **V Emisión de los Conversatorios de Estudios Clásicos** titulada **_Desviar la mirada: las mujeres en la Antigüedad Clásica_**, que se llevará a cabo de manera virtual durante la primera semana de noviembre de 2024. Este evento reunirá a expertas y apasionadas por los estudios clásicos para discutir, desde una perspectiva crítica y con enfoque de género, los conceptos e imaginarios que rodean a las figuras femeninas en las culturas grecolatinas.
 
 En esta quinta edición de los conversatorios, nuestro objetivo es **"desviar la mirada"**, es decir, cuestionar y reexaminar las formas en que la mayoría de los análisis tradicionales han ignorado o distorsionado diversas realidades socioculturales en la Antigüedad Clásica. Gran parte de los estudios clásicos ha sido influenciada por visiones androcéntricas que han prevalecido en la investigación académica. Esto ha dado lugar a concepciones sesgadas y prejuicios que han invisibilizado otras formas de existencia y representación dentro de estas culturas.
 
