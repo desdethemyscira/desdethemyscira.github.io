@@ -9,6 +9,8 @@ image: assets/images/about/vconver.png
 <img  width="100%"
 src="/assets/images/about/DT-2024.png" />
 
+**Consulta nuestro prosicionamiento <a href="/desdethemyscira.github.io/assets/images/blog/Posicionamiento N2024.pdf" target="_blank">aquí</a>**
+
 Los Conversatorios constituyen nuestra herramienta de difusión y divulgación de los estudios que tanto nosotras como nuestros colegas invitados realizan en su línea de investigación, pero que encuentran puntos de contacto con la temática propuesta anualmente.
 La primera emisión tuvo una muy buena recepción por parte de nuestro alumnado y trascendieron fronteras, pues asistieron estudiantes de Colombia, Perú, Argentina, Puebla y Guadalajara, además de que las sesiones en vivo, transmitidas por Facebook fueron también seguidas en territorios más lejanos como España.
 
