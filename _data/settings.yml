@@ -254,6 +254,12 @@ portfolio-items:
 # Testimonials - Events Section
 
 testimonial-items:
+  - name: "Anuncio 2025"
+    image: "assets/images/testimonial/anuncio2025.png"
+    designation: "Seminario 2025"
+    #url: ""
+    #content: "Jueves 31 de agosto de 2023"
+
   - name: "Las ediciones latinas del Theatrum Orbis Terrarum: una aproximación al desarrollo de la obra en el siglo XVI"
     image: "assets/images/testimonial/18sesion.png"
     designation: "Decimoctava sesión virtual"
