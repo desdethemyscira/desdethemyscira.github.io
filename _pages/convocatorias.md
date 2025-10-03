@@ -121,7 +121,7 @@ image: assets/images/about/themyscira.png
   <div class="carousel-track">
 
     <div class="carousel-card">
-      <img src="https://via.placeholder.com/320x150?text=Tesis+1" alt="Recepción del concepto de tonus">
+      <img src="assets/images/testimonial/6sesion.png" alt="Recepción del concepto de tonus">
       <div class="carousel-card-content">
         <div class="asesora">Asesora: Dra. María Leticia López Serratos</div>
         <div class="tesista">Tesista: Sergio Embleton Márquez</div>
@@ -132,7 +132,7 @@ image: assets/images/about/themyscira.png
     </div>
 
     <div class="carousel-card">
-      <img src="https://via.placeholder.com/320x150?text=Tesis+2" alt="Safo en el borde">
+      <img src="assets/images/testimonial/7sesion.png" alt="Safo en el borde">
       <div class="carousel-card-content">
         <div class="asesora">Asesora: Dra. Martha Cecilia Jaime González</div>
         <div class="tesista">Tesista: Alejandra González Jiménez</div>
@@ -143,7 +143,7 @@ image: assets/images/about/themyscira.png
     </div>
 
     <div class="carousel-card">
-      <img src="https://via.placeholder.com/320x150?text=Tesis+3" alt="Religión, magia y ciencia">
+      <img src="assets/images/testimonial/8sesion.png" alt="Religión, magia y ciencia">
       <div class="carousel-card-content">
         <div class="asesora">Asesora: Dra. María Leticia López Serratos</div>
         <div class="tesista">Tesista: Manuel de Jesús Islas Ramírez</div>
