@@ -12,53 +12,50 @@ image: assets/images/about/themyscira.png
     color: #333;
   }
 
-  .tesis-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    margin: 2rem 0;
+  .carousel-container {
+    width: 100%;**
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 2rem 0;
   }
 
-  .tesis-card {
+  .carousel-track {
+    display: flex;
+    gap: 20px;
+  }
+
+  .carousel-card {
     background: linear-gradient(135deg, #f4e6fb, #d6b8f2);
     border-radius: 15px;
     box-shadow: 0 6px 15px rgba(0,0,0,0.1);
-    width: 300px;
+    min-width: 300px;
+    max-width: 300px;
     padding: 20px;
-    position: relative;
-    overflow: hidden;
+    flex-shrink: 0;
     transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
     cursor: pointer;
-    opacity: 0;
-    transform: translateY(30px);
   }
 
-  .tesis-card.visible {
-    opacity: 1;
-    transform: translateY(0);
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-  }
-
-  .tesis-card:hover {
+  .carousel-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
   }
 
-  .tesis-card h3 {
+  .carousel-card h3 {
     margin-top: 0;
     color: #6c3483;
     font-size: 1.2rem;
   }
 
-  .tesis-card .asesora,
-  .tesis-card .tesista {
+  .carousel-card .asesora,
+  .carousel-card .tesista {
     font-weight: bold;
     font-size: 0.9rem;
     margin-bottom: 5px;
   }
 
-  .tesis-card p {
+  .carousel-card p {
     font-size: 0.95rem;
     line-height: 1.5;
     max-height: 0;
@@ -67,12 +64,12 @@ image: assets/images/about/themyscira.png
     opacity: 0;
   }
 
-  .tesis-card:hover p {
-    max-height: 200px; /* ajustable según el texto */
+  .carousel-card:hover p {
+    max-height: 200px;
     opacity: 1;
   }
 
-  .tesis-card a {
+  .carousel-card a {
     display: inline-block;
     text-decoration: none;
     background-color: #8e44ad;
@@ -84,55 +81,52 @@ image: assets/images/about/themyscira.png
     margin-top: 10px;
   }
 
-  .tesis-card a:hover {
+  .carousel-card a:hover {
     background-color: #732d91;
   }
 
+  /* Scrollbar invisible para estilo limpio */
+  .carousel-container::-webkit-scrollbar {
+    display: none;
+  }
+  .carousel-container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
   @media (max-width: 650px) {
-    .tesis-card {
-      width: 90%;
+    .carousel-card {
+      min-width: 80%;
     }
   }
 </style>
 
-<div class="tesis-container">
+<div class="carousel-container">
+  <div class="carousel-track">
 
-  <div class="tesis-card">
-    <div class="asesora">Asesora: Dra. María Leticia López Serratos</div>
-    <div class="tesista">Tesista: Sergio Embleton Márquez</div>
-    <h3>Recepción del concepto de tonus en Aureliano Réome</h3>
-    <p>Sergio analiza cómo el concepto de <em>tonus</em> —la tensión y energía en la música y el cuerpo— ha sido interpretado en la obra del compositor Aureliano Réome, explorando conexiones entre teoría musical, percepción sensorial y filosofía de la música.</p>
-    <a href="https://youtu.be/i6J0hoD5Od8?si=tATJb4KWGukmnFjW" target="_blank">Ver video</a>
+    <div class="carousel-card">
+      <div class="asesora">Asesora: Dra. María Leticia López Serratos</div>
+      <div class="tesista">Tesista: Sergio Embleton Márquez</div>
+      <h3>Recepción del concepto de tonus en Aureliano Réome</h3>
+      <p>Sergio analiza cómo el concepto de <em>tonus</em> —la tensión y energía en la música y el cuerpo— ha sido interpretado en la obra del compositor Aureliano Réome, explorando conexiones entre teoría musical, percepción sensorial y filosofía de la música.</p>
+      <a href="https://youtu.be/i6J0hoD5Od8?si=tATJb4KWGukmnFjW" target="_blank">Ver video</a>
+    </div>
+
+    <div class="carousel-card">
+      <div class="asesora">Asesora: Dra. Martha Cecilia Jaime González</div>
+      <div class="tesista">Tesista: Alejandra González Jiménez</div>
+      <h3>Safo en el borde: propuesta de edición crítica digital a través de LaTeX y TEI</h3>
+      <p>Alejandra propone una edición crítica digital de la poesía de Safo usando LaTeX y TEI, preservando la fidelidad textual y ofreciendo una experiencia interactiva que facilita el estudio y análisis de los fragmentos de la autora.</p>
+      <a href="https://youtu.be/lCR7VZ4bPRI?si=_mkxbBWq0Qux_0r9" target="_blank">Ver video</a>
+    </div>
+
+    <div class="carousel-card">
+      <div class="asesora">Asesora: Dra. María Leticia López Serratos</div>
+      <div class="tesista">Tesista: Manuel de Jesús Islas Ramírez</div>
+      <h3>Religión, magia y ciencia: de los prolegomena del De magia universalis naturae et artis de Gaspar Schott</h3>
+      <p>Manuel explora cómo religión, magia y ciencia se entrelazaban en el siglo XVII a través de los textos de Gaspar Schott, mostrando la complejidad del pensamiento científico y esotérico de la época.</p>
+      <a href="https://youtu.be/B4_e3S0Z7sc?si=oGARIZJXet64Gcbg" target="_blank">Ver video</a>
+    </div>
+
   </div>
-
-  <div class="tesis-card">
-    <div class="asesora">Asesora: Dra. Martha Cecilia Jaime González</div>
-    <div class="tesista">Tesista: Alejandra González Jiménez</div>
-    <h3>Safo en el borde: propuesta de edición crítica digital a través de LaTeX y TEI</h3>
-    <p>Alejandra propone una edición crítica digital de la poesía de Safo usando LaTeX y TEI, preservando la fidelidad textual y ofreciendo una experiencia interactiva que facilita el estudio y análisis de los fragmentos de la autora.</p>
-    <a href="https://youtu.be/lCR7VZ4bPRI?si=_mkxbBWq0Qux_0r9" target="_blank">Ver video</a>
-  </div>
-
-  <div class="tesis-card">
-    <div class="asesora">Asesora: Dra. María Leticia López Serratos</div>
-    <div class="tesista">Tesista: Manuel de Jesús Islas Ramírez</div>
-    <h3>Religión, magia y ciencia: de los prolegomena del De magia universalis naturae et artis de Gaspar Schott</h3>
-    <p>Manuel explora cómo religión, magia y ciencia se entrelazaban en el siglo XVII a través de los textos de Gaspar Schott, mostrando la complejidad del pensamiento científico y esotérico de la época.</p>
-    <a href="https://youtu.be/B4_e3S0Z7sc?si=oGARIZJXet64Gcbg" target="_blank">Ver video</a>
-  </div>
-
 </div>
-
-<script>
-  // Animación al hacer scroll
-  const cards = document.querySelectorAll('.tesis-card');
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if(entry.isIntersecting){
-        entry.target.classList.add('visible');
-      }
-    });
-  }, { threshold: 0.2 });
-
-  cards.forEach(card => observer.observe(card));
-</script>
