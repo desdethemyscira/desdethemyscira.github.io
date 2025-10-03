@@ -27,7 +27,18 @@ image: assets/images/about/themyscira.png
     box-shadow: 0 6px 15px rgba(0,0,0,0.1);
     width: 300px;
     padding: 20px;
+    position: relative;
+    overflow: hidden;
     transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  .tesis-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
   }
 
   .tesis-card:hover {
@@ -41,16 +52,25 @@ image: assets/images/about/themyscira.png
     font-size: 1.2rem;
   }
 
-  .tesis-card p {
-    font-size: 0.95rem;
-    line-height: 1.5;
-    margin-bottom: 1.2rem;
-  }
-
-  .tesis-card .asesora, .tesis-card .tesista {
+  .tesis-card .asesora,
+  .tesis-card .tesista {
     font-weight: bold;
     font-size: 0.9rem;
     margin-bottom: 5px;
+  }
+
+  .tesis-card p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, opacity 0.4s ease;
+    opacity: 0;
+  }
+
+  .tesis-card:hover p {
+    max-height: 200px; /* ajustable según el texto */
+    opacity: 1;
   }
 
   .tesis-card a {
@@ -62,6 +82,7 @@ image: assets/images/about/themyscira.png
     border-radius: 8px;
     transition: background-color 0.3s;
     font-size: 0.9rem;
+    margin-top: 10px;
   }
 
   .tesis-card a:hover {
@@ -102,3 +123,17 @@ image: assets/images/about/themyscira.png
   </div>
 
 </div>
+
+<script>
+  // Animación al hacer scroll
+  const cards = document.querySelectorAll('.tesis-card');
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.2 });
+
+  cards.forEach(card => observer.observe(card));
+</script>
