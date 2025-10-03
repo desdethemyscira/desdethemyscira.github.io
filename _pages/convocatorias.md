@@ -5,125 +5,100 @@ author:
 image: assets/images/about/themyscira.png
 #signature:
 ---
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
-.themyscira-table-wrap {
-  margin: 2em auto;
-  padding: 1em 1.5em;
-  background: #fff9f1;
-  border-radius: 10px;
-  max-width: 1150px;
-  box-shadow: 0 2px 16px rgba(9,35,119,0.11);
-}
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #faf8fc;
+    color: #333;
+  }
 
-.themyscira-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-family: 'Montserrat', Arial, sans-serif;
-  background: #fffbf5;
-  font-size: 1.04em;
-}
+  .tesis-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 2rem 0;
+  }
 
-.themyscira-table th, .themyscira-table td {
-  padding: 14px 10px;
-}
+  .tesis-card {
+    background: linear-gradient(135deg, #f4e6fb, #d6b8f2);
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    width: 300px;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
 
-.themyscira-table thead th {
-  background: #092377;
-  color: #ffd966;
-  font-weight: 600;
-  letter-spacing: 0.6px;
-  border-bottom: 3px solid #ffd966;
-}
+  .tesis-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  }
 
-.themyscira-table td {
-  border-bottom: 1px solid #ece6cf;
-  color: #262259;
-}
+  .tesis-card h3 {
+    margin-top: 0;
+    color: #6c3483;
+    font-size: 1.2rem;
+  }
 
-.themyscira-table tbody tr:hover {
-  background: #ffe8b3;
-  transition: background 0.2s;
-}
+  .tesis-card p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 1.2rem;
+  }
 
-.themyscira-btn {
-  display: inline-block;
-  background: linear-gradient(90deg, #ffd966 40%, #f4c542 80%);
-  color: #092377;
-  font-family: 'Montserrat', Arial, sans-serif;
-  font-weight: 600;
-  text-decoration: none;
-  padding: 0.5em 1.2em;
-  border-radius: 24px;
-  border: 2px solid #092377;
-  box-shadow: 0 1px 6px rgba(246,208,72,0.13);
-  transition: background 0.2s, color 0.2s, border 0.2s;
-}
+  .tesis-card .asesora, .tesis-card .tesista {
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+  }
 
-.themyscira-btn:hover, .themyscira-btn:focus {
-  background: #092377;
-  color: #ffd966;
-  border: 2px solid #ffd966;
-  outline: none;
-}
+  .tesis-card a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #8e44ad;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    font-size: 0.9rem;
+  }
 
-.themyscira-tesis {
-  font-family: 'Montserrat', Arial, sans-serif;
-  background: #fffbf1;
-  margin-bottom: 1.7em;
-  padding: 1em 2em;
-  border-radius: 9px;
-  box-shadow: 0 2px 10px rgba(34,40,100,0.13);
-}
+  .tesis-card a:hover {
+    background-color: #732d91;
+  }
 
-.themyscira-tesis h3 {
-  margin-top: 0;
-  color: #092377;
-  font-weight: 600;
-  font-size: 1.17em;
-}
+  @media (max-width: 650px) {
+    .tesis-card {
+      width: 90%;
+    }
+  }
+</style>
 
-<div class="themyscira-table-wrap">
-  <table class="themyscira-table">
-    <thead>
-      <tr>
-        <th>Asesora</th>
-        <th>Tesista</th>
-        <th>Título de tesis</th>
-        <th>Enlace (YouTube)</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Dra. Martha Cecilia Jaime González</td>
-        <td>Rodrigo Blum</td>
-        <td>La descripción arquitectónica en la poesía bizantina temprana: Paulo el Silenciario y la Écfrasis de la Iglesia de Hagia Sofía en Constantinopla</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Dra. María Leticia López Serratos</td>
-        <td>María de Jesus Tinajero Díaz</td>
-        <td>Ars metrica de José Jiménez. Edición, traducción y notas</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>José Luis Gutiérrez Rocha</td>
-        <td>Víctor Manuel Celaya Canto</td>
-        <td>Narraciones silenciosas de una tierra desconocida</td>
-        <td>
-          <a class="themyscira-btn" href="https://youtu.be/LFIzc10g1Fg?si=wrtS1wchPLojGHq5" target="_blank">Ver en YouTube</a>
-        </td>
-      </tr>
-      <!-- ...más filas igual usando datos de la tabla... -->
-    </tbody>
-  </table>
-</div>
+<div class="tesis-container">
 
-<div class="themyscira-tesis">
-  <h3>La descripción arquitectónica en la poesía bizantina temprana</h3>
-  <p>La arquitectura sagrada se transforma en la protagonista del verso bizantino, revelando la fusión entre espacio, fe y sensibilidad poética en la Constantinopla de Paulo el Silenciario.[file:1]</p>
-</div>
-<div class="themyscira-tesis">
-  <h3>Narraciones silenciosas de una tierra desconocida</h3>
-  <p>Un libro que lleva al lector a recorrer mundos inéditos y sentir el pulso de lo misterioso en cada cuento, con una prosa que ilumina lo inexplorado y emotivo.[file:1]</p>
+  <div class="tesis-card">
+    <div class="asesora">Asesora: Dra. María Leticia López Serratos</div>
+    <div class="tesista">Tesista: Sergio Embleton Márquez</div>
+    <h3>Recepción del concepto de tonus en Aureliano Réome</h3>
+    <p>Sergio analiza cómo el concepto de <em>tonus</em> —la tensión y energía en la música y el cuerpo— ha sido interpretado en la obra del compositor Aureliano Réome, explorando conexiones entre teoría musical, percepción sensorial y filosofía de la música.</p>
+    <a href="https://youtu.be/i6J0hoD5Od8?si=tATJb4KWGukmnFjW" target="_blank">Ver video</a>
+  </div>
+
+  <div class="tesis-card">
+    <div class="asesora">Asesora: Dra. Martha Cecilia Jaime González</div>
+    <div class="tesista">Tesista: Alejandra González Jiménez</div>
+    <h3>Safo en el borde: propuesta de edición crítica digital a través de LaTeX y TEI</h3>
+    <p>Alejandra propone una edición crítica digital de la poesía de Safo usando LaTeX y TEI, preservando la fidelidad textual y ofreciendo una experiencia interactiva que facilita el estudio y análisis de los fragmentos de la autora.</p>
+    <a href="https://youtu.be/lCR7VZ4bPRI?si=_mkxbBWq0Qux_0r9" target="_blank">Ver video</a>
+  </div>
+
+  <div class="tesis-card">
+    <div class="asesora">Asesora: Dra. María Leticia López Serratos</div>
+    <div class="tesista">Tesista: Manuel de Jesús Islas Ramírez</div>
+    <h3>Religión, magia y ciencia: de los prolegomena del De magia universalis naturae et artis de Gaspar Schott</h3>
+    <p>Manuel explora cómo religión, magia y ciencia se entrelazaban en el siglo XVII a través de los textos de Gaspar Schott, mostrando la complejidad del pensamiento científico y esotérico de la época.</p>
+    <a href="https://youtu.be/B4_e3S0Z7sc?si=oGARIZJXet64Gcbg" target="_blank">Ver video</a>
+  </div>
+
 </div>
