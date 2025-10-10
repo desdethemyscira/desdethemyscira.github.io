@@ -2,7 +2,7 @@
 layout: bio_editable
 title: Seminario
 author:
-image: assets/images/about/DT25.png
+image: assets/images/about/DT251.png
 #signature:
 ---
 <style>
