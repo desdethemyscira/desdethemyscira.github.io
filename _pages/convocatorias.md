@@ -7,131 +7,115 @@ image: assets/images/about/PDT.png
 ---
 <!-- INICIO: Bloque completo (CSS + HTML + JS) -->
 <style>
-  /* Paleta inspirada en Desde Themyscira */
-  :root{
-    --lavanda-1: #efe9f6;
-    --lavanda-2: #dac8f0;
-    --violeta: #7a4fa6;
-    --beige: #fff7ed;
-    --gold-soft: #d6b08a;
-    --texto: #2b2b2b;
-    --card-shadow: rgba(26,20,45,0.08);
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #faf8fc;
+    color: #333;
   }
 
-  body { background: var(--beige); color: var(--texto); font-family: "Inter", "Arial", sans-serif; }
-
-  .section-wrap { max-width: 1200px; margin: 2.2rem auto; padding: 0 1rem; }
-
-  /* Encabezado */
-  .th-header { display:flex; align-items:center; gap:12px; margin-bottom:1rem; }
-  .th-header h2 { margin:0; color:var(--violeta); font-size:1.45rem; }
-  .th-sub { color: #6b5e78; font-size:0.95rem; margin:0; }
-
-  /* GRID (rejilla flexible para pantallas grandes) */
-  .grid-wrap {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 20px;
-    margin-bottom: 2rem;
-  }
-
-  .th-card {
-    background: linear-gradient(180deg, var(--lavanda-1), var(--lavanda-2));
-    border-radius: 14px;
-    box-shadow: 0 8px 20px var(--card-shadow);
-    overflow: hidden;
-    transition: transform .28s ease, box-shadow .28s ease;
-    display: flex;
-    flex-direction: column;
-  }
-  .th-card:hover { transform: translateY(-6px); box-shadow: 0 16px 40px rgba(26,20,45,0.12); }
-
-  .th-card img {
-    width:100%;
-    height:160px;
-    object-fit:cover;
-    display:block;
-    filter: saturate(.95) contrast(.98);
-  }
-
-  .th-card-body {
-    padding: 14px;
-    display:flex;
-    flex-direction:column;
-    gap:8px;
-  }
-
-  .meta { font-size:0.82rem; color:#3f2f4a; font-weight:600; }
-  .title { font-size:1rem; color:var(--violeta); font-weight:700; margin:0 0 6px 0; }
-  .desc { font-size:0.92rem; color:#3f3544; line-height:1.3; margin:0; min-height:3.2rem; } /* mantiene altura */
-  .card-actions { margin-top:auto; display:flex; gap:8px; align-items:center; }
-
-  .btn-video {
-    background: linear-gradient(90deg,#8f5bb7,#6e3ea0);
-    color:#fff;
-    padding:8px 12px;
-    border-radius:10px;
-    text-decoration:none;
-    font-weight:600;
-    box-shadow: 0 4px 14px rgba(110,62,160,0.12);
-  }
-  .btn-video:hover { transform: translateY(-2px); }
-
-  .tag { font-size:0.78rem; color:#7a657f; padding:6px 8px; background:rgba(255,255,255,0.35); border-radius:8px; }
-
-  /* CARRUSEL */
-  .carousel-wrap { position: relative; margin: 2rem 0; }
-  .carousel {
-    display:flex;
-    gap:18px;
-    padding:18px;
-    overflow:hidden;
+  .carousel-container {
+    width: 100%;
+    overflow-x: auto;
     scroll-behavior: smooth;
+    padding: 2rem 0;
   }
+
   .carousel-track {
-    display:flex;
-    gap:18px;
-    transition: transform .45s cubic-bezier(.22,.9,.3,1);
-  }
-  .carousel-item { min-width: 320px; max-width: 320px; flex-shrink:0; border-radius:14px; overflow:hidden; }
-  .carousel-item .th-card { margin:0; border-radius:12px; }
-
-  /* Flechas */
-  .carousel-btn {
-    position:absolute;
-    top:50%;
-    transform: translateY(-50%);
-    background: rgba(255,255,255,0.9);
-    border: none;
-    width:44px; height:44px; border-radius:10px;
-    box-shadow: 0 8px 18px rgba(17,12,36,0.08);
-    display:flex; align-items:center; justify-content:center;
-    cursor:pointer;
-    transition: transform .18s;
-  }
-  .carousel-btn:hover { transform: translateY(-50%) scale(1.04); }
-  .carousel-btn.left { left:8px; }
-  .carousel-btn.right { right:8px; }
-
-  .carousel-btn svg { width:18px; height:18px; fill: var(--violeta); }
-
-  /* Responsive: en pantallas pequeñas, el carousel ocupa full width  */
-  @media (max-width: 880px){
-    .carousel-item { min-width: 86%; max-width: 86%; }
-    .carousel { padding: 12px; }
-    .carousel-btn { width:40px; height:40px; }
+    display: flex;
+    gap: 20px;
+    padding-bottom: 10px;
   }
 
-  /* Pequeños ajustes de accesibilidad */
-  .visually-hidden { position:absolute !important; height:1px; width:1px; overflow:hidden; clip:rect(1px,1px,1px,1px); white-space:nowrap; }
+  .carousel-card {
+    background: linear-gradient(135deg, #f4e6fb, #d6b8f2);
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    min-width: 280px;
+    max-width: 320px;
+    flex-shrink: 0;
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+  }
 
-  /* Post en párrafos (resúmenes ampliados) */
-  .post-list { margin-top:2rem; display:flex; flex-direction:column; gap:18px; }
-  .post-item { background: #fff; border-radius:12px; padding:14px; box-shadow: 0 6px 16px rgba(17,12,36,0.04); }
-  .post-item h4 { margin:0 0 6px 0; color:var(--violeta); }
-  .post-item .meta { margin-bottom:8px; color:#463953; }
-  .post-item p { margin:0; color:#3a3440; line-height:1.45; }
+  .carousel-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  }
 
+  .carousel-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .carousel-card-content {
+    padding: 15px;
+  }
+
+  .carousel-card h3 {
+    margin-top: 0;
+    color: #6c3483;
+    font-size: 1.1rem;
+  }
+
+  .carousel-card .asesora,
+  .carousel-card .tesista {
+    font-weight: bold;
+    font-size: 0.85rem;
+    margin-bottom: 5px;
+  }
+
+  .carousel-card p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, opacity 0.4s ease;
+    opacity: 0;
+  }
+
+  .carousel-card:hover p {
+    max-height: 150px;
+    opacity: 1;
+  }
+
+  .carousel-card a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #8e44ad;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    font-size: 0.85rem;
+    margin-top: 10px;
+  }
+
+  .carousel-card a:hover {
+    background-color: #732d91;
+  }
+
+  /* Scrollbar invisible */
+  .carousel-container::-webkit-scrollbar {
+    display: none;
+  }
+  .carousel-container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  @media (max-width: 650px) {
+    .carousel-card {
+      min-width: 80%;
+    }
+    .carousel-card img {
+      height: 120px;
+    }
+  }
 </style>
 
 <div class="section-wrap">
