@@ -161,6 +161,7 @@ image: assets/images/about/PDT.png
               <div class="meta">Asesora: Dra. Martha Cecilia Jaime González — Tesista: Rodrigo Blum</div>
               <h3 class="title">La descripción arquitectónica en la poesía bizantina temprana: Paulo el Silenciario y la écfrasis de la Iglesia de Hagia Sofía en Constantinopla</h3>
               <p class="desc">Rodrigo explora cómo Paulo el Silenciario utiliza la écfrasis para transformar la arquitectura en poesía —una lectura que combina descripción visual, devoción y memoria colectiva de Hagia Sofía— para mostrar cómo lo arquitectónico se vuelve lenguaje poético.</p>
+              <a href="https://youtu.be/lCR7VZ4bPRI?si=_mkxbBWq0Qux_0r9" target="_blank">Ver video</a>
               <div class="card-actions"><span class="tag">Arquitectura & Poesía</span></div>
             </div>
           </article>
