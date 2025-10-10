@@ -156,7 +156,7 @@ image: assets/images/about/PDT.png
         <!-- 1 -->
   <div class="carousel-item">
           <article class="th-card" >
-            <img src="https://source.unsplash.com/800x600/?hagiasophia,byzantine,mosiac" alt="Hagia Sophia — imagen simbólica">
+            <img src="assets/images/testimonial/1sesion.png" alt="Hagia Sophia — imagen simbólica">
             <div class="th-card-body">
               <div class="meta">Asesora: Dra. Martha Cecilia Jaime González — Tesista: Rodrigo Blum</div>
               <h3 class="title">La descripción arquitectónica en la poesía bizantina temprana: Paulo el Silenciario y la écfrasis de la Iglesia de Hagia Sofía en Constantinopla</h3>
@@ -169,7 +169,7 @@ image: assets/images/about/PDT.png
         <!-- 2 -->
    <div class="carousel-item">
           <article class="th-card">
-            <img src="https://source.unsplash.com/800x600/?manuscript,calligraphy,book" alt="Códice manuscrito">
+            <img src="assets/images/testimonial/2sesion.png" alt="Códice manuscrito">
             <div class="th-card-body">
               <div class="meta">Asesora: Dra. María Leticia López Serratos — Tesista: María de Jesús Tinajero Díaz</div>
               <h3 class="title">Ars metrica de José Jiménez. Edición, traducción y notas</h3>
@@ -182,7 +182,7 @@ image: assets/images/about/PDT.png
         <!-- 3 -->
   <div class="carousel-item">
           <article class="th-card">
-            <img src="https://source.unsplash.com/800x600/?ancient,ritual,mask,myth" alt="Símbolo de ritual y mito">
+            <img src="assets/images/testimonial/3sesion.png" alt="Símbolo de ritual y mito">
             <div class="th-card-body">
               <div class="meta">Asesora: Dra. Evelia Arteaga Conde — Tesista: Santiago Campodonico</div>
               <h3 class="title">Bíos Kaí Zoé: violencia, muerte y redención en el Orfismo</h3>
@@ -195,7 +195,7 @@ image: assets/images/about/PDT.png
         <!-- 4 -->
   <div class="carousel-item">
           <article class="th-card">
-            <img src="https://source.unsplash.com/800x600/?circle,symbol,mandala" alt="Símbolo circular">
+            <img src="assets/images/testimonial/4sesion.png" alt="Símbolo circular">
             <div class="th-card-body">
               <div class="meta">Asesora: Dra. Evelia Arteaga Conde — Tesista: Efraín Ramírez Carrada</div>
               <h3 class="title">El círculo como medio de unicidad con lo divino</h3>
@@ -208,7 +208,7 @@ image: assets/images/about/PDT.png
         <!-- 5 -->
    <div class="carousel-item">
           <article class="th-card">
-            <img src="https://source.unsplash.com/800x600/?book,oldbook,archive" alt="Tratado y códice antiguo">
+            <img src="assets/images/testimonial/5sesion.png" alt="Tratado y códice antiguo">
             <div class="th-card-body">
               <div class="meta">Asesora: Dra. Olivia Isidro Vázquez — Tesista: Mayra Paola Aranda González</div>
               <h3 class="title">Los textos preliminares en el tratado Iuris Spiritualis Practicabilium Libri IV de don Francisco Torreblanca Villalpando</h3>
@@ -221,7 +221,7 @@ image: assets/images/about/PDT.png
         <!-- 6 -->
   <div class="carousel-item">
           <article class="th-card">
-            <img src="https://source.unsplash.com/800x600/?music,instruments,energy" alt="Imagen simbólica de música y energía">
+            <img src="assets/images/testimonial/6sesion.png" alt="Imagen simbólica de música y energía">
             <div class="th-card-body">
               <div class="meta">Asesora: Dra. María Leticia López Serratos — Tesista: Sergio Embleton Márquez</div>
               <h3 class="title">Recepción del concepto de tonus en Aureliano Réome</h3>
@@ -236,7 +236,7 @@ image: assets/images/about/PDT.png
         <!-- 7 -->
    <div class="carousel-item">
           <article class="th-card">
-            <img src="https://source.unsplash.com/800x600/?sappho,poetry,lyre" alt="Safo — poesía y lira">
+            <img src="assets/images/testimonial/7sesion.png" alt="Safo — poesía y lira">
             <div class="th-card-body">
               <div class="meta">Asesora: Dra. Martha Cecilia Jaime González — Tesista: Alejandra González Jiménez</div>
               <h3 class="title">Safo en el borde: edición crítica digital a través de LaTeX y TEI</h3>
@@ -251,7 +251,7 @@ image: assets/images/about/PDT.png
         <!-- 8 -->
   <div class="carousel-item">
           <article class="th-card">
-            <img src="https://source.unsplash.com/800x600/?alchemy,oldbooks,science" alt="Magia, ciencia y libros antiguos">
+            <img src="assets/images/testimonial/8sesion.png" alt="Magia, ciencia y libros antiguos">
             <div class="th-card-body">
               <div class="meta">Asesora: Dra. María Leticia López Serratos — Tesista: Manuel de Jesús Islas Ramírez</div>
               <h3 class="title">Religión, magia y ciencia: prolegomena del De magia universalis naturae et artis de Gaspar Schott</h3>
@@ -266,7 +266,7 @@ image: assets/images/about/PDT.png
         <!-- 9 -->
    <div class="carousel-item">
           <article class="th-card">
-            <img src="https://source.unsplash.com/800x600/?protest,lgbt,media" alt="Medios y activismo">
+            <img src="assets/images/testimonial/9sesion.png" alt="Medios y activismo">
             <div class="th-card-body">
               <div class="meta">Asesoras: Dra. Evelia Arteaga Conde & Dra. Blanca Estela Pérez — Tesista: Marvin Gohan Leyva Cervantes</div>
               <h3 class="title">Medios, letras y crímenes de odio hacia la comunidad LGBT+</h3>
@@ -281,7 +281,7 @@ image: assets/images/about/PDT.png
         <!-- 10 -->
   <div class="carousel-item">
           <article class="th-card">
-            <img src="https://source.unsplash.com/800x600/?conquest,map,oldmap" alt="Mapas antiguos — conquista">
+            <img src="assets/images/testimonial/10sesion.png" alt="Mapas antiguos — conquista">
             <div class="th-card-body">
               <div class="meta">Asesor: Dr. Pedro Emilio Rivera Díaz — Tesista: Michel Dolores Briseño</div>
               <h3 class="title">La Conquista de México en De orbe novo decades de Pedro Mártir de Anglería: edición crítica, traducción y notas</h3>
@@ -296,7 +296,7 @@ image: assets/images/about/PDT.png
         <!-- 11 -->
    <div class="carousel-item">
           <article class="th-card">
-            <img src="https://source.unsplash.com/800x600/?renaissance,letter,portrait" alt="Renacimiento — epístolas">
+            <img src="assets/images/testimonial/11sesion.png" alt="Renacimiento — epístolas">
             <div class="th-card-body">
               <div class="meta">Asesora: Dra. Olivia Isidro Vázquez — Tesista: Andrea Michel Hernández Romero</div>
               <h3 class="title">In muliere virum faciat opus est: Isotta Nogarola y la virtud masculina en tres epístolas renacentistas</h3>
@@ -311,7 +311,7 @@ image: assets/images/about/PDT.png
         <!-- 12 -->
    <div class="carousel-item">
           <article class="th-card">
-            <img src="https://source.unsplash.com/800x600/?shortstories,book,writing" alt="Libro de cuentos — narrativa">
+            <img src="assets/images/testimonial/12sesion.png" alt="Libro de cuentos — narrativa">
             <div class="th-card-body">
               <div class="meta">Asesor: José Luis Gutiérrez Rocha — Tesista: Víctor Manuel Celaya Canto</div>
               <h3 class="title">"Narraciones silenciosas de una tierra desconocida" — Libro de cuentos</h3>
@@ -326,7 +326,7 @@ image: assets/images/about/PDT.png
         <!-- 13 -->
    <div class="carousel-item">
           <article class="th-card">
-            <img src="https://source.unsplash.com/800x600/?medical,greek,teaching" alt="Enseñanza y vocabulario médico">
+            <img src="assets/images/testimonial/13sesion.png" alt="Enseñanza y vocabulario médico">
             <div class="th-card-body">
               <div class="meta">Asesora: Dra. Martha Cecilia Jaime González — Tesista: José Antonio Martínez Hernández</div>
               <h3 class="title">Propuesta didáctica para la enseñanza y análisis de vocabulario médico en griego II</h3>
@@ -341,7 +341,7 @@ image: assets/images/about/PDT.png
         <!-- 14 -->
    <div class="carousel-item">
           <article class="th-card">
-            <img src="https://source.unsplash.com/800x600/?poetry,sea,myth,leander" alt="Écfrasis y mitos">
+            <img src="assets/images/testimonial/14sesion.png" alt="Écfrasis y mitos">
             <div class="th-card-body">
               <div class="meta">Asesora: Dra. Martha Cecilia Jaime González — Tesista: Yasmín Vera Torres</div>
               <h3 class="title">Visualidad y sonoridad en la écfrasis de la poesía tardoantigua: El ahogamiento de Leandro</h3>
@@ -356,7 +356,7 @@ image: assets/images/about/PDT.png
         <!-- 15 -->
   <div class="carousel-item">
           <article class="th-card">
-            <img src="https://source.unsplash.com/800x600/?virgil,epic,teaching,latin" alt="Virgilio y enseñanza">
+            <img src="assets/images/testimonial/15sesion.png" alt="Virgilio y enseñanza">
             <div class="th-card-body">
               <div class="meta">Asesora: Dra. Olivia Isidro Vázquez — Tesista: Ana Magdalena Aparicio Coraza</div>
               <h3 class="title">La poesía épica de Virgilio para CCHeros: secuencia didáctica para Latín I</h3>
@@ -381,7 +381,7 @@ image: assets/images/about/PDT.png
     <!-- Copio las mismas tarjetas pero en versión grid: -->
     <!-- 1 -->
     <article class="th-card">
-      <img src="https://source.unsplash.com/800x600/?hagiasophia,byzantine,mosiac" alt="Hagia Sophia — imagen simbólica">
+      <img src="assets/images/testimonial/6sesion.png" alt="Hagia Sophia — imagen simbólica">
       <div class="th-card-body">
         <div class="meta">Asesora: Dra. Martha Cecilia Jaime González — Tesista: Rodrigo Blum</div>
         <h3 class="title">La descripción arquitectónica en la poesía bizantina temprana: Paulo el Silenciario y la écfrasis de la Iglesia de Hagia Sofía en Constantinopla</h3>
