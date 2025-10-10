@@ -139,7 +139,7 @@ image: assets/images/about/PDT.png
   <div class="th-header">
     <div>
       <h2>Proyectos de Tesis — Ciclo</h2>
-      <p class="th-sub">Galería y resúmenes divulgativos. Desliza el carrusel o consulta la rejilla según prefieras.</p>
+      <p class="th-sub">Desliza el carrusel o consulta la rejilla según prefieras.</p>
     </div>
   </div>
 
