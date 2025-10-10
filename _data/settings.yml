@@ -254,6 +254,12 @@ portfolio-items:
 # Testimonials - Events Section
 
 testimonial-items:
+  - name: "VI Conversatorio 2025"
+    image: "assets/images/testimonial/VICONVER25.png"
+    designation: "Conversatorio 2025"
+    #url: ""
+    #content: "Jueves 31 de agosto de 2023"
+
   - name: "Anuncio 2025"
     image: "assets/images/testimonial/anuncio2025.png"
     designation: "Seminario 2025"

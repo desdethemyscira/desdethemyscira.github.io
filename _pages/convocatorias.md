@@ -1,8 +1,8 @@
 ---
 layout: bio_editable
-title: Convocatorias
+title: Seminario
 author:
-image: assets/images/about/themyscira.png
+image: assets/images/about/DT25.png
 #signature:
 ---
 <style>
