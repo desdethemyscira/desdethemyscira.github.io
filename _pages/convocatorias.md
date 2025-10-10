@@ -376,63 +376,6 @@ image: assets/images/about/PDT.png
     </button>
   </div>
 
-  <!-- ====== REJILLA (GRID) con mismas tarjetas para pantallas grandes ====== -->
-  <div class="grid-wrap" aria-label="Rejilla de tesis">
-    <!-- Copio las mismas tarjetas pero en versión grid: -->
-    <!-- 1 -->
-    <article class="th-card">
-      <img src="assets/images/testimonial/6sesion.png" alt="Hagia Sophia — imagen simbólica">
-      <div class="th-card-body">
-        <div class="meta">Asesora: Dra. Martha Cecilia Jaime González — Tesista: Rodrigo Blum</div>
-        <h3 class="title">La descripción arquitectónica en la poesía bizantina temprana: Paulo el Silenciario y la écfrasis de la Iglesia de Hagia Sofía en Constantinopla</h3>
-        <p class="desc">Rodrigo explora cómo Paulo el Silenciario utiliza la écfrasis para transformar la arquitectura en poesía —una lectura que combina descripción visual, devoción y memoria colectiva de Hagia Sofía— para mostrar cómo lo arquitectónico se vuelve lenguaje poético.</p>
-      </div>
-    </article>
-
-    <!-- 2 -->
-    <article class="th-card">
-      <img src="https://source.unsplash.com/800x600/?manuscript,calligraphy,book" alt="códice manuscrito">
-      <div class="th-card-body">
-        <div class="meta">Asesora: Dra. María Leticia López Serratos — Tesista: María de Jesús Tinajero Díaz</div>
-        <h3 class="title">Ars metrica de José Jiménez. Edición, traducción y notas</h3>
-        <p class="desc">María de Jesús propone una edición crítica y traducción del *Ars metrica*, acompañada de notas explicativas que hacen accesible la métrica clásica y su transmisión, facilitando su estudio tanto a especialistas como a estudiantes.</p>
-      </div>
-    </article>
-
-    <!-- 3 -->
-    <article class="th-card">
-      <img src="https://source.unsplash.com/800x600/?ancient,ritual,mask,myth" alt="ritual y mito">
-      <div class="th-card-body">
-        <div class="meta">Asesora: Dra. Evelia Arteaga Conde — Tesista: Santiago Campodonico</div>
-        <h3 class="title">Bíos Kaí Zoé: violencia, muerte y redención en el Orfismo</h3>
-        <p class="desc">Santiago investiga la tensión entre vida y muerte en el orfismo, examinando relatos de violencia ritual y la promesa de redención, y cómo estas ideas configuraron prácticas religiosas y narrativas simbólicas.</p>
-      </div>
-    </article>
-
-    <!-- 4 -->
-    <article class="th-card">
-      <img src="https://source.unsplash.com/800x600/?circle,symbol,mandala" alt="símbolo circular">
-      <div class="th-card-body">
-        <div class="meta">Asesora: Dra. Evelia Arteaga Conde — Tesista: Efraín Ramírez Carrada</div>
-        <h3 class="title">El círculo como medio de unicidad con lo divino</h3>
-        <p class="desc">Efraín examina el uso del círculo como figura simbólica y práctica ritual, mostrando cómo la forma circular funciona como imagen de totalidad, unidad y diálogo entre humano y divino en tradiciones antiguas.</p>
-      </div>
-    </article>
-
-    <!-- 5 -->
-    <article class="th-card">
-      <img src="https://source.unsplash.com/800x600/?book,oldbook,archive" alt="libros antiguos">
-      <div class="th-card-body">
-        <div class="meta">Asesora: Dra. Olivia Isidro Vázquez — Tesista: Mayra Paola Aranda González</div>
-        <h3 class="title">Los textos preliminares en el tratado Iuris Spiritualis Practicabilium Libri IV</h3>
-        <p class="desc">Mayra Paola se adentra en los textos preliminares de este tratado jurídico-religioso, analizando prólogos, dedicatorias y convenciones paratextuales que ayudan a entender la circulación y usos del derecho espiritual.</p>
-      </div>
-    </article>
-
-    <!-- (Las demás tarjetas están ya incluidas en el carrusel; puedes duplicarlas aquí si deseas que todas aparezcan en la grid también) -->
-
-</div>
-
 <script>
   /* ====== CAROUSEL JS: autoplay, flechas, pausa al hover, touch support ====== */
 
