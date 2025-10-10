@@ -149,12 +149,12 @@ image: assets/images/about/PDT.png
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
     </button>
 
-    <div class="carousel" id="carousel">
+  <div class="carousel" id="carousel">
       <div class="carousel-track" id="carouselTrack">
 
         <!-- Repite este bloque por cada tesis: item + imagen + meta + resumen corto + (botón video opcional) -->
         <!-- 1 -->
-        <div class="carousel-item">
+  <div class="carousel-item">
           <article class="th-card" >
             <img src="https://source.unsplash.com/800x600/?hagiasophia,byzantine,mosiac" alt="Hagia Sophia — imagen simbólica">
             <div class="th-card-body">
@@ -167,7 +167,7 @@ image: assets/images/about/PDT.png
         </div>
 
         <!-- 2 -->
-        <div class="carousel-item">
+   <div class="carousel-item">
           <article class="th-card">
             <img src="https://source.unsplash.com/800x600/?manuscript,calligraphy,book" alt="Códice manuscrito">
             <div class="th-card-body">
@@ -180,7 +180,7 @@ image: assets/images/about/PDT.png
         </div>
 
         <!-- 3 -->
-        <div class="carousel-item">
+  <div class="carousel-item">
           <article class="th-card">
             <img src="https://source.unsplash.com/800x600/?ancient,ritual,mask,myth" alt="Símbolo de ritual y mito">
             <div class="th-card-body">
@@ -193,7 +193,7 @@ image: assets/images/about/PDT.png
         </div>
 
         <!-- 4 -->
-        <div class="carousel-item">
+  <div class="carousel-item">
           <article class="th-card">
             <img src="https://source.unsplash.com/800x600/?circle,symbol,mandala" alt="Símbolo circular">
             <div class="th-card-body">
@@ -206,7 +206,7 @@ image: assets/images/about/PDT.png
         </div>
 
         <!-- 5 -->
-        <div class="carousel-item">
+   <div class="carousel-item">
           <article class="th-card">
             <img src="https://source.unsplash.com/800x600/?book,oldbook,archive" alt="Tratado y códice antiguo">
             <div class="th-card-body">
@@ -219,7 +219,7 @@ image: assets/images/about/PDT.png
         </div>
 
         <!-- 6 -->
-        <div class="carousel-item">
+  <div class="carousel-item">
           <article class="th-card">
             <img src="https://source.unsplash.com/800x600/?music,instruments,energy" alt="Imagen simbólica de música y energía">
             <div class="th-card-body">
@@ -234,7 +234,7 @@ image: assets/images/about/PDT.png
         </div>
 
         <!-- 7 -->
-        <div class="carousel-item">
+   <div class="carousel-item">
           <article class="th-card">
             <img src="https://source.unsplash.com/800x600/?sappho,poetry,lyre" alt="Safo — poesía y lira">
             <div class="th-card-body">
@@ -249,7 +249,7 @@ image: assets/images/about/PDT.png
         </div>
 
         <!-- 8 -->
-        <div class="carousel-item">
+  <div class="carousel-item">
           <article class="th-card">
             <img src="https://source.unsplash.com/800x600/?alchemy,oldbooks,science" alt="Magia, ciencia y libros antiguos">
             <div class="th-card-body">
@@ -264,7 +264,7 @@ image: assets/images/about/PDT.png
         </div>
 
         <!-- 9 -->
-        <div class="carousel-item">
+   <div class="carousel-item">
           <article class="th-card">
             <img src="https://source.unsplash.com/800x600/?protest,lgbt,media" alt="Medios y activismo">
             <div class="th-card-body">
@@ -279,7 +279,7 @@ image: assets/images/about/PDT.png
         </div>
 
         <!-- 10 -->
-        <div class="carousel-item">
+  <div class="carousel-item">
           <article class="th-card">
             <img src="https://source.unsplash.com/800x600/?conquest,map,oldmap" alt="Mapas antiguos — conquista">
             <div class="th-card-body">
@@ -294,7 +294,7 @@ image: assets/images/about/PDT.png
         </div>
 
         <!-- 11 -->
-        <div class="carousel-item">
+   <div class="carousel-item">
           <article class="th-card">
             <img src="https://source.unsplash.com/800x600/?renaissance,letter,portrait" alt="Renacimiento — epístolas">
             <div class="th-card-body">
@@ -309,7 +309,7 @@ image: assets/images/about/PDT.png
         </div>
 
         <!-- 12 -->
-        <div class="carousel-item">
+   <div class="carousel-item">
           <article class="th-card">
             <img src="https://source.unsplash.com/800x600/?shortstories,book,writing" alt="Libro de cuentos — narrativa">
             <div class="th-card-body">
@@ -324,7 +324,7 @@ image: assets/images/about/PDT.png
         </div>
 
         <!-- 13 -->
-        <div class="carousel-item">
+   <div class="carousel-item">
           <article class="th-card">
             <img src="https://source.unsplash.com/800x600/?medical,greek,teaching" alt="Enseñanza y vocabulario médico">
             <div class="th-card-body">
@@ -339,7 +339,7 @@ image: assets/images/about/PDT.png
         </div>
 
         <!-- 14 -->
-        <div class="carousel-item">
+   <div class="carousel-item">
           <article class="th-card">
             <img src="https://source.unsplash.com/800x600/?poetry,sea,myth,leander" alt="Écfrasis y mitos">
             <div class="th-card-body">
@@ -354,7 +354,7 @@ image: assets/images/about/PDT.png
         </div>
 
         <!-- 15 -->
-        <div class="carousel-item">
+  <div class="carousel-item">
           <article class="th-card">
             <img src="https://source.unsplash.com/800x600/?virgil,epic,teaching,latin" alt="Virgilio y enseñanza">
             <div class="th-card-body">
@@ -368,10 +368,10 @@ image: assets/images/about/PDT.png
           </article>
         </div>
 
-      </div>
+   </div>
     </div>
 
-    <button class="carousel-btn right" id="nextBtn" aria-label="Siguiente">
+  <button class="carousel-btn right" id="nextBtn" aria-label="Siguiente">
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z"/></svg>
     </button>
   </div>
