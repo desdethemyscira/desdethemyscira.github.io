@@ -12,7 +12,7 @@ image: assets/images/about/PDT.png
   <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;transition:all 0.3s ease;cursor:pointer;"
            onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.15)';"
            onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)';">
-    <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=60" 
+    <img src="assets/images/testimonial/1sesion.png" 
          alt="Imagen tesis" style="width:100%;height:180px;object-fit:cover;">
     <div style="padding:1.5rem;">
       <h3 style="color:#5b3a1a;font-family:'Papyrus', cursive; font-size:1.25rem;">Rodrigo Blum</h3>
