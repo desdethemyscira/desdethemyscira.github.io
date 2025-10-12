@@ -1,6 +1,6 @@
 ---
 layout: bio_editable
-title: Seminario
+title: Seminario 1
 author:
 image: assets/images/about/PDT.png
 #signature:

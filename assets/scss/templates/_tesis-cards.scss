@@ -1,0 +1,74 @@
+$color-titulo: #7a4a2d;
+$color-boton: #a28b72;
+$color-boton-hover: #85694a;
+
+.tesis-cards-grid {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.tesis-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  }
+
+  img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+
+  .card-content {
+    padding: 1.5rem;
+
+    .tesista {
+      color: #5b3a1a;
+      font-family: 'Papyrus', cursive;
+      font-size: 1.25rem;
+    }
+
+    .asesor {
+      color: #4a3f35;
+      font-size: 0.9rem;
+      margin: 0.2rem 0;
+    }
+
+    .titulo {
+      color: $color-titulo;
+      font-size: 1rem;
+      font-style: italic;
+      margin: 0.5rem 0;
+    }
+
+    .resumen {
+      color: #4a3f35;
+      font-size: 0.9rem;
+      margin: 0.5rem 0;
+    }
+
+    .boton {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.5rem 0.9rem;
+      background: $color-boton;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background: $color-boton-hover;
+      }
+    }
+  }
+}
