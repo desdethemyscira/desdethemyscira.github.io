@@ -9,7 +9,9 @@ image: assets/images/about/PDT.png
   <h2 style="text-align:center;color:#4a3f35;font-size:2rem;margin-bottom:40px;">Presentaciones de tesis — Ciclo académico</h2>
 
   <!-- Sesión 1 -->
-  <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;">
+  <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;transition:all 0.3s ease;cursor:pointer;"
+           onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.15)';"
+           onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)';">
     <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=60" 
          alt="Imagen tesis" style="width:100%;height:180px;object-fit:cover;">
     <div style="padding:1.5rem;">
@@ -25,7 +27,9 @@ image: assets/images/about/PDT.png
   </article>
 
   <!-- Sesión 2 -->
-  <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;">
+  <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;transition:all 0.3s ease;cursor:pointer;"
+           onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.15)';"
+           onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)';">
     <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=60" 
          alt="Imagen tesis" style="width:100%;height:180px;object-fit:cover;">
     <div style="padding:1.5rem;">
@@ -41,7 +45,9 @@ image: assets/images/about/PDT.png
   </article>
 
   <!-- Sesión 3 -->
-  <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;">
+  <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;transition:all 0.3s ease;cursor:pointer;"
+           onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.15)';"
+           onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)';">
     <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=60" 
          alt="Imagen tesis" style="width:100%;height:180px;object-fit:cover;">
     <div style="padding:1.5rem;">
@@ -57,7 +63,9 @@ image: assets/images/about/PDT.png
   </article>
 
   <!-- Sesión 4 -->
-  <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;">
+  <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;transition:all 0.3s ease;cursor:pointer;"
+           onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.15)';"
+           onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)';">
     <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=60" 
          alt="Imagen tesis" style="width:100%;height:180px;object-fit:cover;">
     <div style="padding:1.5rem;">
@@ -73,7 +81,9 @@ image: assets/images/about/PDT.png
   </article>
 
   <!-- Sesión 5 -->
-  <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;">
+  <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;transition:all 0.3s ease;cursor:pointer;"
+           onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.15)';"
+           onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)';">
     <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=60" 
          alt="Imagen tesis" style="width:100%;height:180px;object-fit:cover;">
     <div style="padding:1.5rem;">
@@ -83,13 +93,15 @@ image: assets/images/about/PDT.png
         Los textos preliminares en el tratado Iuris Spiritualis Practicabilium Libri IV de don Francisco Torreblanca Villalpando
       </p>
       <p style="color:#4a3f35;font-size:0.9rem;margin:0.5rem 0;">
-        Mayra Paola analiza los textos preliminares del Iuris Spiritualis Practicabilium Libri IV de Torreblanca Villalpando, mostrando cómo el autor articula retórica, derecho y espiritualidad en el contexto barroco.
+        Mayra analiza los textos preliminares de Torreblanca, explorando la estructura y la intención doctrinal del tratado Iuris Spiritualis, ofreciendo una visión crítica y contextualizada de la obra.
       </p>
     </div>
   </article>
 
   <!-- Sesión 6 -->
-  <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;">
+  <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;transition:all 0.3s ease;cursor:pointer;"
+           onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.15)';"
+           onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)';">
     <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=60"
          alt="Imagen tesis" style="width:100%;height:180px;object-fit:cover;">
     <div style="padding:1.5rem;">
@@ -99,16 +111,21 @@ image: assets/images/about/PDT.png
         Recepción del concepto de tonus en Aureliano Réome
       </p>
       <p style="color:#4a3f35;font-size:0.9rem;margin:0.5rem 0;">
-        Sergio estudia cómo se recibe y se interpreta el concepto de tonus en la obra de Aureliano Réome, iluminando su aplicación musical y teórica.
+        Sergio estudia cómo se recibe y se interpreta el concepto de tonus en la obra de Aureliano Réome, contribuyendo al entendimiento de la teoría musical en contextos históricos.
       </p>
-      <a href="https://youtu.be/i6J0hoD5Od8?si=tATJb4KWGukmnFjW" target="_blank" style="display:inline-block;margin-top:0.5rem;padding:0.5rem 0.9rem;background:#a28b72;color:white;text-decoration:none;border-radius:6px;">
+      <a href="https://youtu.be/i6J0hoD5Od8?si=tATJb4KWGukmnFjW" target="_blank"
+         style="display:inline-block;margin-top:0.5rem;padding:0.5rem 0.9rem;background:#a28b72;color:white;text-decoration:none;border-radius:6px;transition:all 0.3s ease;"
+         onmouseover="this.style.background='#85694a';"
+         onmouseout="this.style.background='#a28b72';">
         🎥 Ver presentación
       </a>
     </div>
   </article>
 
   <!-- Sesión 7 -->
-  <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;">
+  <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;transition:all 0.3s ease;cursor:pointer;"
+           onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.15)';"
+           onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)';">
     <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=60"
          alt="Imagen tesis" style="width:100%;height:180px;object-fit:cover;">
     <div style="padding:1.5rem;">
@@ -120,14 +137,19 @@ image: assets/images/about/PDT.png
       <p style="color:#4a3f35;font-size:0.9rem;margin:0.5rem 0;">
         Alejandra propone una edición crítica digital de la poesía de Safo usando LaTeX y TEI, preservando la fidelidad textual y ofreciendo una experiencia interactiva que facilita el estudio y análisis de los fragmentos de la autora.
       </p>
-      <a href="https://youtu.be/lCR7VZ4bPRI?si=_mkxbBWq0r9" target="_blank" style="display:inline-block;margin-top:0.5rem;padding:0.5rem 0.9rem;background:#a28b72;color:white;text-decoration:none;border-radius:6px;">
+      <a href="https://youtu.be/lCR7VZ4bPRI?si=_mkxbBWq0r9" target="_blank"
+         style="display:inline-block;margin-top:0.5rem;padding:0.5rem 0.9rem;background:#a28b72;color:white;text-decoration:none;border-radius:6px;transition:all 0.3s ease;"
+         onmouseover="this.style.background='#85694a';"
+         onmouseout="this.style.background='#a28b72';">
         🎥 Ver presentación
       </a>
     </div>
   </article>
 
   <!-- Sesión 8 -->
-  <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;">
+  <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;transition:all 0.3s ease;cursor:pointer;"
+           onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.15)';"
+           onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)';">
     <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=60"
          alt="Imagen tesis" style="width:100%;height:180px;object-fit:cover;">
     <div style="padding:1.5rem;">
@@ -137,16 +159,21 @@ image: assets/images/about/PDT.png
         Religión, magia y ciencia: de los prolegomena del De magia universalis maturae et artis de Gaspar Schott
       </p>
       <p style="color:#4a3f35;font-size:0.9rem;margin:0.5rem 0;">
-        Manuel analiza los prolegómenos de Gaspar Schott, mostrando la interrelación entre religión, magia y ciencia en la obra científica y filosófica del siglo XVII.
+        Manuel analiza los prolegomena de Gaspar Schott, explorando la interacción entre religión, magia y ciencia en la obra, mostrando cómo se conciben los saberes universales en el contexto del siglo XVII.
       </p>
-      <a href="https://youtu.be/B4_e3S0Z7sc?si=oGARIZJXet64Gcbg" target="_blank" style="display:inline-block;margin-top:0.5rem;padding:0.5rem 0.9rem;background:#a28b72;color:white;text-decoration:none;border-radius:6px;">
+      <a href="https://youtu.be/B4_e3S0Z7sc?si=oGARIZJXet64Gcbg" target="_blank"
+         style="display:inline-block;margin-top:0.5rem;padding:0.5rem 0.9rem;background:#a28b72;color:white;text-decoration:none;border-radius:6px;transition:all 0.3s ease;"
+         onmouseover="this.style.background='#85694a';"
+         onmouseout="this.style.background='#a28b72';">
         🎥 Ver presentación
       </a>
     </div>
   </article>
 
   <!-- Sesión 9 -->
-  <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;">
+  <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;transition:all 0.3s ease;cursor:pointer;"
+           onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.15)';"
+           onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)';">
     <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=60"
          alt="Imagen tesis" style="width:100%;height:180px;object-fit:cover;">
     <div style="padding:1.5rem;">
@@ -156,16 +183,21 @@ image: assets/images/about/PDT.png
         Medios, letras y crímenes de odio hacia la comunidad LGBT+
       </p>
       <p style="color:#4a3f35;font-size:0.9rem;margin:0.5rem 0;">
-        Marvin analiza el tratamiento mediático y literario de los crímenes de odio contra la comunidad LGBT+, subrayando el papel de la palabra como medio de resistencia y denuncia social.
+        Marvin analiza cómo los medios de comunicación y el lenguaje pueden contribuir a los crímenes de odio contra la comunidad LGBT+, proponiendo un enfoque crítico para combatir la discriminación.
       </p>
-      <a href="https://youtu.be/mXm00WOQAXs?si=NlNQ-_g2k5rpOEpS" target="_blank" style="display:inline-block;margin-top:0.5rem;padding:0.5rem 0.9rem;background:#a28b72;color:white;text-decoration:none;border-radius:6px;">
+      <a href="https://youtu.be/mXm00WOQAXs?si=NlNQ-_g2k5rpOEpS" target="_blank"
+         style="display:inline-block;margin-top:0.5rem;padding:0.5rem 0.9rem;background:#a28b72;color:white;text-decoration:none;border-radius:6px;transition:all 0.3s ease;"
+         onmouseover="this.style.background='#85694a';"
+         onmouseout="this.style.background='#a28b72';">
         🎥 Ver presentación
       </a>
     </div>
   </article>
 
   <!-- Sesión 10 -->
-  <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;">
+  <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;transition:all 0.3s ease;cursor:pointer;"
+           onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.15)';"
+           onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)';">
     <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=60"
          alt="Imagen tesis" style="width:100%;height:180px;object-fit:cover;">
     <div style="padding:1.5rem;">
@@ -175,16 +207,21 @@ image: assets/images/about/PDT.png
         La Conquista de México en De orbe novo decades de Pedro Mártir de Anglería: edición crítica, traducción y notas
       </p>
       <p style="color:#4a3f35;font-size:0.9rem;margin:0.5rem 0;">
-        Michel presenta una edición crítica y traducción de las <em>Décadas</em> de Pedro Mártir de Anglería, resaltando la visión humanista europea sobre la Conquista de México.
+        Michel realiza una edición crítica, traducción y anotación de la obra de Pedro Mártir de Anglería, explorando la narrativa de la Conquista de México y su relevancia histórica.
       </p>
-      <a href="https://youtu.be/UVxpqnM0_Dw?si=hkPQ1ckvKtb6v4DI" target="_blank" style="display:inline-block;margin-top:0.5rem;padding:0.5rem 0.9rem;background:#a28b72;color:white;text-decoration:none;border-radius:6px;">
+      <a href="https://youtu.be/UVxpqnM0_Dw?si=hkPQ1ckvKtb6v4DI" target="_blank"
+         style="display:inline-block;margin-top:0.5rem;padding:0.5rem 0.9rem;background:#a28b72;color:white;text-decoration:none;border-radius:6px;transition:all 0.3s ease;"
+         onmouseover="this.style.background='#85694a';"
+         onmouseout="this.style.background='#a28b72';">
         🎥 Ver presentación
       </a>
     </div>
   </article>
 
   <!-- Sesión 11 -->
-  <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;">
+  <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;transition:all 0.3s ease;cursor:pointer;"
+           onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.15)';"
+           onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)';">
     <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=60"
          alt="Imagen tesis" style="width:100%;height:180px;object-fit:cover;">
     <div style="padding:1.5rem;">
@@ -194,16 +231,21 @@ image: assets/images/about/PDT.png
         In muliere virum faciat opus est: Isotta Nogorola y la virtud masculina en tres epístolas renacentistas
       </p>
       <p style="color:#4a3f35;font-size:0.9rem;margin:0.5rem 0;">
-        Andrea analiza tres epístolas de Isotta Nogarola desde una perspectiva de género, mostrando cómo la autora desafía los modelos masculinos de virtud intelectual en el Renacimiento.
+        Andrea analiza las epístolas renacentistas de Isotta Nogorola, reflexionando sobre la construcción de la virtud masculina y su relación con la perspectiva femenina en la escritura humanista.
       </p>
-      <a href="https://youtu.be/EdG8reHEQWE?si=1kwz9LbjTiFknj1L" target="_blank" style="display:inline-block;margin-top:0.5rem;padding:0.5rem 0.9rem;background:#a28b72;color:white;text-decoration:none;border-radius:6px;">
+      <a href="https://youtu.be/EdG8reHEQWE?si=1kwz9LbjTiFknj1L" target="_blank"
+         style="display:inline-block;margin-top:0.5rem;padding:0.5rem 0.9rem;background:#a28b72;color:white;text-decoration:none;border-radius:6px;transition:all 0.3s ease;"
+         onmouseover="this.style.background='#85694a';"
+         onmouseout="this.style.background='#a28b72';">
         🎥 Ver presentación
       </a>
     </div>
   </article>
 
   <!-- Sesión 12 -->
-  <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;">
+  <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;transition:all 0.3s ease;cursor:pointer;"
+           onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.15)';"
+           onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)';">
     <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=60"
          alt="Imagen tesis" style="width:100%;height:180px;object-fit:cover;">
     <div style="padding:1.5rem;">
@@ -213,16 +255,21 @@ image: assets/images/about/PDT.png
         "Narraciones silenciosas de una tierra desconocida" Libro de cuentos
       </p>
       <p style="color:#4a3f35;font-size:0.9rem;margin:0.5rem 0;">
-        Víctor presenta una colección de cuentos que exploran el silencio, la memoria y la identidad, construyendo un paisaje literario íntimo y simbólico.
+        Víctor presenta un libro de cuentos que explora territorios desconocidos y silencios narrativos, combinando ficción y reflexión sobre lo cotidiano y lo extraordinario.
       </p>
-      <a href="https://youtu.be/LFIzc10g1Fg?si=wrtS1wchPLojGHq5" target="_blank" style="display:inline-block;margin-top:0.5rem;padding:0.5rem 0.9rem;background:#a28b72;color:white;text-decoration:none;border-radius:6px;">
+      <a href="https://youtu.be/LFIzc10g1Fg?si=wrtS1wchPLojGHq5" target="_blank"
+         style="display:inline-block;margin-top:0.5rem;padding:0.5rem 0.9rem;background:#a28b72;color:white;text-decoration:none;border-radius:6px;transition:all 0.3s ease;"
+         onmouseover="this.style.background='#85694a';"
+         onmouseout="this.style.background='#a28b72';">
         🎥 Ver presentación
       </a>
     </div>
   </article>
 
   <!-- Sesión 13 -->
-  <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;">
+  <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;transition:all 0.3s ease;cursor:pointer;"
+           onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.15)';"
+           onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)';">
     <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=60"
          alt="Imagen tesis" style="width:100%;height:180px;object-fit:cover;">
     <div style="padding:1.5rem;">
@@ -232,35 +279,45 @@ image: assets/images/about/PDT.png
         Propuesta didáctica para la enseñanza y análisis de vocabulario médico en la asignatura de griego II del Colegio de Ciencias y Humanidades
       </p>
       <p style="color:#4a3f35;font-size:0.9rem;margin:0.5rem 0;">
-        José Antonio diseña una propuesta didáctica para el aprendizaje del vocabulario médico en griego, adaptada a las necesidades de los estudiantes del CCH.
+        José Antonio propone una estrategia didáctica para enseñar vocabulario médico en griego, combinando análisis de textos y ejercicios prácticos para mejorar la comprensión y el aprendizaje en CCH.
       </p>
-      <a href="https://youtu.be/N-g-9b1m4s8?si=hDQ3FXVUZHVar4m6" target="_blank" style="display:inline-block;margin-top:0.5rem;padding:0.5rem 0.9rem;background:#a28b72;color:white;text-decoration:none;border-radius:6px;">
+      <a href="https://youtu.be/N-g-9b1m4s8?si=hDQ3FXVUZHVar4m6" target="_blank"
+         style="display:inline-block;margin-top:0.5rem;padding:0.5rem 0.9rem;background:#a28b72;color:white;text-decoration:none;border-radius:6px;transition:all 0.3s ease;"
+         onmouseover="this.style.background='#85694a';"
+         onmouseout="this.style.background='#a28b72';">
         🎥 Ver presentación
       </a>
     </div>
   </article>
 
   <!-- Sesión 14 -->
-  <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;">
+  <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;transition:all 0.3s ease;cursor:pointer;"
+           onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.15)';"
+           onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)';">
     <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=60"
          alt="Imagen tesis" style="width:100%;height:180px;object-fit:cover;">
     <div style="padding:1.5rem;">
       <h3 style="color:#5b3a1a;font-family:'Papyrus', cursive; font-size:1.25rem;">Yasmín Vera Torres</h3>
       <p style="color:#4a3f35;font-size:0.9rem;margin:0.2rem 0;"><strong>Asesora:</strong> Dra. Martha Cecilia Jaime González</p>
       <p style="color:#7a4a2d;font-size:1rem;font-style:italic;margin:0.5rem 0;">
-        Visualidad y sonoridad en la écfrasis de la poesía tardoantigua. El ahogamiento de Leandro (Museo, Hero y Leandro, vv. 309 – 343)
+        Visualidad y sonoridad en la écfrasis de la poesía tardoantigua. El ahogamiento de Leandro (Museo, Hero y Leandro, vv. 309–343)
       </p>
       <p style="color:#4a3f35;font-size:0.9rem;margin:0.5rem 0;">
-        Yasmín explora cómo la visualidad y la sonoridad en la poesía tardoantigua potencian la experiencia estética, tomando como ejemplo el episodio del ahogamiento de Leandro.
+        Yasmín explora la interacción entre imagen y sonido en la poesía tardoantigua, analizando cómo la écfrasis de Leandro y Hero transmite sensaciones visuales y auditivas al lector.
       </p>
-      <a href="https://youtu.be/CssT9A4iD28?si=X9uGqeq4UT_O-ugt" target="_blank" style="display:inline-block;margin-top:0.5rem;padding:0.5rem 0.9rem;background:#a28b72;color:white;text-decoration:none;border-radius:6px;">
+      <a href="https://youtu.be/CssT9A4iD28?si=X9uGqeq4UT_O-ugt" target="_blank"
+         style="display:inline-block;margin-top:0.5rem;padding:0.5rem 0.9rem;background:#a28b72;color:white;text-decoration:none;border-radius:6px;transition:all 0.3s ease;"
+         onmouseover="this.style.background='#85694a';"
+         onmouseout="this.style.background='#a28b72';">
         🎥 Ver presentación
       </a>
     </div>
   </article>
 
   <!-- Sesión 15 -->
-  <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;">
+  <article style="background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:20px;transition:all 0.3s ease;cursor:pointer;"
+           onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 10px 20px rgba(0,0,0,0.15)';"
+           onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 8px rgba(0,0,0,0.08)';">
     <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=800&q=60"
          alt="Imagen tesis" style="width:100%;height:180px;object-fit:cover;">
     <div style="padding:1.5rem;">
@@ -270,9 +327,12 @@ image: assets/images/about/PDT.png
         La poesía épica de Virgilio para CCHeros. Propuesta de secuencia didáctica para asignatura Latín I del Colegio de Ciencias y Humanidades de la UNAM
       </p>
       <p style="color:#4a3f35;font-size:0.9rem;margin:0.5rem 0;">
-        Ana Magdalena desarrolla una secuencia didáctica centrada en la poesía épica de Virgilio, acercando los clásicos a los estudiantes del CCH de manera práctica y motivadora.
+        Ana Magdalena propone una secuencia didáctica para enseñar la poesía épica de Virgilio a estudiantes de Latín I, combinando análisis literario y actividades pedagógicas para CCH.
       </p>
-      <a href="https://youtu.be/3AuvrWr_vMI?si=t-78pKtYxru3eA2e" target="_blank" style="display:inline-block;margin-top:0.5rem;padding:0.5rem 0.9rem;background:#a28b72;color:white;text-decoration:none;border-radius:6px;">
+      <a href="https://youtu.be/3AuvrWr_vMI?si=t-78pKtYxru3eA2e" target="_blank"
+         style="display:inline-block;margin-top:0.5rem;padding:0.5rem 0.9rem;background:#a28b72;color:white;text-decoration:none;border-radius:6px;transition:all 0.3s ease;"
+         onmouseover="this.style.background='#85694a';"
+         onmouseout="this.style.background='#a28b72';">
         🎥 Ver presentación
       </a>
     </div>
