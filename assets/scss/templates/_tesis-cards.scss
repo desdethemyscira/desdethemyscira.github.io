@@ -1,31 +1,37 @@
 $color-titulo: #7a4a2d;
 $color-boton: #a28b72;
 $color-boton-hover: #85694a;
+$color-fondo: #f4ecd8; // tono pergamino
 
 .tesis-cards-grid {
   display: grid;
   gap: 20px;
-  padding: 20px;
+  padding: 40px;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+  background: url('pergamino-textura.jpg') repeat; // imagen de pergamino
+  background-size: cover;
+  border-radius: 12px;
 }
 
 .tesis-card {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.9); // ligeramente transparente sobre pergamino
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   transition: all 0.3s ease;
   cursor: pointer;
 
   &:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.25);
   }
 
   img {
     width: 100%;
     height: 180px;
     object-fit: cover;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
   }
 
   .card-content {
@@ -64,10 +70,12 @@ $color-boton-hover: #85694a;
       color: white;
       text-decoration: none;
       border-radius: 6px;
+      font-weight: bold;
       transition: all 0.3s ease;
 
       &:hover {
         background: $color-boton-hover;
+        transform: scale(1.05);
       }
     }
   }
