@@ -16,7 +16,7 @@ menu:
 - {name: Memorias, link: '/desdethemyscira.github.io/portfolio'}
 - {name: Eventos, link: '/desdethemyscira.github.io/eventos'}
 - {name: Seminario, link: '/desdethemyscira.github.io/convocatorias'}
-- {name: Seminario2, link: '/desdethemyscira.github.io/tesis-cards'}
+#- {name: Seminario2, link: '/desdethemyscira.github.io/tesis-cards'}
 - {name: Contacto, link: '/desdethemyscira.github.io/contact'}
 
 
