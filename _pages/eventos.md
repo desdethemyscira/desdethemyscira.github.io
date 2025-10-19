@@ -35,7 +35,6 @@ El programa para este conversatorio estará disponible en el siguiente enlace y 
     marginheight="0" 
     marginwidth="0" 
     allowfullscreen>
-    Cargando…
   </iframe>
 </div>
 
