@@ -28,14 +28,10 @@ Te invitamos a seguir nuestras redes sociales para obtener más información sob
 
 El programa para este conversatorio estará disponible en el siguiente enlace y nuestro [Facebook](https://www.facebook.com/desdethemyscira/). Mantente atento a las actualizaciones para asegurarte de obtener tu lugar.
 
-<div class="responsive-form pergamino">
-  <iframe 
-    src="https://docs.google.com/forms/d/e/1FAIpQLSerl3zLhauZvvw2BHiRRkhPg1zLpxZrYXVpExivNKir_s9thg/viewform?embedded=true" 
-    frameborder="0" 
-    marginheight="0" 
-    marginwidth="0" 
-    allowfullscreen>
-  </iframe>
-</div>
+
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSerl3zLhauZvvw2BHiRRkhPg1zLpxZrYXVpExivNKir_s9thg/viewform?embedded=true" width="640" height="1929" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+
 
 ##### ¡Nos vemos en noviembre!
