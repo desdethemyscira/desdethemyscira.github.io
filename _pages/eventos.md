@@ -23,12 +23,9 @@ En este sentido, consideramos que las prácticas de cuidado en la Antigüedad, a
 
 En esta VI Emisión de los Conversatorios nos dedicaremos a presentar las diversas posturas y  propuestas en torno a las labores de mantenimiento entendidas desde dos polos, por un lado, el  valor que éstas tienen para el sustento de la sociedad en su conjunto y, por otro, la problematización  que ha provocado que la mitad de la población se vea sometida a la realización de dichas labores.  
 
-Te invitamos a seguir nuestras redes sociales para obtener más información sobre el **programa completo** 
-¡No te pierdas esta oportunidad de reflexionar y debatir sobre las relaciones de género en una de las civilizaciones más influyentes de la historia!
+Te invitamos a seguir nuestras redes sociales [Facebook](https://www.facebook.com/desdethemyscira/) e [Instagram](https://www.instagram.com/desdethemyscira/) para obtener más información sobre el **programa completo**.
 
-El programa para este conversatorio estará disponible en el siguiente enlace y nuestro [Facebook](https://www.facebook.com/desdethemyscira/). Mantente atento a las actualizaciones para asegurarte de obtener tu lugar.
-
-
+Mantente atento a las actualizaciones para asegurarte de obtener tu lugar.
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSerl3zLhauZvvw2BHiRRkhPg1zLpxZrYXVpExivNKir_s9thg/viewform?embedded=true" width="640" height="1929" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
