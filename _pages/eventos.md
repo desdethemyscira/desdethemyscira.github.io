@@ -6,11 +6,11 @@ image: assets/images/about/DTCONV6.png
 #signature:
 ---
 <img  width="100%"
-src="/assets/images/testimonial/VICONVER25.png" />
+src="/assets/images/testimonial/7conver.png" />
 
-**🏛️ VI Conversatorio**
+**🏛️ VII Conversatorio**
 
-**🗓️ Fecha: Del 05 al 07 de noviembre de 2023**
+**🗓️ Fecha: Del 09 al 13 de noviembre de 2026**
 
 El grupo horizontal de investigación **Desde Themyscira** se complace en anunciar la **VI Emisión de los Conversatorios de Estudios Clásicos** titulada **_la mujer y los cuidados. Entre sometimiento y sustento_**, que se llevará a cabo de manera virtual durante la primera semana de noviembre de 2025. 
 
