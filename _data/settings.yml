@@ -254,6 +254,12 @@ portfolio-items:
 # Testimonials - Events Section
 
 testimonial-items:
+  - name: "Tres espacios de control femenino desde la Grecia clásica y la Roma imperial ..."
+    image: "assets/images/testimonial/20sesion.png"
+    designation: "Vigésima sesión virtual"
+    url: "https://forms.gle/EzwoDsQNsTA8DdYn6"
+    #content: "Jueves 31 de agosto de 2023"
+
   - name: "El espacio performátivo a través del cuerpo y el afecto en Bacantes de Eurípides "
     image: "assets/images/testimonial/19sesion.png"
     designation: "Decimonovena sesión virtual"
