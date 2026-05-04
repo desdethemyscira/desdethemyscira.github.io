@@ -13,7 +13,7 @@ copyright: Copyright &copy; 2024 Designed with 🖤 by <a href = "http://alejand
 menu:
 - {name: Acerca de, link: '/desdethemyscira.github.io/about'}
 - {name: Blog, link: '/desdethemyscira.github.io/blog'}
-- #{name: Memorias, link: '/desdethemyscira.github.io/portfolio'}
+- {name: Memorias, link: '/desdethemyscira.github.io/portfolio'}
 - {name: Eventos, link: '/desdethemyscira.github.io/eventos'}
 - {name: VII Conversatorio, link: '/desdethemyscira.github.io/convocatorias'}
 - {name: Contacto, link: '/desdethemyscira.github.io/contact'}
