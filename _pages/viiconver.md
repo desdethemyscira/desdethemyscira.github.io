@@ -26,7 +26,7 @@ Para más información consulta nuestra convocatoria completa en: [VII Conversat
 **NOTA: En todos las líneas temáticas se incluirán propuestas que estudien tanto el mundo antiguo grecolatino como sus reescrituras y reinterpretaciones posteriores.**
 
 
-###### Envío de propuestas:
+##### Envío de propuestas:
 
 Las actividades se desarrollarán de manera presencial; no obstante, se podrán considerar participaciones virtuales en caso necesario.
 Las propuestas deberán ser enviadas mediante el siguiente formulario y deberán incluir:
