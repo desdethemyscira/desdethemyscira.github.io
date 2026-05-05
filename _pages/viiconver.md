@@ -31,7 +31,7 @@ Para más información consulta nuestra convocatoria completa en: [VII Conversat
 Las actividades se desarrollarán de manera presencial; no obstante, se podrán considerar participaciones virtuales en caso necesario.
 Las propuestas deberán ser enviadas mediante el siguiente formulario y deberán incluir:
 
-<h3>Requisitos para el envío de propuestas:</h3>
+<h5>Requisitos para el envío de propuestas:</h5>
 <ol>
   <li>Título de la ponencia</li>
   <li>Sugerencia de línea temática</li>
@@ -65,7 +65,7 @@ Las propuestas deberán ser enviadas mediante el siguiente formulario y deberán
 </p>
 
 <p>
-  Diseño: <a href="https://desdethemysciraffyl.mx/bio_ale">Alejandra González Jiménez</a>
+  Diseño: <li> <a href="https://desdethemysciraffyl.mx/bio_ale">Alejandra González Jiménez</a> </span></li>
 </p>
 
 Te invitamos a seguir nuestras redes sociales [Facebook](https://www.facebook.com/desdethemyscira/) e [Instagram](https://www.instagram.com/desdethemyscira/) para mantenerte actualizado. 
