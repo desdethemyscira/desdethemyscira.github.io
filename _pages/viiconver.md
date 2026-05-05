@@ -9,7 +9,7 @@ image: assets/images/about/viiposter.png
 src="/assets/images/testimonial/7conver.png" />
 
 
-<span style="color: #800080; font-weight: bold;">[VII Conversatorio Letras Clásicas “Agencia femenina: genealogías en la tradición clásica y sus reescrituras”](https://www.facebook.com/desdethemyscira/posts/pfbid033ssL6VUpC2pdYrAmwUt9soTJWG3Ssm1VDWkcgx7M59KKPe125nzAiLoQZ7teaC5pl)</span>
+<span style="color: #800080; font-weight: bold;">VII Conversatorio Letras Clásicas “Agencia femenina: genealogías en la tradición clásica y sus reescrituras”</span>
 
 **🗓️ Fecha: Del 09 al 13 de noviembre de 2026** 
 
