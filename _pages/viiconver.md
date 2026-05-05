@@ -8,8 +8,7 @@ image: assets/images/about/viiposter.png
 <img  width="100%"
 src="/assets/images/testimonial/7conver.png" />
 
-
-<span style="color: #800080; font-weight: bold;">VII Conversatorio Letras Clásicas “Agencia femenina: genealogías en la tradición clásica y sus reescrituras”</span>
+<h1> <span style="color: #800080; font-weight: bold;">VII Conversatorio Letras Clásicas “Agencia femenina: genealogías en la tradición clásica y sus reescrituras”</span> </h1>
 
 **🗓️ Fecha: Del 09 al 13 de noviembre de 2026** 
 
