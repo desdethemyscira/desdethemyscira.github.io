@@ -31,33 +31,41 @@ Para más información consulta nuestra convocatoria completa en: [VII Conversat
 Las actividades se desarrollarán de manera presencial; no obstante, se podrán considerar participaciones virtuales en caso necesario.
 Las propuestas deberán ser enviadas mediante el siguiente formulario y deberán incluir:
 
-[Envia tu propuesta aquí](https://forms.gle/Rwuy5hGKWXHpTr8QA)
+<h3>Requisitos para el envío de propuestas:</h3>
+<ol>
+  <li>Título de la ponencia</li>
+  <li>Sugerencia de línea temática</li>
+  <li>Resumen de máximo 300 palabras</li>
+  <li>Nombre, afiliación institucional y correo electrónico</li>
+  <li>Breve semblanza curricular (máximo 10 líneas)</li>
+  <li>Las ponencias no deberán exceder 20 minutos</li>
+  <li>Indicar si es ponencia individual o colectiva de máximo 3 integrantes. También se pueden proponer mesas temáticas de máximo 5 integrantes</li>
+</ol>
 
-1. Título de la ponencia 
-2. Sugerencia de línea temática 
-3. Resumen de máximo 300 palabras 
-4. Nombre, afiliación institucional y correo electrónico
-5. Breve semblanza curricular (máximo 10 líneas)
-6. Las ponencias no deberán exceder 20 minutos
-7. Indicar si es ponencia individual o colectiva de máximo 3 integrantes. También se pueden proponer mesas temáticas de máximo 5 integrantes
+[Envia tu propuesta aquí](https://forms.gle/Rwuy5hGKWXHpTr8QA)
 
 *Evento gratuito tanto para ponentes como para asistentes. Se dará constancia con el 80% de asistencia.*
 
-**Fechas a tomar en cuenta**
-Fecha límite de registro de resúmenes: <span style="color: purple;">15 de junio de 2026</span>
-Notificación de aceptación: <span style="color: purple;">30 de julio de 2026</span>
-Conversatorios: <span style="color: purple;">semana del 9 al 13 de noviembre de 2026</span>
+<h3>Fechas a tomar en cuenta:</h3>
+<ul>
+  <li>Fecha límite de registro de resúmenes: <span style="color: #800080; font-weight: bold;">15 de junio de 2026</span></li>
+  <li>Notificación de aceptación: <span style="color: #800080; font-weight: bold;">30 de julio de 2026</span></li>
+  <li>Conversatorios: <span style="color: #800080; font-weight: bold;">semana del 9 al 13 de noviembre de 2026</span></li>
+</ul>
 
-**Comité de organizadoras:**
-Jeannet Ugalde Quintana
-Marianela Santoveña Rodríguez
-[Martha Cecilia Jaime González](https://desdethemysciraffyl.mx/bio_cecilia)
-[Olivia Isidro Vázquez](https://desdethemysciraffyl.mx/bio_olivia)
-Leonor Hernández Oñate
-[Evelia Arteaga Conde](https://desdethemysciraffyl.mx/bio_evelia)
 
-Diseño: 
-[Alejandra González Jiménez](https://desdethemysciraffyl.mx/bio_ale)
+<h3>Comité de organizadoras:</h3>
+<p>
+  Jeannet Ugalde Quintana<br>
+  Marianela Santoveña Rodríguez<br>
+  <a href="https://desdethemysciraffyl.mx/bio_cecilia">Martha Cecilia Jaime González</a><br>
+  <a href="https://desdethemysciraffyl.mx/bio_olivia">Olivia Isidro Vázquez</a><br>
+  Leonor Hernández Oñate<br>
+  <a href="https://desdethemysciraffyl.mx/bio_evelia">Evelia Arteaga Conde</a>
+</p>
 
+<p>
+  Diseño: <a href="https://desdethemysciraffyl.mx/bio_ale">Alejandra González Jiménez</a>
+</p>
 
 Te invitamos a seguir nuestras redes sociales [Facebook](https://www.facebook.com/desdethemyscira/) e [Instagram](https://www.instagram.com/desdethemyscira/) para mantenerte actualizado. 
