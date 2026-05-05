@@ -33,20 +33,20 @@ Las propuestas deberán ser enviadas mediante el siguiente formulario y deberán
 
 <h5>Requisitos para el envío de propuestas:</h5>
 <ol>
-  <li>Título de la ponencia</li>
-  <li>Sugerencia de línea temática</li>
-  <li>Resumen de máximo 300 palabras</li>
-  <li>Nombre, afiliación institucional y correo electrónico</li>
-  <li>Breve semblanza curricular (máximo 10 líneas)</li>
-  <li>Las ponencias no deberán exceder 20 minutos</li>
-  <li>Indicar si es ponencia individual o colectiva de máximo 3 integrantes. También se pueden proponer mesas temáticas de máximo 5 integrantes</li>
+  <li>1. Título de la ponencia</li>
+  <li>2. Sugerencia de línea temática</li>
+  <li>3. Resumen de máximo 300 palabras</li>
+  <li>4. Nombre, afiliación institucional y correo electrónico</li>
+  <li>5. Breve semblanza curricular (máximo 10 líneas)</li>
+  <li>6. Las ponencias no deberán exceder 20 minutos</li>
+  <li>7. Indicar si es ponencia individual o colectiva de máximo 3 integrantes. También se pueden proponer mesas temáticas de máximo 5 integrantes</li>
 </ol>
 
 [Envia tu propuesta aquí](https://forms.gle/Rwuy5hGKWXHpTr8QA)
 
 *Evento gratuito tanto para ponentes como para asistentes. Se dará constancia con el 80% de asistencia.*
 
-<h3>Fechas a tomar en cuenta:</h3>
+<h5>Fechas a tomar en cuenta:</h5>
 <ul>
   <li>Fecha límite de registro de resúmenes: <span style="color: #800080; font-weight: bold;">15 de junio de 2026</span></li>
   <li>Notificación de aceptación: <span style="color: #800080; font-weight: bold;">30 de julio de 2026</span></li>
@@ -54,7 +54,7 @@ Las propuestas deberán ser enviadas mediante el siguiente formulario y deberán
 </ul>
 
 
-<h3>Comité de organizadoras:</h3>
+<h5>Comité de organizadoras:</h5>
 <p>
   Jeannet Ugalde Quintana<br>
   Marianela Santoveña Rodríguez<br>
@@ -65,7 +65,7 @@ Las propuestas deberán ser enviadas mediante el siguiente formulario y deberán
 </p>
 
 <p>
-  Diseño: <li> <a href="https://desdethemysciraffyl.mx/bio_ale">Alejandra González Jiménez</a> </span></li>
+  Diseño: <li> <a href="https://desdethemysciraffyl.mx/bio_ale">Alejandra González Jiménez</a> </li>
 </p>
 
 Te invitamos a seguir nuestras redes sociales [Facebook](https://www.facebook.com/desdethemyscira/) e [Instagram](https://www.instagram.com/desdethemyscira/) para mantenerte actualizado. 
