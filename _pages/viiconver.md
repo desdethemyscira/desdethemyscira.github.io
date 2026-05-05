@@ -8,11 +8,10 @@ image: assets/images/about/vconver.png
 <img  width="100%"
 src="/assets/images/testimonial/7conver.png" />
 
-**🏛️ [VII Conversatorio Letras Clásicas “Agencia femenina: genealogías en la tradición clásica y sus reescrituras”](https://www.facebook.com/desdethemyscira/posts/pfbid033ssL6VUpC2pdYrAmwUt9soTJWG3Ssm1VDWkcgx7M59KKPe125nzAiLoQZ7teaC5pl)**
 
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fdesdethemyscira%2Fposts%2Fpfbid033ssL6VUpC2pdYrAmwUt9soTJWG3Ssm1VDWkcgx7M59KKPe125nzAiLoQZ7teaC5pl&show_text=true&width=500" width="500" height="698" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+<span style="color: #800080; font-weight: bold;">[VII Conversatorio Letras Clásicas “Agencia femenina: genealogías en la tradición clásica y sus reescrituras”](https://www.facebook.com/desdethemyscira/posts/pfbid033ssL6VUpC2pdYrAmwUt9soTJWG3Ssm1VDWkcgx7M59KKPe125nzAiLoQZ7teaC5pl)</span>
 
-**🗓️ Fecha: Del 09 al 13 de noviembre de 2026**
+**🗓️ Fecha: Del 09 al 13 de noviembre de 2026** 
 
 Organizar un evento sobre agencia femenina en la Antigüedad grecolatina y su tradición permite articular varias áreas de investigación actuales: estudios de género en el mundo antiguo, historia social, literatura clásica, cultura material, recepción, reescritura y reinterpretación clásica. 
 
@@ -72,3 +71,5 @@ Las propuestas deberán ser enviadas mediante el siguiente formulario y deberán
 </p>
 
 Te invitamos a seguir nuestras redes sociales [Facebook](https://www.facebook.com/desdethemyscira/) e [Instagram](https://www.instagram.com/desdethemyscira/) para mantenerte actualizado. 
+
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fdesdethemyscira%2Fposts%2Fpfbid033ssL6VUpC2pdYrAmwUt9soTJWG3Ssm1VDWkcgx7M59KKPe125nzAiLoQZ7teaC5pl&show_text=true&width=500" width="500" height="698" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
