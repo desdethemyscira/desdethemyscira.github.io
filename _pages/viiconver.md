@@ -2,7 +2,7 @@
 layout: eventos
 title: Conversatorios <br> virtuales
 autor:
-image: assets/images/about/vconver.png
+image: assets/images/about/viiposter.png
 #signature:
 ---
 <img  width="100%"
