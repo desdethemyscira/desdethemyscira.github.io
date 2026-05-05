@@ -2,7 +2,7 @@
 layout: eventos
 title: Conversatorios <br> virtuales
 author:
-image: assets/images/about/DTCONV6.png
+image: assets/images/about/vconver.png
 #signature:
 ---
 <img  width="100%"
