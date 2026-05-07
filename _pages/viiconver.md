@@ -8,7 +8,7 @@ image: assets/images/about/viiposter.png
 <img  width="100%"
 src="/assets/images/testimonial/7conver.png" />
 
-<h3> <span style="color: #800080; font-weight: bold;">VII Conversatorio Letras Clásicas “Agencia femenina: genealogías en la tradición clásica y sus reescrituras”</span> </h3>
+<h3> <span style="color: #800080; font-weight: bold;">Primer Congreso Internacional “Agencia femenina: genealogías en la tradición clásica y sus reescrituras”</span> </h3>
 
 **🗓️ Fecha: Del 09 al 13 de noviembre de 2026** 
 
@@ -20,7 +20,7 @@ El objetivo de estos Conversatorios es explorar las múltiples dimensiones de la
   
 El grupo de investigación “Desde Themyscira” ha organizado anualmente (desde el año 2020) los Conversatorios de Letras Clásicas. Hasta el año pasado, invitábamos a especialistas en el tema que correspondía, con las y los cuales se llevaba a cabo una discusión sobre lo expuesto. Este año, por primera vez, convocamos a toda la comunidad interesada en el estudio de temas de la Antigüedad grecolatina y su tradición. 
 
-Para más información consulta nuestra convocatoria completa en: [VII Conversatorio 2026](https://drive.google.com/file/d/1RRLbCqv5bTXeVxl8-vR-M7H4SegsU2sW/view?usp=drive_link)
+Para más información consulta nuestra convocatoria completa en: [Primer Congreso Internacional Nov 2026](https://drive.google.com/file/d/1RRLbCqv5bTXeVxl8-vR-M7H4SegsU2sW/view?usp=drive_link)
 
 
 **NOTA: En todos las líneas temáticas se incluirán propuestas que estudien tanto el mundo antiguo grecolatino como sus reescrituras y reinterpretaciones posteriores.**

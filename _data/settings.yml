@@ -254,8 +254,8 @@ portfolio-items:
 # Testimonials - Events Section
 
 testimonial-items:
-  - name: "VII Conversatorio 2026"
-    image: "assets/images/testimonial/7conver.png"
+  - name: "Primer Congreso Internacional 2026"
+    image: "assets/images/testimonial/1Cong.png"
     #designation: "Conversatorio"
     #url: ""
     content: "Prósimamente"
