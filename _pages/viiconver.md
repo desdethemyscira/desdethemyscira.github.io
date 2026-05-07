@@ -2,11 +2,11 @@
 layout: eventos
 title: Conversatorios <br> virtuales
 autor:
-image: assets/images/about/viiposter.png
+image: assets/images/about/1Congres.png
 #signature:
 ---
 <img  width="100%"
-src="/assets/images/testimonial/7conver.png" />
+src="/assets/images/testimonial/fbcogres.png" />
 
 <h3> <span style="color: #800080; font-weight: bold;">Primer Congreso Internacional “Agencia femenina: genealogías en la tradición clásica y sus reescrituras”</span> </h3>
 
