@@ -8,7 +8,7 @@ image: assets/images/about/1Congres.png
 <img  width="100%"
 src="/assets/images/testimonial/fbcogres.png" />
 
-<h3> <span style="color: #800080; font-weight: bold;">Primer Congreso Internacional “Agencia femenina: genealogías en la tradición clásica y sus reescrituras”</span> </h3>
+<h3> <span style="color: #800080; font-weight: bold;">Primer Congreso Internacional y VII Conversatorio de Letras Clásicas “Agencia femenina: genealogías en la tradición clásica y sus reescrituras”</span> </h3>
 
 **🗓️ Fecha: Del 09 al 13 de noviembre de 2026** 
 
