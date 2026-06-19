@@ -20,7 +20,7 @@ El objetivo de este Primer Congreso Internacional “Desde Themyscira” y la co
   
 El grupo de investigación “Desde Themyscira” ha organizado anualmente (desde el año 2020) los Conversatorios de Letras Clásicas. Hasta el año pasado, invitábamos a especialistas en el tema que correspondía, con las y los cuales se llevaba a cabo una discusión sobre lo expuesto. Este año, por primera vez, convocamos a toda la comunidad interesada en el estudio de temas de la Antigüedad grecolatina y su tradición. 
 
-Para más información consulta nuestra convocatoria completa en: [Primer Congreso Internacional Nov 2026](https://drive.google.com/file/d/1wYyLw2CSbatESNtDpM9rZ5M_-XruL99r/view?usp=sharing)
+Para más información consulta nuestra convocatoria completa en: [Primer Congreso Internacional Nov 2026](https://drive.google.com/file/d/184nY-K0N37bolXjJQRU9Y6G80DPLoysj/view?usp=sharing)
 
 
 **NOTA: En todos las líneas temáticas se incluirán propuestas que estudien tanto el mundo antiguo grecolatino como sus reescrituras y reinterpretaciones posteriores.**
