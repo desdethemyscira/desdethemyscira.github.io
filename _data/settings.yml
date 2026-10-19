@@ -255,7 +255,7 @@ portfolio-items:
 
 testimonial-items:
   - name: "Primer Congreso Internacional 2026"
-    image: "assets/images/testimonial/1Cong.png"
+    image: "assets/images/testimonial/1Con.png"
     #designation: "Conversatorio"
     #url: ""
     content: "Próximamente"
