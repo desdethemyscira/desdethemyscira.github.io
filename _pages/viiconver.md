@@ -58,15 +58,15 @@ Las propuestas deberán ser enviadas mediante el siguiente formulario y deberán
 <p>
   Jeannet Ugalde Quintana<br>
   Marianela Santoveña Rodríguez<br>
-  <a href="https://desdethemysciraffyl.mx/bio_cecilia">Martha Cecilia Jaime González</a><br>
-  <a href="https://desdethemysciraffyl.mx/bio_olivia">Olivia Isidro Vázquez</a><br>
+  <a href="https://desdethemysciraffyl.org/bio_cecilia">Martha Cecilia Jaime González</a><br>
+  <a href="https://desdethemysciraffyl.org/bio_olivia">Olivia Isidro Vázquez</a><br>
   Leonor Hernández Oñate<br>
-  <a href="https://desdethemysciraffyl.mx/bio_evelia">Evelia Arteaga Conde</a>
+  <a href="https://desdethemysciraffyl.org/bio_evelia">Evelia Arteaga Conde</a>
 </p>
 
 <p>
   Diseño: <br> 
-  <a href="https://desdethemysciraffyl.mx/bio_ale">Alejandra González Jiménez</a> 
+  <a href="https://desdethemysciraffyl.org/bio_ale">Alejandra González Jiménez</a> 
 </p>
 
 Te invitamos a seguir nuestras redes sociales [Facebook](https://www.facebook.com/desdethemyscira/) e [Instagram](https://www.instagram.com/desdethemyscira/) para mantenerte actualizado. 

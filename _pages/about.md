@@ -20,17 +20,17 @@ Los Conversatorios iniciaron como una manera de acercarnos como comunidad docent
 
 La primera emisión de nuestro Conversatorio tuvo lugar  los días 29 y 30 de septiembre y 1º. de octubre del 2020, con la temática «Enfermedad y Muerte; antigüedad y tradición Clásica.» integrada por cinco mesas en las que participaron como expositores el Mtro. David Becerra Islas, coordinador en ese momento de nuestro Colegio; la Mtra. Yésica Ramírez Pérez, la Dra. Elsa Rodríguez Brondo, el Mtro. Gabriel Sánchez Barragán el Mtro. Eduardo Pérez Torres y la Dra. Carolina Ponce, además de nosotras como organizadoras.
 
- [**Segunda emisión. Naturaleza y ser humano. Grecia, Roma y tradición clásica**](http://desdethemysciraffyl.mx/2021/09/04/Naturaleza-y-ser-humano.-Grecia,-Roma-y-traducci%C3%B3n-cl%C3%A1sica/)
+ [**Segunda emisión. Naturaleza y ser humano. Grecia, Roma y tradición clásica**](http://desdethemysciraffyl.org/2021/09/04/Naturaleza-y-ser-humano.-Grecia,-Roma-y-traducci%C3%B3n-cl%C3%A1sica/)
 
 Esta segunda emisión se llevará a cabo en octubre del 2021 y tendremos como invitados ponentes a la Dra. Carolina Ponce, la Dra. Sandra Álvarez, la Dra. Camila Joselevich, el Mtr. Absalom Chow, la Lic. Maricela Bravo Rubio, y el Lic. José Manuel González Montiel.  
 
 A través de 5 mesas temáticas abordaremos la manera en que la relación entre la naturaleza y el ser humano condiciona no solo su cotidianidad sino la conformación de comunidades enteras.
 
-[**Tercera emisión. Emociones: corporalidad y corporeidad**](https://desdethemysciraffyl.mx/2022/09/03/Emociones-corporalidad-y-corporeidad/)
+[**Tercera emisión. Emociones: corporalidad y corporeidad**](https://desdethemysciraffyl.org/2022/09/03/Emociones-corporalidad-y-corporeidad/)
 
 En el tercer simposio del grupo **Desde Temiscira**, titulado **"Emociones, corporalidad y corporeidad"**, exploramos cómo el cuerpo y los sentimientos han sido construidos y condicionados culturalmente desde la Antigüedad hasta la época colonial a través de enfoques históricos, literarios y sociológicos. Las ponencias que presentamos analizan temas diversos, como el consenso matrimonial en el humanismo, la observación clínica del dolor, el suicidio en la tragedia griega y la somatización de la angustia espiritual, subrayando que las emociones no son impulsos universales, sino fenómenos encarnados y situados socialmente. En conjunto, nuestro conversatorio demuestra que la experiencia física y emocional es un reflejo de normas de género, jerarquías de clase y marcos culturales que requieren una interpretación histórica profunda para ser comprendidos.
 
-[**Cuarta emisión. El espacio: representación, concepción y relación con el mundo grecolatino y su tradición**](https://desdethemysciraffyl.mx/2023/10/29/El-espacio-representaci%C3%B3n-concepci%C3%B3n-y-relaci%C3%B3n-con-el-mundo-grecolatino-y-su-tradici%C3%B3n/)
+[**Cuarta emisión. El espacio: representación, concepción y relación con el mundo grecolatino y su tradición**](https://desdethemysciraffyl.org/2023/10/29/El-espacio-representaci%C3%B3n-concepci%C3%B3n-y-relaci%C3%B3n-con-el-mundo-grecolatino-y-su-tradici%C3%B3n/)
 
 En el cuarto conversatorio del grupo **Desde Temiscira**, presentamos la concepción y representación del espacio en el mundo grecorromano y su tradición, abordándolo desde dimensiones históricas, físicas y simbólicas. Nuestras invitadas en sus presentaciones analizan desde la **domus romana** como escenario de prestigio social y el **oikos homérico** como núcleo de identidad y hospitalidad, hasta el papel pedagógico del entorno en los diálogos de **Platón**. Asimismo, se examina el espacio escrito como refugio y resistencia frente a la Inquisición, y se cuestiona la rígida división de género en la **polis griega**, demostrando que los espacios públicos y privados eran, en la práctica, entornos flexibles y compartidos. En conclusión, nuestro conversatorio demuestra que el espacio no es solo un marco físico, sino una construcción cargada de significados políticos, sociales y educativos.
 

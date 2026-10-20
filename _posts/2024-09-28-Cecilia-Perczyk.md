@@ -7,7 +7,7 @@ author: Alejandra González Jiménez
 tags: Conversatorios
 ---
 
-El grupo de investigación "[Desde Themyscira](https://desdethemysciraffyl.mx/)" organiza la V Edición de los Conversatorios de Estudios Clásicos, titulada *<a href="/desdethemyscira.github.io/assets/images/blog/Desviar-la-mirada.pdf" target="_blank">Desviar la mirada: las mujeres en la Antigüedad Clásica</a>*, que se llevará a cabo de manera virtual la primera semana de noviembre. Este evento propone un análisis crítico de las representaciones y roles de género en la antigüedad grecorromana, desafiando las interpretaciones homogéneas y androcéntricas predominantes en los estudios clásicos.
+El grupo de investigación "[Desde Themyscira](https://desdethemysciraffyl.org/)" organiza la V Edición de los Conversatorios de Estudios Clásicos, titulada *<a href="/desdethemyscira.github.io/assets/images/blog/Desviar-la-mirada.pdf" target="_blank">Desviar la mirada: las mujeres en la Antigüedad Clásica</a>*, que se llevará a cabo de manera virtual la primera semana de noviembre. Este evento propone un análisis crítico de las representaciones y roles de género en la antigüedad grecorromana, desafiando las interpretaciones homogéneas y androcéntricas predominantes en los estudios clásicos.
 
 
 El día Martes 5 de noviembre, 04:00 pm contaremos con la participación de la Dra. Cecilia Perczyk (Universidad Nacional de Hurlingham, Argentina) con la ponencia títulada <a href="/desdethemyscira.github.io/assets/images/blog/Cecilia-Perczyk.png" target="_blank">La representación de la mujer en el tratado hipocrático *"Sobre las enfermedades de las jóvenes"*</a>. Modera: Elsa R. Brondo.
