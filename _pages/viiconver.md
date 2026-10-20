@@ -10,9 +10,6 @@ src="/assets/images/testimonial/fbcongres.png" />
 
 <h3> <span style="color: #800080; font-weight: bold;">Primer Congreso Internacional y VII Conversatorio de Letras Clásicas “Agencia femenina: genealogías en la tradición clásica y sus reescrituras”</span> </h3>
 
-[MICROSITIO](https://desdethemysciraffyl.org/congreso-2026/)
-
-
 <a href="{{ '/congreso_2026/' | relative_url }}">
   Congreso 2026
 </a>
