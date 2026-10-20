@@ -10,6 +10,8 @@ src="/assets/images/testimonial/fbcongres.png" />
 
 <h3> <span style="color: #800080; font-weight: bold;">Primer Congreso Internacional y VII Conversatorio de Letras Clásicas “Agencia femenina: genealogías en la tradición clásica y sus reescrituras”</span> </h3>
 
+[MICROSITIO](https://desdethemysciraffyl.org/congreso-2026/)
+
 **🗓️ Fecha: Del 09 al 13 de noviembre de 2026** 
 
 Organizar un evento sobre agencia femenina en la Antigüedad grecolatina y su tradición permite articular varias áreas de investigación actuales: estudios de género en el mundo antiguo, historia social, literatura clásica, cultura material, recepción, reescritura y reinterpretación clásica. 
