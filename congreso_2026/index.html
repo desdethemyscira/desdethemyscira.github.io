@@ -65,6 +65,8 @@
     </script>
 
     <style>
+        /* Aclara solo la tinta negra; conserva los colores y la transparencia. */
+        .institution-logo { filter: url(#institution-white-ink); }
         .hero-pattern {
             background-color: #25162b;
             background-image: radial-gradient(rgba(201, 164, 75, 0.12) 1.5px, transparent 1.5px), radial-gradient(rgba(74, 52, 81, 0.25) 1.5px, #25162b 1.5px);
@@ -106,6 +108,38 @@
     </style>
 </head>
 <body class="bg-themyscira-900 text-themyscira-100 font-sans antialiased selection:bg-themyscira-gold selection:text-themyscira-900 pb-20 md:pb-0">
+    <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" class="absolute pointer-events-none" aria-hidden="true" focusable="false">
+        <defs>
+            <filter id="institution-white-ink" color-interpolation-filters="sRGB">
+                <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  -1 -1 -1 0 1" result="whiteInk"/>
+                <feComponentTransfer in="whiteInk" result="darkInkMask">
+                    <feFuncA type="table" tableValues="0 0 0 0 0 0 0 0.5 1 1 1"/>
+                </feComponentTransfer>
+                <feComposite in="darkInkMask" in2="SourceGraphic" operator="in" result="whiteDetails"/>
+                <feMerge>
+                    <feMergeNode in="SourceGraphic"/>
+                    <feMergeNode in="whiteDetails"/>
+                </feMerge>
+            </filter>
+        </defs>
+    </svg>
+
+    <!-- Filtro para mostrar en blanco los trazos casi negros de los logos. -->
+    <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;overflow:hidden">
+        <defs>
+            <filter id="logo-dark-to-white" color-interpolation-filters="sRGB" x="0" y="0" width="100%" height="100%">
+                <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0.333333 0.333333 0.333333 0 0" result="darkness"/>
+                <feComponentTransfer in="darkness" result="dark-mask">
+                    <feFuncA type="discrete" tableValues="1 0 0 0 0 0 0 0"/>
+                </feComponentTransfer>
+                <feComposite in="dark-mask" in2="SourceAlpha" operator="in" result="opaque-dark-mask"/>
+                <feFlood flood-color="white" result="white"/>
+                <feComposite in="white" in2="opaque-dark-mask" operator="in" result="white-strokes"/>
+                <feComposite in="white-strokes" in2="SourceGraphic" operator="over"/>
+            </filter>
+        </defs>
+    </svg>
+
 
     <header class="sticky top-0 z-40 bg-themyscira-900/95 backdrop-blur-md border-b border-themyscira-stone/25 transition-all duration-300 shadow-xl">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -291,8 +325,8 @@
                     
                     <!-- 1. UNAM -->
                     <a href="https://www.unam.mx/" target="_blank" rel="noopener" class="group p-2.5 rounded-xl bg-themyscira-900/80 border border-themyscira-gold/20 hover:border-themyscira-gold hover:bg-themyscira-800/80 transition-all flex flex-col items-center text-center">
-                        <div class="w-full h-20 rounded-lg bg-white/95 flex items-center justify-center p-2 mb-2">
-                            <img src="img/logos/unam.png" alt="Escudo de la Universidad Nacional Autónoma de México" loading="lazy" decoding="async" class="max-w-full h-full object-contain group-hover:scale-105 transition-transform">
+                        <div class="w-full h-20 rounded-lg bg-transparent flex items-center justify-center p-2 mb-2">
+                            <img src="img/logos/unam.png" style="filter: url(#logo-dark-to-white);" alt="Escudo de la Universidad Nacional Autónoma de México" loading="lazy" decoding="async" class="institution-logo max-w-full h-full object-contain group-hover:scale-105 transition-transform">
                         </div>
                         <span class="font-cinzel text-[11px] font-bold text-white group-hover:text-themyscira-gold-light">UNAM</span>
                         <span class="text-[9px] text-neutral-400 leading-tight">Universidad Nacional Autónoma de México</span>
@@ -300,8 +334,8 @@
 
                     <!-- 2. FFyL UNAM -->
                     <a href="https://www.filos.unam.mx/" target="_blank" rel="noopener" class="group p-2.5 rounded-xl bg-themyscira-900/80 border border-themyscira-gold/20 hover:border-themyscira-gold hover:bg-themyscira-800/80 transition-all flex flex-col items-center text-center">
-                        <div class="w-full h-20 rounded-lg bg-white/95 flex items-center justify-center p-2 mb-2">
-                            <img src="img/logos/ffyl.png" alt="Logo de la Facultad de Filosofía y Letras, UNAM" loading="lazy" decoding="async" class="max-w-full h-full object-contain group-hover:scale-105 transition-transform">
+                        <div class="w-full h-20 rounded-lg bg-transparent flex items-center justify-center p-2 mb-2">
+                            <img src="img/logos/ffyl.png" style="filter: url(#logo-dark-to-white);" alt="Logo de la Facultad de Filosofía y Letras, UNAM" loading="lazy" decoding="async" class="institution-logo max-w-full h-full object-contain group-hover:scale-105 transition-transform">
                         </div>
                         <span class="font-cinzel text-[11px] font-bold text-white group-hover:text-themyscira-gold-light">FFyL</span>
                         <span class="text-[9px] text-neutral-400 leading-tight">Facultad de Filosofía y Letras</span>
@@ -309,8 +343,8 @@
 
                     <!-- 3. Biblioteca Nacional -->
                     <a href="https://bnm.iib.unam.mx/" target="_blank" rel="noopener" class="group p-2.5 rounded-xl bg-themyscira-900/80 border border-themyscira-gold/20 hover:border-themyscira-gold hover:bg-themyscira-800/80 transition-all flex flex-col items-center text-center">
-                        <div class="w-full h-20 rounded-lg bg-white/95 flex items-center justify-center p-2 mb-2">
-                            <img src="img/logos/bnm.png" alt="Logo de la Biblioteca Nacional de México" loading="lazy" decoding="async" class="max-w-full h-full object-contain group-hover:scale-105 transition-transform">
+                        <div class="w-full h-20 rounded-lg bg-transparent flex items-center justify-center p-2 mb-2">
+                            <img src="img/logos/bnm.png" style="filter: url(#logo-dark-to-white);" alt="Logo de la Biblioteca Nacional de México" loading="lazy" decoding="async" class="institution-logo max-w-full h-full object-contain group-hover:scale-105 transition-transform">
                         </div>
                         <span class="font-cinzel text-[11px] font-bold text-white group-hover:text-themyscira-gold-light">Biblioteca Nac.</span>
                         <span class="text-[9px] text-neutral-400 leading-tight">Biblioteca Nacional de México</span>
@@ -318,8 +352,8 @@
 
                     <!-- 4. Letras Clásicas -->
                     <a href="https://letrasclasicas.filos.unam.mx/" target="_blank" rel="noopener" class="group p-2.5 rounded-xl bg-themyscira-900/80 border border-themyscira-gold/20 hover:border-themyscira-gold hover:bg-themyscira-800/80 transition-all flex flex-col items-center text-center">
-                        <div class="w-full h-20 rounded-lg bg-white/95 flex items-center justify-center p-2 mb-2">
-                            <img src="img/logos/letras-clasicas.png" alt="Logo de Letras Clásicas, UNAM" loading="lazy" decoding="async" class="max-w-full h-full object-contain group-hover:scale-105 transition-transform">
+                        <div class="w-full h-20 rounded-lg bg-transparent flex items-center justify-center p-2 mb-2">
+                            <img src="img/logos/letras-clasicas.png" style="filter: url(#logo-dark-to-white);" alt="Logo de Letras Clásicas, UNAM" loading="lazy" decoding="async" class="institution-logo max-w-full h-full object-contain group-hover:scale-105 transition-transform">
                         </div>
                         <span class="font-cinzel text-[11px] font-bold text-white group-hover:text-themyscira-gold-light">Letras Clásicas</span>
                         <span class="text-[9px] text-neutral-400 leading-tight">VII Edición Conversatorios</span>
@@ -327,8 +361,8 @@
 
                     <!-- 5. UACM -->
                     <a href="https://www.uacm.edu.mx/" target="_blank" rel="noopener" class="group p-2.5 rounded-xl bg-themyscira-900/80 border border-themyscira-gold/20 hover:border-themyscira-gold hover:bg-themyscira-800/80 transition-all flex flex-col items-center text-center">
-                        <div class="w-full h-20 rounded-lg bg-white/95 flex items-center justify-center p-2 mb-2">
-                            <img src="img/logos/uacm.png" alt="Logo de la Universidad Autónoma de la Ciudad de México" loading="lazy" decoding="async" class="max-w-full h-full object-contain group-hover:scale-105 transition-transform">
+                        <div class="w-full h-20 rounded-lg bg-transparent flex items-center justify-center p-2 mb-2">
+                            <img src="img/logos/uacm.png" style="filter: url(#logo-dark-to-white);" alt="Logo de la Universidad Autónoma de la Ciudad de México" loading="lazy" decoding="async" class="institution-logo max-w-full h-full object-contain group-hover:scale-105 transition-transform">
                         </div>
                         <span class="font-cinzel text-[11px] font-bold text-white group-hover:text-themyscira-gold-light">UACM</span>
                         <span class="text-[9px] text-neutral-400 leading-tight">Universidad Autónoma de la CDMX</span>
@@ -336,8 +370,8 @@
 
                     <!-- 6. PAPIIT IG400426 / Desde Themyscira -->
                     <a href="https://desdethemysciraffyl.mx/" target="_blank" rel="noopener" class="group p-2.5 rounded-xl bg-themyscira-900/80 border border-themyscira-gold/20 hover:border-themyscira-gold hover:bg-themyscira-800/80 transition-all flex flex-col items-center text-center">
-                        <div class="w-full h-20 rounded-lg bg-white/95 flex items-center justify-center p-2 mb-2">
-                            <img src="img/logos/desde-themyscira.png" alt="Logo del Grupo de Investigación Desde Themyscira" loading="lazy" decoding="async" class="max-w-full h-full object-contain group-hover:scale-105 transition-transform">
+                        <div class="w-full h-20 rounded-lg bg-transparent flex items-center justify-center p-2 mb-2">
+                            <img src="img/logos/desde-themyscira.png" style="filter: url(#logo-dark-to-white);" alt="Logo del Grupo de Investigación Desde Themyscira" loading="lazy" decoding="async" class="institution-logo max-w-full h-full object-contain group-hover:scale-105 transition-transform">
                         </div>
                         <span class="font-cinzel text-[11px] font-bold text-themyscira-gold-light group-hover:text-white">Desde Themyscira</span>
                         <span class="text-[9px] text-neutral-400 leading-tight">Proyecto PAPIIT IG400426</span>
