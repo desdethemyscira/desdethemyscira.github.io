@@ -1232,7 +1232,7 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
                     <span class="font-cinzel text-xs uppercase tracking-widest text-themyscira-gold font-bold">Inscripción Abierta</span>
                     <h2 class="font-cinzel text-3xl sm:text-4xl font-bold text-white mt-1">Formulario de Registro al Evento</h2>
                     <p class="text-neutral-300 text-sm mt-2">
-                        Solicita tu registro y genera tu credencial con folio y QR después de confirmar el guardado en la hoja del comité. El registro no envía automáticamente enlaces de Zoom ni confirma disponibilidad de asientos.
+                        Solicita tu registro y genera tu credencial con folio y QR después de confirmar el guardado en la hoja del comité. Al confirmar tu registro se intentará enviar el acceso a Zoom al correo que indiques. El registro no confirma disponibilidad de asientos.
                     </p>
                 </div>
 
@@ -3184,6 +3184,13 @@ Las mujeres tejen la red que cobija del desamparo existencial porque la Memoria 
                 qrContainer.textContent = 'QR no disponible';
                 console.error('No se pudo generar el QR de la credencial:', _);
                 feedback.textContent = 'Registro confirmado en la hoja del comité. No se pudo dibujar el QR; conserva tu folio y recarga la página para intentarlo nuevamente con los mismos datos.';
+            }
+            if (result.emailStatus === 'sent') {
+                feedback.textContent += ' El correo con tu folio y enlace de Zoom fue enviado; revisa también la carpeta de spam.';
+            } else if (result.emailStatus === 'alreadySent') {
+                feedback.textContent += ' El enlace de Zoom ya se envió anteriormente a tu correo; revisa también la carpeta de spam.';
+            } else {
+                feedback.textContent += ' Tu registro está guardado, pero el correo con Zoom está pendiente. Reintenta más tarde con los mismos datos o contacta al comité.';
             }
             renderAttendanceTable();
             badgeCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
