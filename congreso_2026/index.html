@@ -68,6 +68,19 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
     </script>
 
     <style>
+        #badge-print-root { display: none; }
+        @media print {
+            @page { margin: 12mm; }
+            body.printing-credential { background: white !important; padding: 0 !important; margin: 0 !important; }
+            body.printing-credential > *:not(#badge-print-root) { display: none !important; }
+            body.printing-credential #badge-print-root { display: block !important; max-width: 115mm; margin: 0 auto; }
+            #badge-print-root, #badge-print-root * { color: #201724 !important; background: transparent !important; box-shadow: none !important; text-shadow: none !important; backdrop-filter: none !important; }
+            #badge-print-root > div { margin: 0 !important; padding: 0 !important; border: 0 !important; break-inside: avoid; }
+            #badge-print-root img { max-width: 100%; }
+            #badge-print-root button { display: none !important; }
+            #badge-print-root a { text-decoration: none !important; }
+        }
+
         /* Aclara solo la tinta negra; conserva los colores y la transparencia. */
         .institution-logo { filter: url(#institution-white-ink); }
         .hero-pattern {
@@ -1339,7 +1352,7 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
 
                                 <div class="mt-4 pt-3 border-t border-themyscira-gold/15 flex items-center justify-between text-[10px] text-neutral-400">
                                     <span>Identidad visual: <a href="https://alejandragj.com/" target="_blank" class="text-themyscira-gold hover:underline">Alejandra González J.</a></span>
-                                    <button onclick="window.print()" class="px-3 py-1 rounded bg-themyscira-800 hover:bg-themyscira-700 text-neutral-200 font-cinzel">
+                                    <button onclick="printBadge()" class="px-3 py-1 rounded bg-themyscira-800 hover:bg-themyscira-700 text-neutral-200 font-cinzel">
                                         Imprimir / PDF
                                     </button>
                                 </div>
@@ -1563,11 +1576,11 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
 
             <div>
                 <h3 class="font-cinzel text-base font-bold text-white">Acceso del Comité Organizador</h3>
-                <p class="text-xs text-neutral-300 mt-1">Ingresa el PIN de seguridad para acceder al escáner de asistencia y a la lista de constancias (80%).</p>
+                <p class="text-xs text-neutral-300 mt-1">Ingresa la clave privada del comité para acceder al escáner de asistencia y a la lista de constancias (80%).</p>
             </div>
 
             <form onsubmit="verifyOrganizerPin(event)" class="space-y-3">
-                <input type="password" id="organizer-pin-input" autofocus placeholder="Ingresa PIN..." class="w-full text-center px-4 py-2.5 rounded-xl bg-themyscira-900 border border-themyscira-gold/40 text-white font-mono tracking-widest text-lg focus:outline-none focus:border-themyscira-gold">
+                <input type="password" id="organizer-pin-input" autofocus placeholder="Clave del comité..." class="w-full text-center px-4 py-2.5 rounded-xl bg-themyscira-900 border border-themyscira-gold/40 text-white font-mono tracking-widest text-lg focus:outline-none focus:border-themyscira-gold">
                 <div id="pin-error-msg" class="text-xs text-rose-400 font-semibold hidden">PIN incorrecto. Inténtalo de nuevo.</div>
 
                 <div class="flex gap-2 pt-1">
@@ -1575,7 +1588,7 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
                     <button type="submit" class="flex-1 py-2 rounded-xl bg-themyscira-gold text-themyscira-900 font-cinzel text-xs font-bold hover:bg-themyscira-gold-light transition shadow">Entrar</button>
                 </div>
             </form>
-            <p class="text-[10px] text-neutral-400">PIN predeterminado: <span class="font-mono text-themyscira-gold-light">themyscira2026</span></p>
+            <p class="text-[10px] text-neutral-400">La clave privada se configura en Google Apps Script y se comparte únicamente con el comité.</p>
         </div>
     </div>
 
@@ -1687,6 +1700,10 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
                 <div class="p-4 rounded-xl bg-themyscira-900 border border-themyscira-gold/30 space-y-3">
                     <label class="block text-xs font-cinzel uppercase text-themyscira-stone-light font-bold">1. Selecciona la Sesión a Acreditar:</label>
+                    <div class="flex items-center justify-between gap-3 text-xs">
+                        <p id="attendance-sync-status" role="status" aria-live="polite">Consulta la hoja compartida para actualizar el padrón.</p>
+                        <button type="button" onclick="refreshAttendance()" class="px-3 py-2 rounded bg-themyscira-800 text-themyscira-gold whitespace-nowrap">Actualizar padrón</button>
+                    </div>
                     <select id="attendance-session-select" class="w-full px-3 py-2 text-xs rounded-lg bg-themyscira-800 border border-themyscira-stone/40 text-white focus:outline-none focus:border-themyscira-stone">
                         <option value="L9-Inauguracion">Lunes 9 - Inauguración y Magistral Cidre (10:00)</option>
                         <option value="L9-Mesa1">Lunes 9 - Mesa 1 (12:00)</option>
@@ -2424,7 +2441,7 @@ Las mujeres tejen la red que cobija del desamparo existencial porque la Memoria 
         });
 
         const TOTAL_CONGRESS_BLOCKS = 16;
-        const REGISTRATION_API_URL = 'https://script.google.com/macros/s/AKfycbzYXTzFQMtunBG_H8htaIKtYqju_Dn40kjZIQSItEau7tt4Ewm1c9kzje1pJ0o6uB99/exec';
+        const REGISTRATION_API_URL = 'https://script.google.com/macros/s/AKfycbwyYk0dAk6pCM5y3c9DGKxzwVaAL2ZC9mtWQZnD8qJVLJft11aF2DhvQ3rEVs7qcaMe/exec';
         const REGISTRATION_STORAGE_KEY = 'themyscira-2026-attendees';
         let attendeesRegistry = (() => {
             try {
@@ -2443,7 +2460,11 @@ Las mujeres tejen la red que cobija del desamparo existencial porque la Memoria 
         let html5QrScannerInstance = null;
         let isScanningActive = false;
 
-        const ORGANIZER_PIN = "themyscira2026";
+        let organizerAccessKey = '';
+        let committeeAttendees = [];
+        let committeeLoaded = false;
+        let committeeLoginBusy = false;
+        let checkInBusy = false;
         let isOrganizerAuthenticated = false;
 
         function requestAttendanceAccess() {
@@ -2471,24 +2492,103 @@ Las mujeres tejen la red que cobija del desamparo existencial porque la Memoria 
             modal.classList.remove('flex');
         }
 
-        function verifyOrganizerPin(e) {
-            e.preventDefault();
-            const input = document.getElementById('organizer-pin-input').value.trim();
-            const errorMsg = document.getElementById('pin-error-msg');
+        async function committeeAPI(action, fields = {}, key = organizerAccessKey) {
+            const controller = new AbortController();
+            const timer = setTimeout(() => controller.abort(), 45000);
+            try {
+                const response = await fetch(REGISTRATION_API_URL, {
+                    method: 'POST', headers: { 'Content-Type': 'text/plain;charset=UTF-8' },
+                    credentials: 'omit', redirect: 'follow', signal: controller.signal,
+                    body: JSON.stringify({ ...fields, action, adminKey: key })
+                });
+                if (!response.ok) throw new Error('Google no respondió correctamente.');
+                const result = await response.json();
+                if (result.status !== 'success') throw new Error(result.message || 'No se pudo consultar la hoja compartida.');
+                return result;
+            } catch (error) {
+                if (error.name === 'AbortError' || error instanceof TypeError) throw new Error('No se pudo confirmar la respuesta de Google. Comprueba tu conexión y reintenta; las asistencias no se duplican.');
+                throw error;
+            } finally { clearTimeout(timer); }
+        }
 
-            if (input === ORGANIZER_PIN) {
+        async function verifyOrganizerPin(e) {
+            e.preventDefault();
+            if (committeeLoginBusy) return;
+            committeeLoginBusy = true;
+            const input = document.getElementById('organizer-pin-input');
+            const errorMsg = document.getElementById('pin-error-msg');
+            errorMsg.textContent = 'Verificando acceso a la hoja compartida…';
+            errorMsg.classList.remove('hidden');
+            try {
+                const result = await committeeAPI('adminList', {}, input.value.trim());
+                if (!Array.isArray(result.attendees)) throw new Error('Debes publicar la versión nueva de Registro.gs para consultar el padrón.');
+                organizerAccessKey = input.value.trim();
                 isOrganizerAuthenticated = true;
+                committeeAttendees = result.attendees;
+                committeeLoaded = true;
+                input.value = '';
                 closeAuthPinModal();
-                openAttendanceAdmin();
-            } else {
-                errorMsg.classList.remove('hidden');
-            }
+                openAttendanceAdmin(false);
+            } catch (error) { errorMsg.textContent = error.message; }
+            finally { committeeLoginBusy = false; }
         }
 
         function lockOrganizerSession() {
             isOrganizerAuthenticated = false;
+            organizerAccessKey = '';
+            committeeAttendees = [];
+            committeeLoaded = false;
+            document.getElementById('organizer-pin-input').value = '';
             closeAttendanceAdmin();
+            renderAttendanceTable();
         }
+
+        async function refreshAttendance() {
+            const status = document.getElementById('attendance-sync-status');
+            if (!isOrganizerAuthenticated) return false;
+            status.textContent = 'Consultando registros y asistencias en Google Sheets…';
+            try {
+                const result = await committeeAPI('adminList');
+                if (!Array.isArray(result.attendees)) throw new Error('La aplicación no devolvió el padrón. Actualiza Registro.gs.');
+                if (!isOrganizerAuthenticated) return false;
+                committeeAttendees = result.attendees;
+                committeeLoaded = true;
+                renderAttendanceTable();
+                status.textContent = 'Padrón actualizado desde la hoja compartida.';
+                return true;
+            } catch (error) {
+                status.textContent = error.message + (committeeLoaded ? ' Se muestra la última consulta; puede estar desactualizada.' : '');
+                return false;
+            }
+        }
+
+        function printBadge() {
+            const badge = document.getElementById('badge-result-card');
+            if (badge.classList.contains('hidden')) return;
+            document.getElementById('badge-print-root')?.remove();
+            const root = document.createElement('div');
+            root.id = 'badge-print-root';
+            const copy = badge.cloneNode(true);
+            copy.removeAttribute('id');
+            copy.querySelectorAll('button').forEach(button => button.remove());
+            const originals = badge.querySelectorAll('canvas');
+            copy.querySelectorAll('canvas').forEach((canvas, index) => {
+                const image = document.createElement('img');
+                image.src = originals[index].toDataURL('image/png');
+                image.width = originals[index].width;
+                image.height = originals[index].height;
+                image.style.cssText = canvas.style.cssText;
+                canvas.replaceWith(image);
+            });
+            root.appendChild(copy);
+            document.body.appendChild(root);
+            document.body.classList.add('printing-credential');
+            window.print();
+        }
+        window.addEventListener('afterprint', () => {
+            document.body.classList.remove('printing-credential');
+            document.getElementById('badge-print-root')?.remove();
+        });
 
         function openBannerModal() {
             const modal = document.getElementById('banner-modal');
@@ -3043,11 +3143,13 @@ Las mujeres tejen la red que cobija del desamparo existencial porque la Memoria 
             badgeCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
 
-        function openAttendanceAdmin() {
+        function openAttendanceAdmin(refresh = true) {
+            if (!isOrganizerAuthenticated) { openAuthPinModal(); return; }
             const modal = document.getElementById('attendance-modal');
             modal.classList.remove('hidden');
             modal.classList.add('flex');
             renderAttendanceTable();
+            if (refresh) refreshAttendance();
         }
 
         function closeAttendanceAdmin() {
@@ -3059,22 +3161,26 @@ Las mujeres tejen la red que cobija del desamparo existencial porque la Memoria 
             modal.classList.remove('flex');
         }
 
+        function escapeAttendanceText(value) {
+            return String(value ?? '').replace(/[&<>"']/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[character]));
+        }
+
         function renderAttendanceTable() {
             const tbody = document.getElementById('attendance-table-body');
             const statTotal = document.getElementById('stat-total-attendees');
             const statEligible = document.getElementById('stat-eligible-constancias');
 
-            statTotal.textContent = attendeesRegistry.length;
+            statTotal.textContent = committeeLoaded ? committeeAttendees.length : '—';
             let eligibleCount = 0;
 
-            if (attendeesRegistry.length === 0) {
-                tbody.innerHTML = `<tr><td colspan="6" class="p-4 text-center text-neutral-400">No hay asistentes registrados aún.</td></tr>`;
-                statEligible.textContent = "0";
+            if (committeeAttendees.length === 0) {
+                tbody.innerHTML = `<tr><td colspan="6" class="p-4 text-center text-neutral-400">${committeeLoaded ? 'No hay asistentes registrados en la hoja compartida.' : 'Consulta el padrón compartido para cargar los registros.'}</td></tr>`;
+                statEligible.textContent = committeeLoaded ? '0' : '—';
                 return;
             }
 
             let html = "";
-            attendeesRegistry.forEach(att => {
+            committeeAttendees.forEach(att => {
                 const count = att.sessionsAttended.length;
                 const percentage = Math.round((count / TOTAL_CONGRESS_BLOCKS) * 100);
                 const isEligible = percentage >= 80;
@@ -3082,9 +3188,9 @@ Las mujeres tejen la red que cobija del desamparo existencial porque la Memoria 
 
                 html += `
                     <tr class="hover:bg-themyscira-800/50">
-                        <td class="p-2.5 font-mono text-amber-300 font-bold">${att.folio}</td>
-                        <td class="p-2.5 font-medium text-white">${att.name}</td>
-                        <td class="p-2.5 text-neutral-400">${att.inst}</td>
+                        <td class="p-2.5 font-mono text-amber-300 font-bold">${escapeAttendanceText(att.folio)}</td>
+                        <td class="p-2.5 font-medium text-white">${escapeAttendanceText(att.name)}</td>
+                        <td class="p-2.5 text-neutral-400">${escapeAttendanceText(att.inst)}</td>
                         <td class="p-2.5 text-center font-bold text-neutral-200">${count} / ${TOTAL_CONGRESS_BLOCKS}</td>
                         <td class="p-2.5 text-center">
                             <span class="px-2 py-0.5 rounded font-mono font-bold ${isEligible ? 'bg-emerald-950 text-emerald-400 border border-emerald-500/30' : 'bg-themyscira-800 text-neutral-300'}">
@@ -3105,41 +3211,24 @@ Las mujeres tejen la red que cobija del desamparo existencial porque la Memoria 
             tbody.innerHTML = html;
         }
 
-        function checkInAttendee(folioValue) {
+        async function checkInAttendee(folioValue) {
+            if (checkInBusy || !isOrganizerAuthenticated) return;
             const cleanFolio = folioValue.trim().toUpperCase();
+            if (!cleanFolio) return;
             const sessionKey = document.getElementById('attendance-session-select').value;
             const feedback = document.getElementById('attendance-scan-feedback');
-
-            const attendee = attendeesRegistry.find(a => a.folio.toUpperCase() === cleanFolio);
-            feedback.classList.remove('hidden', 'bg-emerald-950', 'text-emerald-300', 'bg-rose-950', 'text-rose-300', 'bg-amber-950', 'text-amber-300');
-
-            if (!attendee) {
-                feedback.className = "p-3 rounded-lg text-xs bg-rose-950/80 text-rose-300 border border-rose-500/40";
-                feedback.textContent = `❌ Folio ${cleanFolio} no encontrado en la base de datos de registro.`;
-                feedback.classList.remove('hidden');
-                return;
-            }
-
-            if (attendee.sessionsAttended.includes(sessionKey)) {
-                feedback.className = "p-3 rounded-lg text-xs bg-amber-950/80 text-amber-300 border border-amber-500/40";
-                feedback.textContent = `⚠️ ${attendee.name} ya tenía registrada su asistencia en esta sesión (${sessionKey}).`;
-                feedback.classList.remove('hidden');
-                return;
-            }
-
-            attendee.sessionsAttended.push(sessionKey);
-            saveAttendeesLocally();
-            const percentage = Math.round((attendee.sessionsAttended.length / TOTAL_CONGRESS_BLOCKS) * 100);
-
-            feedback.className = "p-3 rounded-lg text-xs bg-emerald-950/80 text-emerald-300 border border-emerald-500/40";
-            feedback.innerHTML = `
-                ✅ <strong>¡Asistencia Acreditada!</strong><br>
-                ${attendee.name} (${attendee.inst}) • Avance: <strong>${percentage}%</strong> (${attendee.sessionsAttended.length}/${TOTAL_CONGRESS_BLOCKS})
-                ${percentage >= 80 ? ' — <span class="underline font-bold">¡Alcanzó el 80% para Constancia!</span>' : ''}
-            `;
-            feedback.classList.remove('hidden');
-
-            renderAttendanceTable();
+            checkInBusy = true;
+            feedback.className = 'p-3 rounded-lg text-xs bg-themyscira-850 text-white';
+            feedback.textContent = 'Guardando asistencia en Google Sheets…';
+            try {
+                const result = await committeeAPI('checkIn', { folio: cleanFolio, session: sessionKey });
+                feedback.textContent = result.message;
+                feedback.className = 'p-3 rounded-lg text-xs bg-emerald-950/80 text-emerald-300';
+                await refreshAttendance();
+            } catch (error) {
+                feedback.textContent = error.message;
+                feedback.className = 'p-3 rounded-lg text-xs bg-rose-950/80 text-rose-300';
+            } finally { checkInBusy = false; }
         }
 
         function registerAttendanceManual() {
@@ -3208,26 +3297,28 @@ Las mujeres tejen la red que cobija del desamparo existencial porque la Memoria 
             }
         }
 
-        function exportAttendanceCSV() {
-            if (attendeesRegistry.length === 0) return;
-
-            let csvContent = "data:text/csv;charset=utf-8,";
-            csvContent += "Folio,Nombre Completo,Correo,Institucion,Rol,Modalidad,Sesiones Asistidas,Porcentaje,Estatus Constancia (80%)\n";
-
-            attendeesRegistry.forEach(a => {
+        async function exportAttendanceCSV() {
+            if (!isOrganizerAuthenticated || !await refreshAttendance()) return;
+            const csvCell = value => {
+                let text = String(value ?? '');
+                if (/^[=+@\-]/.test(text)) text = "'" + text;
+                return '"' + text.replace(/"/g, '""') + '"';
+            };
+            const rows = [['Folio','Nombre Completo','Correo','Institucion','Rol','Modalidad','Sesiones Asistidas','Porcentaje','Estatus Constancia (80%)']];
+            committeeAttendees.forEach(a => {
                 const count = a.sessionsAttended.length;
-                const percentage = Math.round((count / TOTAL_CONGRESS_BLOCKS) * 100);
-                const eligible = percentage >= 80 ? "APROBADO" : "NO CUMPLE 80%";
-                csvContent += `"${a.folio}","${a.name}","${a.email}","${a.inst}","${a.role}","${a.modality}",${count},"${percentage}%","${eligible}"\n`;
+                rows.push([a.folio,a.name,a.email,a.inst,a.role,a.modality,count,
+                    Math.round(count / TOTAL_CONGRESS_BLOCKS * 100) + '%',
+                    count / TOTAL_CONGRESS_BLOCKS >= 0.8 ? 'APROBADO' : 'NO CUMPLE 80%']);
             });
-
-            const encodedUri = encodeURI(csvContent);
-            const link = document.createElement("a");
-            link.setAttribute("href", encodedUri);
-            link.setAttribute("download", "Asistencias_Congreso_DesdeThemyscira_2026.csv");
+            const blob = new Blob(['\uFEFF' + rows.map(row => row.map(csvCell).join(',')).join('\r\n')], { type: 'text/csv;charset=utf-8' });
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = 'Asistencias_Congreso_DesdeThemyscira_2026.csv';
             document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
+            link.click(); link.remove();
+            setTimeout(() => URL.revokeObjectURL(url), 1000);
         }
 
         // Oracle Assistant Logic
