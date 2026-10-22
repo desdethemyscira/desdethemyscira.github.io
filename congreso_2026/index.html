@@ -2433,7 +2433,7 @@ Las mujeres tejen la red que cobija del desamparo existencial porque la Memoria 
         });
 
         const TOTAL_CONGRESS_BLOCKS = 16;
-        const REGISTRATION_API_URL = 'https://script.google.com/macros/s/AKfycbwyYk0dAk6pCM5y3c9DGKxzwVaAL2ZC9mtWQZnD8qJVLJft11aF2DhvQ3rEVs7qcaMe/exec';
+        const REGISTRATION_API_URL = 'https://script.google.com/macros/s/AKfycbyOXmNx7ISM_eRrLxJ4KyWUSIimbsxlmdkHEqFKC0lZBomTTG1AA-yDAH-NxFwhwFfr/exec';
         const REGISTRATION_STORAGE_KEY = 'themyscira-2026-attendees';
         let attendeesRegistry = (() => {
             try {
@@ -3189,6 +3189,8 @@ Las mujeres tejen la red que cobija del desamparo existencial porque la Memoria 
                 feedback.textContent += ' El correo con tu folio y enlace de Zoom fue enviado; revisa también la carpeta de spam.';
             } else if (result.emailStatus === 'alreadySent') {
                 feedback.textContent += ' El enlace de Zoom ya se envió anteriormente a tu correo; revisa también la carpeta de spam.';
+            } else if (!result.emailStatus) {
+                feedback.textContent += ' Tu registro está guardado, pero la aplicación de Google aún no tiene activado el envío de correos. El comité debe publicar la nueva versión de Apps Script.';
             } else {
                 feedback.textContent += ' Tu registro está guardado, pero el correo con Zoom está pendiente. Reintenta más tarde con los mismos datos o contacta al comité.';
             }
