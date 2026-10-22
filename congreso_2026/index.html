@@ -73,9 +73,9 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
             @page { margin: 12mm; }
             body.printing-credential { background: white !important; padding: 0 !important; margin: 0 !important; }
             body.printing-credential > *:not(#badge-print-root) { display: none !important; }
-            body.printing-credential #badge-print-root { display: block !important; max-width: 115mm; margin: 0 auto; }
-            #badge-print-root, #badge-print-root * { color: #201724 !important; background: transparent !important; box-shadow: none !important; text-shadow: none !important; backdrop-filter: none !important; }
-            #badge-print-root > div { margin: 0 !important; padding: 0 !important; border: 0 !important; break-inside: avoid; }
+            body.printing-credential #badge-print-root { display: block !important; width: fit-content; max-width: 100%; margin: 0 auto; }
+            #badge-print-root, #badge-print-root * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+            #badge-print-root > div { margin: 0 !important; break-inside: avoid; page-break-inside: avoid; }
             #badge-print-root img { max-width: 100%; }
             #badge-print-root button { display: none !important; }
             #badge-print-root a { text-decoration: none !important; }
@@ -2562,28 +2562,82 @@ Las mujeres tejen la red que cobija del desamparo existencial porque la Memoria 
             }
         }
 
-        function printBadge() {
+        async function printBadge() {
             const badge = document.getElementById('badge-result-card');
-            if (badge.classList.contains('hidden')) return;
-            document.getElementById('badge-print-root')?.remove();
-            const root = document.createElement('div');
-            root.id = 'badge-print-root';
-            const copy = badge.cloneNode(true);
-            copy.removeAttribute('id');
-            copy.querySelectorAll('button').forEach(button => button.remove());
-            const originals = badge.querySelectorAll('canvas');
-            copy.querySelectorAll('canvas').forEach((canvas, index) => {
-                const image = document.createElement('img');
-                image.src = originals[index].toDataURL('image/png');
-                image.width = originals[index].width;
-                image.height = originals[index].height;
-                image.style.cssText = canvas.style.cssText;
-                canvas.replaceWith(image);
-            });
-            root.appendChild(copy);
-            document.body.appendChild(root);
-            document.body.classList.add('printing-credential');
-            window.print();
+            if (badge.classList.contains('hidden') || badge.dataset.printing === 'true') return;
+            badge.dataset.printing = 'true';
+            const feedback = document.getElementById('registration-feedback');
+            try {
+                if (document.fonts?.ready) await document.fonts.ready;
+                document.getElementById('badge-print-root')?.remove();
+                const source = badge.firstElementChild;
+                const copy = source.cloneNode(true);
+                // Fija el diseño calculado en pantalla, antes de cambiar al medio de impresión.
+                const originals = [source, ...source.querySelectorAll('*')];
+                const clones = [copy, ...copy.querySelectorAll('*')];
+                originals.forEach((element, index) => {
+                    const computed = window.getComputedStyle(element);
+                    for (const property of computed) {
+                        clones[index].style.setProperty(property, computed.getPropertyValue(property));
+                    }
+                    clones[index].style.setProperty('animation', 'none');
+                    clones[index].style.setProperty('transition', 'none');
+                });
+                copy.querySelectorAll('button').forEach(button => button.remove());
+                // Vuelve a construir el QR como SVG: no depende de imágenes ni de canvas clonados.
+                const folio = document.getElementById('badge-folio').textContent.trim();
+                if (!folio || typeof QRCode !== 'function') throw new Error('QR no disponible');
+                const temporary = document.createElement('div');
+                const encoder = new QRCode(temporary, {
+                    text: JSON.stringify({ evento: 'Desde Themyscira 2026', folio }),
+                    width: 160, height: 160, correctLevel: QRCode.CorrectLevel.M
+                });
+                const matrix = encoder._oQRCode;
+                const size = matrix.getModuleCount();
+                const svgNS = 'http://www.w3.org/2000/svg';
+                const svg = document.createElementNS(svgNS, 'svg');
+                svg.setAttribute('viewBox', `0 0 ${size + 8} ${size + 8}`);
+                svg.setAttribute('width', '160');
+                svg.setAttribute('height', '160');
+                svg.setAttribute('shape-rendering', 'crispEdges');
+                svg.setAttribute('aria-label', 'QR de la credencial');
+                svg.style.display = 'block';
+                svg.style.flexShrink = '0';
+                const background = document.createElementNS(svgNS, 'rect');
+                background.setAttribute('width', String(size + 8));
+                background.setAttribute('height', String(size + 8));
+                background.setAttribute('fill', '#ffffff');
+                svg.appendChild(background);
+                let path = '';
+                for (let row = 0; row < size; row++) {
+                    for (let col = 0; col < size; col++) {
+                        if (matrix.isDark(row, col)) path += `M${col + 4} ${row + 4}h1v1h-1z`;
+                    }
+                }
+                const ink = document.createElementNS(svgNS, 'path');
+                ink.setAttribute('d', path);
+                ink.setAttribute('fill', '#25162b');
+                svg.appendChild(ink);
+                const qr = copy.querySelector('#qrcode-container');
+                qr.replaceChildren(svg);
+                qr.style.width = 'auto';
+                qr.style.height = 'auto';
+                qr.style.minWidth = '176px';
+                qr.style.flexShrink = '0';
+                copy.querySelectorAll('[id]').forEach(element => element.removeAttribute('id'));
+                const root = document.createElement('div');
+                root.id = 'badge-print-root';
+                root.appendChild(copy);
+                document.body.appendChild(root);
+                document.body.classList.add('printing-credential');
+                await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+                window.print();
+            } catch (error) {
+                document.body.classList.remove('printing-credential');
+                document.getElementById('badge-print-root')?.remove();
+                feedback.textContent = 'No se pudo preparar la credencial para imprimir. Recarga la página y recupera tu registro con los mismos datos.';
+                console.error('Error al preparar la impresión:', error);
+            } finally { badge.dataset.printing = 'false'; }
         }
         window.addEventListener('afterprint', () => {
             document.body.classList.remove('printing-credential');
