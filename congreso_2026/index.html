@@ -3045,18 +3045,26 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
                 html += `
                     <div class="rounded-2xl bg-themyscira-850/90 editorial-gold-border overflow-hidden flex flex-col justify-between group hover:border-themyscira-gold transition-all duration-300 hover:-translate-y-1 shadow-xl">
                         <div>
-                            <!-- Large Prominent Portrait Header -->
-                            <div class="relative h-64 sm:h-72 w-full overflow-hidden bg-themyscira-950">
-                                <img src="${photoSrc}" alt="${p.name}" loading="lazy" decoding="async" onerror="this.onerror=null; this.src='${fallbackImg}';" 
-                                     class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700">
-                                <div class="absolute inset-0 bg-gradient-to-t from-themyscira-850 via-transparent to-black/30"></div>
-                                
-                                <span class="absolute top-3 left-3 px-3 py-1 rounded-full text-[10px] font-cinzel font-bold uppercase tracking-wider bg-themyscira-900/90 text-themyscira-gold border border-themyscira-gold/40 shadow backdrop-blur-sm">
-                                    ${p.mesa}
-                                </span>
+                            <!-- Marco editorial que conserva el encuadre completo de cada fotografía. -->
+                            <div class="px-5 pt-5">
+                                <div class="mb-3">
+                                    <span class="inline-flex px-3 py-1 rounded-full text-[10px] font-cinzel font-bold uppercase tracking-wider bg-themyscira-900 text-themyscira-gold border border-themyscira-gold/30">
+                                        ${p.mesa}
+                                    </span>
+                                </div>
+                                <a href="${photoSrc}" target="_blank" rel="noopener noreferrer"
+                                   aria-label="Ver fotografía completa de ${p.name} (abre en otra pestaña)"
+                                   class="block rounded-xl border border-themyscira-stone/20 bg-themyscira-950/70 p-3 hover:border-themyscira-gold/60 focus-visible:outline focus-visible:outline-2 focus-visible:outline-themyscira-gold transition-colors">
+                                    <div class="h-64 sm:h-72 flex items-center justify-center">
+                                        <img src="${photoSrc}" alt="${p.name}" loading="lazy" decoding="async"
+                                             onerror="this.onerror=null; this.src='${fallbackImg}';"
+                                             class="block w-full h-full object-contain object-center rounded-sm">
+                                    </div>
+                                    <span class="block pt-2 text-center text-[10px] text-themyscira-stone-light">Ver fotografía completa ↗</span>
+                                </a>
                             </div>
 
-                            <div class="p-6 space-y-3 -mt-4 relative z-10">
+                            <div class="p-6 space-y-3 relative z-10">
                                 <div>
                                     <span class="text-[10px] font-cinzel uppercase text-themyscira-gold tracking-widest font-semibold block">${p.inst}</span>
                                     <h4 class="font-serif text-xl font-bold text-white group-hover:text-themyscira-gold-light transition-colors mt-1 leading-snug">
