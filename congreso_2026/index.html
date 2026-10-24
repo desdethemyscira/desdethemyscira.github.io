@@ -2273,8 +2273,17 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
                         "bioHtml": "<p>Licenciada en Letras Clásicas por la Universidad Autónoma de México, donde actualmente imparte las materias de Arte griego y Arte romano. Laboró como docente en el Centro de Cultura Casa Lamm impartiendo diversas materias en las licenciatura en Historia del Arte y en Crítica y Creación Literaria. Entre sus publicaciones se encuentran “Familia y oficios, uno de los sistemas artísticos de la Antigüedad”, UNED, Cantabria, en Santander España, así como su participación en la creación del Manual de adquisición de vocabulario griego antiguo coordinado por la Dra. Martha Cecilia Jaime González. Cursó los diplomados “Procesos editoriales” por parte de la Facultad de Artes y Diseño de la UNAM y otros dos en “Arte Contemporáneo” y “Arte Mexicano” por parte de la ENES León también de la UNAM. Actualmente es asistente de investigación en Academia Mexicana de la Lengua.</p>",
                         "bookSource": "Libro_de_resumenes_Oct22.docx",
                         "bookTitleParagraph": 381,
-                        "bioScope": "shared",
-                        "bioNote": "El libro incluye una semblanza sin atribución individual en esta ficha colectiva e indica que faltan otras dos."
+                        "bioAuthor": "Alma Rocío González Cruz",
+                        "bios": {
+                            "Alma Rocío González Cruz": "Licenciada en Letras Clásicas por la Universidad Autónoma de México, donde actualmente imparte las materias de Arte griego y Arte romano. Laboró como docente en el Centro de Cultura Casa Lamm impartiendo diversas materias en las licenciatura en Historia del Arte y en Crítica y Creación Literaria. Entre sus publicaciones se encuentran “Familia y oficios, uno de los sistemas artísticos de la Antigüedad”, UNED, Cantabria, en Santander España, así como su participación en la creación del Manual de adquisición de vocabulario griego antiguo coordinado por la Dra. Martha Cecilia Jaime González. Cursó los diplomados “Procesos editoriales” por parte de la Facultad de Artes y Diseño de la UNAM y otros dos en “Arte Contemporáneo” y “Arte Mexicano” por parte de la ENES León también de la UNAM. Actualmente es asistente de investigación en Academia Mexicana de la Lengua.",
+                            "H. Rodrigo Blum Pérez": "Semblanza pendiente de incorporación.",
+                            "Norohella Huerta Flores": "Semblanza pendiente de incorporación."
+                        },
+                        "biosHtml": {
+                            "Alma Rocío González Cruz": "<p>Licenciada en Letras Clásicas por la Universidad Autónoma de México, donde actualmente imparte las materias de Arte griego y Arte romano. Laboró como docente en el Centro de Cultura Casa Lamm impartiendo diversas materias en las licenciatura en Historia del Arte y en Crítica y Creación Literaria. Entre sus publicaciones se encuentran “Familia y oficios, uno de los sistemas artísticos de la Antigüedad”, UNED, Cantabria, en Santander España, así como su participación en la creación del Manual de adquisición de vocabulario griego antiguo coordinado por la Dra. Martha Cecilia Jaime González. Cursó los diplomados “Procesos editoriales” por parte de la Facultad de Artes y Diseño de la UNAM y otros dos en “Arte Contemporáneo” y “Arte Mexicano” por parte de la ENES León también de la UNAM. Actualmente es asistente de investigación en Academia Mexicana de la Lengua.</p>",
+                            "H. Rodrigo Blum Pérez": "<p>Semblanza pendiente de incorporación.</p>",
+                            "Norohella Huerta Flores": "<p>Semblanza pendiente de incorporación.</p>"
+                        }
                     }
                 ],
                 "moderatorRole": "Moderadora / encuadre"
@@ -2976,10 +2985,11 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
             body.innerHTML = [0, 1, 2].map(period => '<tr class="divide-x divide-themyscira-stone/20 align-top">' +
                 Object.values(congressSchedule).map(day => {
                     const sessions = day.sessions.filter(session => {
+                        if (session.type === 'break') return false;
                         const hour = Number(session.time.slice(0, 2));
                         return (hour < 12 ? 0 : hour < 15 ? 1 : 2) === period;
                     });
-                    return '<td class="p-3 bg-themyscira-850/40">' + sessions.map(session => session.type === 'break' ? `<div class="my-3 px-2 py-2 rounded-lg border border-dashed border-themyscira-stone/40 bg-themyscira-stone/10 text-xs"><span aria-hidden="true">${/café/i.test(session.title) ? '☕' : '🍽️'}</span> ${escapeAttendanceText(session.title)}<div class="font-mono mt-1">${escapeAttendanceText(session.time)}</div></div>` : `
+                    return '<td class="p-3 bg-themyscira-850/40">' + sessions.map(session => `
                         <div class="mb-3 last:mb-0">
                             <div class="font-bold text-themyscira-stone-light">${escapeAttendanceText(session.title)}</div>
                             ${session.subtitle ? `<div class="text-[10px] italic">${escapeAttendanceText(session.subtitle)}</div>` : ''}
