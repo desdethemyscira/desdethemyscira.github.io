@@ -99,6 +99,15 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
         .photo-lightbox-image[hidden], .photo-lightbox-error[hidden] { display: none; }
         .photo-lightbox-error { color: #eed28b; font-size: .875rem; text-align: center; padding: 2rem 1rem; }
 
+        .privacy-dialog { width: min(760px, calc(100vw - 2rem)); max-height: 88vh; max-height: 88dvh; margin: auto; padding: 0; overflow: hidden; border: 1px solid #c9a44b66; border-radius: 1rem; background: #1d1122; color: #f3e8f8; }
+        .privacy-dialog[open] { display: flex; flex-direction: column; }
+        .privacy-dialog::backdrop { background: rgba(10, 5, 14, .85); backdrop-filter: blur(5px); }
+        .privacy-dialog-header { display: flex; align-items: flex-start; gap: 1rem; justify-content: space-between; padding: 1.25rem; border-bottom: 1px solid #a59f8833; }
+        .privacy-dialog-header h2 { min-width: 0; overflow-wrap: anywhere; }
+        .privacy-dialog-header button { flex-shrink: 0; }
+        .privacy-dialog-content { overflow-y: auto; overscroll-behavior: contain; min-height: 0; overflow-wrap: anywhere; }
+        .privacy-dialog-actions { flex-shrink: 0; padding: 1rem 1.25rem; text-align: right; border-top: 1px solid #a59f8833; }
+
         #badge-print-root { display: none; }
         @media print {
             @page { margin: 12mm; }
@@ -1216,7 +1225,15 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
                             </div>
                         </div>
 
-                        <p id="registration-privacy-note" class="text-xs leading-relaxed text-neutral-400">Tus datos se utilizan para gestionar el registro, la credencial, el acceso a Zoom y la acreditación de asistencia. El registro se almacena en Google Sheets. Antes de enviarlo, consulta los <a href="https://www.filos.unam.mx/home/aviso-de-privacidad/" target="_blank" rel="noopener noreferrer" class="text-themyscira-gold-light underline underline-offset-4">avisos de privacidad de la FFyL</a> y la <a href="#aviso-privacidad" onclick="document.getElementById('aviso-privacidad').open = true" class="text-themyscira-gold-light underline underline-offset-4">información sobre el registro del congreso</a>.</p>
+                        <p id="registration-privacy-note" class="text-xs leading-relaxed text-neutral-400">Tus datos se utilizan para gestionar el registro, la credencial, el acceso a Zoom y la acreditación de asistencia. El registro se almacena en Google Sheets. Antes de enviarlo, consulta los <a href="https://www.filos.unam.mx/home/aviso-de-privacidad/" target="_blank" rel="noopener noreferrer" class="text-themyscira-gold-light underline underline-offset-4">avisos de privacidad de la FFyL</a> y la <button type="button" onclick="openPrivacyNotice(this)" aria-haspopup="dialog" aria-controls="aviso-privacidad" class="text-themyscira-gold-light underline underline-offset-4">información sobre el registro del congreso</button>.</p>
+
+                        <div class="flex items-start gap-3 rounded-xl border border-themyscira-gold/20 bg-themyscira-900/50 p-4">
+                            <input type="checkbox" id="reg-privacy-read" name="privacy_read" required aria-describedby="registration-privacy-note" class="mt-0.5 h-4 w-4 flex-shrink-0 accent-[#c9a44b] cursor-pointer">
+                            <div class="text-sm leading-relaxed text-neutral-300">
+                                <label for="reg-privacy-read" class="cursor-pointer">He leído el aviso de privacidad</label>
+                                <button type="button" onclick="openPrivacyNotice(this)" aria-haspopup="dialog" aria-controls="aviso-privacidad" class="mt-1 block w-fit text-xs text-themyscira-gold-light underline underline-offset-4 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-themyscira-gold">Consultar el aviso de privacidad</button>
+                            </div>
+                        </div>
 
                         <div class="pt-3">
                             <button type="submit" class="w-full py-4 rounded-xl font-cinzel text-sm sm:text-base font-bold uppercase tracking-wider bg-gradient-to-r from-themyscira-gold via-themyscira-gold-light to-themyscira-gold text-themyscira-900 hover:brightness-110 shadow-xl transition-all flex items-center justify-center gap-2">
@@ -1348,6 +1365,30 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
 
     </main>
 
+    <dialog id="aviso-privacidad" class="privacy-dialog" aria-labelledby="privacy-dialog-title">
+        <div class="privacy-dialog-header">
+            <h2 id="privacy-dialog-title" class="font-cinzel text-sm sm:text-base text-themyscira-gold-light">Información sobre el tratamiento de datos personales</h2>
+            <button type="button" onclick="closePrivacyNotice()" autofocus aria-label="Cerrar aviso de privacidad" class="rounded-lg border border-themyscira-stone/30 px-3 py-2 text-sm text-themyscira-gold-light hover:bg-themyscira-800">Cerrar ×</button>
+        </div>
+<div class="privacy-dialog-content p-5 sm:p-7 space-y-4 text-sm leading-relaxed text-neutral-300">
+                        <p>El Grupo de Investigación «Desde Themyscira» de la Facultad de Filosofía y Letras de la Universidad Nacional Autónoma de México (UNAM), con domicilio en Circuito Interior s/n, Ciudad Universitaria, Coyoacán, C.P. 04510, Ciudad de México, es el responsable del tratamiento de los datos personales proporcionados a través de este sitio web.</p>
+                        <div>
+                            <h4 class="mb-2 font-semibold text-themyscira-stone-light">Finalidades:</h4>
+                            <ul class="list-disc pl-5 space-y-2">
+                                <li>Registro, acreditación y participación en las actividades del congreso.</li>
+                                <li>Emisión de constancias académicas con valor curricular institucional.</li>
+                                <li>Envío de comunicaciones oficiales referentes al programa y actas del encuentro.</li>
+                                <li>Difusión de futuras actividades académicas y coloquios convocados por el Grupo de Investigación.</li>
+                            </ul>
+                        </div>
+                        <p><strong class="font-semibold text-themyscira-stone-light">Protección de datos:</strong> Sus datos no serán transferidos a terceros ajenos a la UNAM sin su consentimiento, conforme a la Ley General de Protección de Datos Personales en Posesión de Sujetos Obligados.</p>
+                        <p><strong class="font-semibold text-themyscira-stone-light">Derechos ARCO:</strong> Podrá ejercer sus derechos de Acceso, Rectificación, Cancelación y Oposición ante la <a href="https://transparencia.unam.mx/unidad-transparencia.html" target="_blank" rel="noopener noreferrer" class="text-themyscira-gold-light underline underline-offset-4">Unidad de Transparencia de la UNAM</a> o dirigiéndose al comité organizador.</p>
+                    </div>
+        <div class="privacy-dialog-actions">
+            <button type="button" onclick="closePrivacyNotice()" class="rounded-lg bg-themyscira-gold px-5 py-2.5 text-sm font-semibold text-themyscira-950 hover:bg-themyscira-gold-light">Volver a la página</button>
+        </div>
+    </dialog>
+
     <!-- Visor compartido para las fotografías de participantes y comité. -->
     <dialog id="photo-lightbox" class="photo-lightbox" aria-labelledby="photo-lightbox-title">
         <div class="photo-lightbox-header">
@@ -1410,7 +1451,7 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
     <footer class="bg-themyscira-950 px-3 pt-5 pb-28 sm:px-6 md:pb-12">
         <div class="mx-auto max-w-7xl rounded-2xl border border-themyscira-gold/20 bg-themyscira-900/30 px-5 pt-8 pb-6 sm:px-10 sm:pt-10">
             <div class="flex flex-col sm:flex-row items-center justify-center gap-3.5 text-center sm:text-left">
-                <a href="https://desdethemysciraffyl.org/" aria-label="Ir al sitio web de Desde Themyscira" class="inline-block flex-shrink-0 rounded-full transition-opacity hover:opacity-80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-themyscira-gold">
+                <a href="https://desdethemysciraffyl.org/" target="_blank" rel="noopener noreferrer" aria-label="Ir al sitio web de Desde Themyscira (abre en una nueva pestaña)" class="inline-block flex-shrink-0 rounded-full transition-opacity hover:opacity-80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-themyscira-gold">
                     <img src="img/logos/desde-themyscira1.png" alt="Logo de Desde Themyscira" width="48" height="48" loading="lazy" onerror="this.onerror=null; this.src='img/logos/desde-themyscira.png';" class="w-12 h-12 object-contain">
                 </a>
                 <div>
@@ -1442,16 +1483,9 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
                     <p>© 2026 Grupo de Investigación Desde Themyscira · FFyL, Universidad Nacional Autónoma de México</p>
                     <a href="https://www.filos.unam.mx/home/aviso-de-privacidad/" target="_blank" rel="noopener noreferrer" class="flex-shrink-0 text-themyscira-stone-light underline decoration-themyscira-gold/30 underline-offset-4 hover:text-themyscira-gold-light">Avisos de privacidad · FFyL</a>
                 </div>
-                <details id="aviso-privacidad" class="mx-auto mt-4 max-w-3xl text-neutral-400">
-                    <summary class="mx-auto w-fit cursor-pointer text-center text-xs underline decoration-themyscira-gold/30 underline-offset-4 hover:text-themyscira-gold-light">Privacidad del registro del congreso</summary>
-                    <div class="mt-4 rounded-xl border border-themyscira-stone/20 p-4 sm:p-5 space-y-3 text-xs leading-relaxed">
-                        <p class="font-cinzel text-themyscira-gold-light">Información sobre el tratamiento de tus datos</p>
-                        <p>El comité organizador de Desde Themyscira utiliza el nombre, correo electrónico, institución de procedencia, tipo de participante, modalidad de asistencia y línea de interés proporcionados en el formulario para gestionar la inscripción, generar la credencial con folio y QR y enviar el acceso a Zoom. El folio y las asistencias permiten llevar el control de acreditación para las constancias.</p>
-                        <p>El registro se guarda en una hoja de Google Sheets mediante Google Apps Script. El navegador conserva una copia local de tu registro para recuperar la credencial. Las consultas al Oráculo se envían al servicio de inteligencia artificial de Google; evita incluir datos personales en ellas.</p>
-                        <p>Consulta los <a href="https://www.filos.unam.mx/home/aviso-de-privacidad/" target="_blank" rel="noopener noreferrer" class="text-themyscira-gold-light underline underline-offset-4">avisos institucionales de la Facultad de Filosofía y Letras</a>. Para conocer el procedimiento de acceso, rectificación, cancelación u oposición de datos personales (derechos ARCO), acude a la <a href="https://transparencia.unam.mx/unidad-transparencia.html" target="_blank" rel="noopener noreferrer" class="text-themyscira-gold-light underline underline-offset-4">Unidad de Transparencia de la UNAM</a> o escribe a <a href="mailto:unidaddetransparencia@unam.mx" class="text-themyscira-gold-light underline underline-offset-4">unidaddetransparencia@unam.mx</a>.</p>
-                        <p class="text-neutral-500">Esta información describe el funcionamiento del micrositio y complementa la consulta de los avisos institucionales; no sustituye el aviso que corresponda al tratamiento de los datos del evento.</p>
-                    </div>
-                </details>
+                <div class="mt-4 text-center">
+                    <button type="button" onclick="openPrivacyNotice(this)" aria-haspopup="dialog" aria-controls="aviso-privacidad" class="text-xs text-neutral-400 underline underline-offset-4 hover:text-themyscira-gold-light">Privacidad del registro del congreso</button>
+                </div>
             </div>
         </div>
     </footer>
@@ -3372,6 +3406,34 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
         let photoLightboxPreviousOverflow = null;
         let photoLightboxTrigger = null;
 
+        let privacyNoticeTrigger = null;
+        let privacyNoticePreviousOverflow = null;
+        function openPrivacyNotice(trigger) {
+            const dialog = document.getElementById('aviso-privacidad');
+            if (dialog.open) return;
+            privacyNoticeTrigger = trigger || document.activeElement;
+            privacyNoticePreviousOverflow = document.body.style.overflow;
+            document.body.style.overflow = 'hidden';
+            dialog.showModal();
+            dialog.querySelector('.privacy-dialog-content').scrollTop = 0;
+        }
+        function closePrivacyNotice() {
+            const dialog = document.getElementById('aviso-privacidad');
+            if (dialog.open) dialog.close();
+        }
+        const privacyNoticeDialog = document.getElementById('aviso-privacidad');
+        privacyNoticeDialog.addEventListener('close', () => {
+            if (privacyNoticePreviousOverflow !== null) document.body.style.overflow = privacyNoticePreviousOverflow;
+            privacyNoticePreviousOverflow = null;
+            privacyNoticeTrigger?.focus({ preventScroll: true });
+            privacyNoticeTrigger = null;
+        });
+        privacyNoticeDialog.addEventListener('click', event => {
+            if (event.target !== privacyNoticeDialog) return;
+            const rect = privacyNoticeDialog.getBoundingClientRect();
+            if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) closePrivacyNotice();
+        });
+
         function openPhotoLightbox(link) {
             const dialog = document.getElementById('photo-lightbox');
             const image = document.getElementById('photo-lightbox-image');
@@ -3943,6 +4005,7 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
 
         window.addEventListener('keydown', (e) => {
             if (e.key === 'Escape') {
+                if (document.getElementById('aviso-privacidad').open) { e.preventDefault(); closePrivacyNotice(); return; }
                 if (document.getElementById('photo-lightbox').open) { e.preventDefault(); closePhotoLightbox(); return; }
                 closeSpeakerModal();
                 closeSessionModal();
