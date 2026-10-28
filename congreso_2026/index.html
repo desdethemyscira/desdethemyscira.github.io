@@ -412,7 +412,7 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
                     </a>
 
                     <!-- 6. PAPIIT IG400426 / Desde Themyscira -->
-                    <a href="https://desdethemysciraffyl.mx/" target="_blank" rel="noopener" class="group p-2.5 rounded-xl bg-themyscira-900/80 border border-themyscira-gold/20 hover:border-themyscira-gold hover:bg-themyscira-800/80 transition-all flex flex-col items-center text-center">
+                    <a href="https://desdethemysciraffyl.org/" target="_blank" rel="noopener" class="group p-2.5 rounded-xl bg-themyscira-900/80 border border-themyscira-gold/20 hover:border-themyscira-gold hover:bg-themyscira-800/80 transition-all flex flex-col items-center text-center">
                         <div class="w-full h-20 rounded-lg bg-transparent flex items-center justify-center p-2 mb-2">
                             <img src="img/logos/desde-themyscira.png" style="filter: url(#logo-dark-to-white);" alt="Logo del Grupo de Investigación Desde Themyscira" loading="lazy" decoding="async" class="institution-logo max-w-full h-full object-contain group-hover:scale-105 transition-transform">
                         </div>
@@ -1162,7 +1162,7 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
                 </div>
 
                 <div class="glass-card rounded-3xl p-6 sm:p-10 shadow-2xl">
-                    <form id="registration-form" onsubmit="handleRegistration(event)" class="space-y-6">
+                    <form id="registration-form" aria-describedby="registration-privacy-note" onsubmit="handleRegistration(event)" class="space-y-6">
                         
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                             <div>
@@ -1215,6 +1215,8 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
                                 </select>
                             </div>
                         </div>
+
+                        <p id="registration-privacy-note" class="text-xs leading-relaxed text-neutral-400">Tus datos se utilizan para gestionar el registro, la credencial, el acceso a Zoom y la acreditación de asistencia. El registro se almacena en Google Sheets. Antes de enviarlo, consulta los <a href="https://www.filos.unam.mx/home/aviso-de-privacidad/" target="_blank" rel="noopener noreferrer" class="text-themyscira-gold-light underline underline-offset-4">avisos de privacidad de la FFyL</a> y la <a href="#aviso-privacidad" onclick="document.getElementById('aviso-privacidad').open = true" class="text-themyscira-gold-light underline underline-offset-4">información sobre el registro del congreso</a>.</p>
 
                         <div class="pt-3">
                             <button type="submit" class="w-full py-4 rounded-xl font-cinzel text-sm sm:text-base font-bold uppercase tracking-wider bg-gradient-to-r from-themyscira-gold via-themyscira-gold-light to-themyscira-gold text-themyscira-900 hover:brightness-110 shadow-xl transition-all flex items-center justify-center gap-2">
@@ -1343,24 +1345,6 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
             </div>
         </section>
 
-        <!-- Créditos de identidad gráfica y desarrollo -->
-        <section id="creditos-diseno" class="relative overflow-hidden border-b border-themyscira-stone/15 bg-themyscira-950 px-4 py-10 sm:py-12">
-            <div class="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-themyscira-gold/40 to-transparent"></div>
-            <div class="relative mx-auto max-w-3xl rounded-2xl border border-themyscira-stone/20 bg-themyscira-900/45 px-5 py-6 text-center shadow-lg shadow-black/10 sm:px-8">
-                <div class="mb-3 inline-flex items-center gap-2.5 text-themyscira-gold/80" aria-hidden="true">
-                    <span class="h-px w-8 bg-themyscira-gold/35"></span>
-                    <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m12 3 1.9 5.8L20 11l-6.1 2.2L12 19l-1.9-5.8L4 11l6.1-2.2L12 3Z"/><path stroke-linecap="round" stroke-width="1.5" d="m19 16 .8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8L19 16Z"/></svg>
-                    <span class="h-px w-8 bg-themyscira-gold/35"></span>
-                </div>
-                <p class="mb-2 font-cinzel text-[10px] uppercase tracking-[0.22em] text-themyscira-stone-light">Identidad Gráfica y Desarrollo</p>
-                <h3 class="font-serif text-lg text-neutral-200 sm:text-xl">
-                    <a href="https://alejandragj.com/" target="_blank" rel="noopener noreferrer" class="text-themyscira-gold-light transition-colors hover:text-white">Alejandra González Jiménez</a>
-                </h3>
-                <p class="mx-auto mt-2 max-w-xl text-xs leading-relaxed text-neutral-400">
-                    Identidad visual, cartel oficial y desarrollo web del congreso · Grupo de Investigación <strong class="font-medium text-neutral-300">Desde Themyscira</strong>
-                </p>
-            </div>
-        </section>
 
     </main>
 
@@ -1423,43 +1407,51 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
         </button>
     </div>
 
-    <footer class="bg-themyscira-950 text-neutral-400 py-12 border-t border-themyscira-gold/30">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col md:flex-row items-center justify-between gap-6 pb-8 border-b border-neutral-800">
-                <div class="flex items-center gap-3">
-                    <img src="img/logos/desde-themyscira1.png"
-                         alt="Logo de Desde Themyscira" width="48" height="48" loading="lazy"
-                         onerror="this.onerror=null; this.src='img/logos/desde-themyscira.png';"
-                         class="w-12 h-12 flex-shrink-0 object-contain">
-                    <div>
-                        <p class="font-cinzel font-bold text-white text-sm">Desde Themyscira</p>
-                        <p class="text-xs text-neutral-500">Grupo de Investigación • FFyL UNAM</p>
-                    </div>
-                </div>
-
-                <div class="flex flex-wrap items-center justify-center gap-6 text-xs font-medium">
-                    <a href="https://facebook.com/desdethemyscira" target="_blank" rel="noopener" class="flex items-center gap-1.5 hover:text-themyscira-gold transition">
-                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95C18.05 21.45 22 17.19 22 12z"/></svg>
-                        <span>Facebook</span>
-                    </a>
-                    <a href="https://youtube.com/@desdethemyscira" target="_blank" rel="noopener" class="flex items-center gap-1.5 hover:text-themyscira-gold transition">
-                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M21.58 7.19a2.5 2.5 0 0 0-1.76-1.77C18.26 5 12 5 12 5s-6.26 0-7.82.42A2.5 2.5 0 0 0 2.42 7.2 26.2 26.2 0 0 0 .42 4.81 2.5 2.5 0 0 0 1.76 1.77C5.74 19 12 19 12 19s6.26 0 7.82-.42a2.5 2.5 0 0 0 1.76-1.77c.28-1.56.42-3.18.42-4.81s-.14-3.25-.42-4.81zM9.75 15.02V8.98l6 3.02-6 3.02z"/></svg>
-                        <span>YouTube</span>
-                    </a>
-                    <a href="https://instagram.com/desdethemyscira" target="_blank" rel="noopener" class="flex items-center gap-1.5 hover:text-themyscira-gold transition">
-                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-                        <span>Instagram</span>
-                    </a>
-                    <span class="text-neutral-600">|</span>
-                    <a href="https://alejandragj.com/" target="_blank" rel="noopener" class="text-themyscira-gold-light hover:underline font-cinzel">
-                        Diseño: Alejandra González J.
-                    </a>
+    <footer class="bg-themyscira-950 px-3 pt-5 pb-28 sm:px-6 md:pb-12">
+        <div class="mx-auto max-w-7xl rounded-2xl border border-themyscira-gold/20 bg-themyscira-900/30 px-5 pt-8 pb-6 sm:px-10 sm:pt-10">
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-3.5 text-center sm:text-left">
+                <a href="https://desdethemysciraffyl.org/" aria-label="Ir al sitio web de Desde Themyscira" class="inline-block flex-shrink-0 rounded-full transition-opacity hover:opacity-80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-themyscira-gold">
+                    <img src="img/logos/desde-themyscira1.png" alt="Logo de Desde Themyscira" width="48" height="48" loading="lazy" onerror="this.onerror=null; this.src='img/logos/desde-themyscira.png';" class="w-12 h-12 object-contain">
+                </a>
+                <div>
+                    <p class="font-cinzel text-sm sm:text-base tracking-[0.14em] text-neutral-100">Desde Themyscira</p>
+                    <p class="mt-1 text-xs leading-relaxed text-neutral-400">Grupo de Investigación · Facultad de Filosofía y Letras, UNAM</p>
                 </div>
             </div>
-
-            <div class="mt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-neutral-500 gap-4">
-                <p>© 2026 Grupo de Investigación Desde Themyscira. Facultad de Filosofía y Letras, UNAM.</p>
-                <p>Identidad y Desarrollo Web por <a href="https://alejandragj.com/" target="_blank" class="text-themyscira-gold hover:underline">Alejandra González Jiménez</a>.</p>
+            <nav aria-label="Redes sociales de Desde Themyscira" class="mx-auto mt-6 flex w-fit max-w-full flex-wrap items-center justify-center gap-x-5 gap-y-3 border-x border-themyscira-gold/20 px-5 text-xs text-neutral-300">
+                <a href="https://facebook.com/desdethemyscira" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1.5 hover:text-themyscira-gold transition">
+                        <svg class="w-3.5 h-3.5 text-themyscira-gold" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95C18.05 21.45 22 17.19 22 12z"/></svg>
+                        <span>Facebook</span>
+                    </a>
+                <a href="https://youtube.com/@desdethemyscira" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1.5 hover:text-themyscira-gold transition">
+                        <svg class="w-3.5 h-3.5 text-themyscira-gold" fill="currentColor" viewBox="0 0 24 24"><path d="M21.58 7.19a2.5 2.5 0 0 0-1.76-1.77C18.26 5 12 5 12 5s-6.26 0-7.82.42A2.5 2.5 0 0 0 2.42 7.2 26.2 26.2 0 0 0 .42 4.81 2.5 2.5 0 0 0 1.76 1.77C5.74 19 12 19 12 19s6.26 0 7.82-.42a2.5 2.5 0 0 0 1.76-1.77c.28-1.56.42-3.18.42-4.81s-.14-3.25-.42-4.81zM9.75 15.02V8.98l6 3.02-6 3.02z"/></svg>
+                        <span>YouTube</span>
+                    </a>
+                <a href="https://instagram.com/desdethemyscira" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1.5 hover:text-themyscira-gold transition">
+                        <svg class="w-3.5 h-3.5 text-themyscira-gold" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        <span>Instagram</span>
+                    </a>
+            </nav>
+            <div id="creditos-diseno" class="mt-6 text-center">
+                <p class="font-cinzel text-[10px] tracking-[0.2em] text-themyscira-gold">Identidad gráfica &amp; desarrollo</p>
+                <a href="https://alejandragj.com/" target="_blank" rel="noopener noreferrer" class="inline-block mt-1.5 font-serif text-base text-neutral-100 transition-colors hover:text-themyscira-gold-light focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-themyscira-gold">Alejandra González Jiménez</a>
+                <span class="mx-auto mt-2 block h-px w-12 bg-themyscira-gold/40" aria-hidden="true"></span>
+            </div>
+            <div class="mt-6 border-t border-themyscira-stone/15 pt-4 text-[11px] leading-relaxed text-neutral-500">
+                <div class="flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
+                    <p>© 2026 Grupo de Investigación Desde Themyscira · FFyL, Universidad Nacional Autónoma de México</p>
+                    <a href="https://www.filos.unam.mx/home/aviso-de-privacidad/" target="_blank" rel="noopener noreferrer" class="flex-shrink-0 text-themyscira-stone-light underline decoration-themyscira-gold/30 underline-offset-4 hover:text-themyscira-gold-light">Avisos de privacidad · FFyL</a>
+                </div>
+                <details id="aviso-privacidad" class="mx-auto mt-4 max-w-3xl text-neutral-400">
+                    <summary class="mx-auto w-fit cursor-pointer text-center text-xs underline decoration-themyscira-gold/30 underline-offset-4 hover:text-themyscira-gold-light">Privacidad del registro del congreso</summary>
+                    <div class="mt-4 rounded-xl border border-themyscira-stone/20 p-4 sm:p-5 space-y-3 text-xs leading-relaxed">
+                        <p class="font-cinzel text-themyscira-gold-light">Información sobre el tratamiento de tus datos</p>
+                        <p>El comité organizador de Desde Themyscira utiliza el nombre, correo electrónico, institución de procedencia, tipo de participante, modalidad de asistencia y línea de interés proporcionados en el formulario para gestionar la inscripción, generar la credencial con folio y QR y enviar el acceso a Zoom. El folio y las asistencias permiten llevar el control de acreditación para las constancias.</p>
+                        <p>El registro se guarda en una hoja de Google Sheets mediante Google Apps Script. El navegador conserva una copia local de tu registro para recuperar la credencial. Las consultas al Oráculo se envían al servicio de inteligencia artificial de Google; evita incluir datos personales en ellas.</p>
+                        <p>Consulta los <a href="https://www.filos.unam.mx/home/aviso-de-privacidad/" target="_blank" rel="noopener noreferrer" class="text-themyscira-gold-light underline underline-offset-4">avisos institucionales de la Facultad de Filosofía y Letras</a>. Para conocer el procedimiento de acceso, rectificación, cancelación u oposición de datos personales (derechos ARCO), acude a la <a href="https://transparencia.unam.mx/unidad-transparencia.html" target="_blank" rel="noopener noreferrer" class="text-themyscira-gold-light underline underline-offset-4">Unidad de Transparencia de la UNAM</a> o escribe a <a href="mailto:unidaddetransparencia@unam.mx" class="text-themyscira-gold-light underline underline-offset-4">unidaddetransparencia@unam.mx</a>.</p>
+                        <p class="text-neutral-500">Esta información describe el funcionamiento del micrositio y complementa la consulta de los avisos institucionales; no sustituye el aviso que corresponda al tratamiento de los datos del evento.</p>
+                    </div>
+                </details>
             </div>
         </div>
     </footer>
