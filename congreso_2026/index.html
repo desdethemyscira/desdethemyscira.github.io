@@ -104,10 +104,11 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
         .privacy-dialog::backdrop { background: rgba(10, 5, 14, .85); backdrop-filter: blur(5px); }
         .privacy-dialog-header { display: flex; align-items: flex-start; gap: 1rem; justify-content: space-between; padding: 1.75rem 2rem 1.25rem; border-bottom: 1px solid #a59f8826; }
         .privacy-dialog-header h2 { min-width: 0; overflow-wrap: anywhere; }
-        .privacy-dialog-header button { flex-shrink: 0; }
+        .privacy-dialog-header button { flex-shrink: 0; min-width: 44px; min-height: 44px; }
         .privacy-dialog-content { overflow-y: auto; overscroll-behavior: contain; min-height: 0; overflow-wrap: anywhere; }
+        .privacy-dialog-actions label, .privacy-dialog-actions button { min-height: 44px; }
         .privacy-dialog-actions { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; flex-shrink: 0; padding: 1rem 2rem 1.5rem; border-top: 1px solid #a59f8826; }
-        @media (max-width: 639px) { .privacy-dialog-header { padding: 1.25rem; } .privacy-dialog-actions { padding: 1rem 1.25rem; } }
+        @media (max-width: 639px) { .privacy-dialog-header { padding: 1rem; gap: .5rem; } .privacy-dialog-actions { padding: .75rem 1rem; gap: .5rem; } .privacy-dialog-actions > div { width: 100%; justify-content: space-between; } }
 
         #badge-print-root { display: none; }
         @media print {
@@ -1503,7 +1504,6 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
             <div class="mt-6 border-t border-themyscira-stone/15 pt-4 text-[11px] leading-relaxed text-neutral-500">
                 <div class="flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
                     <p>© 2026 Grupo de Investigación Desde Themyscira · FFyL, Universidad Nacional Autónoma de México</p>
-                    <a href="https://www.filos.unam.mx/home/aviso-de-privacidad/" target="_blank" rel="noopener noreferrer" class="flex-shrink-0 text-themyscira-stone-light underline decoration-themyscira-gold/30 underline-offset-4 hover:text-themyscira-gold-light">Avisos de privacidad · FFyL</a>
                 </div>
                 <div class="mt-4 text-center">
                     <button type="button" onclick="openPrivacyNotice(this)" aria-haspopup="dialog" aria-controls="aviso-privacidad" class="text-xs text-neutral-400 underline underline-offset-4 hover:text-themyscira-gold-light">Privacidad del registro del congreso</button>
