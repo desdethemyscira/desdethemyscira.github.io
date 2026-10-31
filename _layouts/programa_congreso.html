@@ -2,6 +2,18 @@
 layout: default
 ---
 <style>
+/* Keep the congress header in the page flow, including when its mobile menu expands. */
+body.dt-congreso-page .navigation,
+body.dt-congreso-page .navigation.nav-bg{position:relative!important;top:auto;right:auto;left:auto;padding:16px 24px;background:#dedac7;transition:none}
+body.dt-congreso-page .navbar{max-width:1200px;margin:auto;padding:0;gap:12px}
+body.dt-congreso-page .navbar-brand{flex-shrink:0;margin:0;padding:0}
+body.dt-congreso-page .navbar-brand img{display:block;width:96px;height:96px;object-fit:contain;max-width:100%}
+body.dt-congreso-page .navbar-dark .navbar-nav .nav-link{color:#302035;padding:12px 10px}
+body.dt-congreso-page .navbar-toggler{border-color:#81756a;background:#514357;min-width:44px;min-height:44px}
+body.dt-congreso-page .dt-programa{padding-top:56px}
+body.dt-congreso-page .dt-programa__wrap{min-width:0;overflow-wrap:break-word}
+@media(max-width:991.98px){body.dt-congreso-page .navigation,body.dt-congreso-page .navigation.nav-bg{padding:12px 20px}body.dt-congreso-page .navbar-brand img{width:72px;height:72px}body.dt-congreso-page .navbar-collapse{flex-basis:100%}body.dt-congreso-page .dt-programa{padding-top:36px}}
+
 .dt-programa{padding:150px 20px 70px;background:#faf8f5;color:#302035}.dt-programa__wrap{max-width:1060px;margin:auto}.dt-programa__eyebrow{color:#795e2b;font-size:12px;letter-spacing:.15em;text-transform:uppercase}.dt-programa h1{max-width:850px;font:400 clamp(32px,5vw,58px)/1.15 Georgia,serif;color:#302035;margin:18px 0 24px}.dt-programa__intro{max-width:800px;font-size:17px;line-height:1.8;color:#635b65}.dt-programa__actions{display:flex;flex-wrap:wrap;gap:12px;margin:28px 0 34px}.dt-programa .dt-programa__button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:13px 23px;box-sizing:border-box;border:1px solid #302035;border-radius:5px;background:#302035;color:#fff;text-decoration:none;font-size:15px;line-height:1.5}.dt-programa .dt-programa__button--outline{background:transparent;color:#302035}.dt-programa .dt-programa__button:hover{background:#503857;color:#fff}.dt-programa a:focus-visible{outline:3px solid #b18c40;outline-offset:5px}.dt-programa__art{display:block;overflow:hidden;border-radius:12px;box-shadow:0 12px 35px #30203515}.dt-programa__art img{display:block;width:100%;height:auto}.dt-programa__facts{display:grid;grid-template-columns:1fr 1fr 1.5fr;gap:26px;margin:0;padding:28px 0;border-bottom:1px solid #ded5d2}.dt-programa__facts dt{color:#795e2b;font-size:11px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:7px}.dt-programa__facts dd{margin:0;font-size:15px;line-height:1.6}.dt-programa__objective{display:grid;grid-template-columns:1fr 2fr;gap:40px;padding-top:42px}.dt-programa__objective h2{margin:0;color:#302035;font:400 29px/1.3 Georgia,serif}.dt-programa__objective p{margin:0;font-size:16px;line-height:1.9;color:#635b65}@media(max-width:640px){.dt-programa{padding:125px 20px 48px}.dt-programa__actions{flex-direction:column}.dt-programa__facts,.dt-programa__objective{grid-template-columns:1fr;gap:18px}}
 </style>
 <div class="dt-programa"><div class="dt-programa__wrap">{{ content }}</div></div>
