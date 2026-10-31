@@ -10,6 +10,20 @@
   <meta name="author" content="{{ . }}">
   {% endif %}
 
+  {% if page.congreso_2026 %}
+  <meta property="og:locale" content="es_MX">
+  <meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}">
+  <meta property="og:site_name" content="Desde Themyscira">
+  <meta property="og:title" content="{{ page.share_title | escape }}">
+  <meta property="og:description" content="{{ page.description | escape }}">
+  <meta property="og:image" content="{{ page.share_image | escape }}">
+  <meta property="og:image:alt" content="Primer Congreso Internacional Desde Themyscira, del 9 al 13 de noviembre de 2026">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.share_title | escape }}">
+  <meta name="twitter:description" content="{{ page.description | escape }}">
+  <meta name="twitter:image" content="{{ page.share_image | escape }}">
+  {% endif %}
+
   <!-- ** Plugins Needed for the Project ** -->
   {% for css in site.data.plugins.css %}
   <link rel="stylesheet" href="{{ css | relative_url }}">
