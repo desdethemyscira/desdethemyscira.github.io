@@ -6,9 +6,12 @@
     <title>Agencia Femenina: Genealogías en la Tradición Clásica | Desde Themyscira</title>
     <meta name="description" content="Primer Congreso Internacional Desde Themyscira y VII Edición de los Conversatorios Letras Clásicas - UNAM / Biblioteca Nacional">
     <meta name="theme-color" content="#25162B">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/app/icon-180.png">
+    <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="DesdeThemyscira">
+    <meta name="apple-mobile-web-app-title" content="Themyscira 2026">
     <meta name="author" content="Alejandra González Jiménez - alejandragj.com">
 
     <!-- Fonts & Tailwind -->
@@ -4158,6 +4161,16 @@ ${p.languageNote ? `<p class="mt-2 text-xs leading-relaxed text-themyscira-gold-
             renderParticipantsList(allParticipantsList);
             renderAttendanceTable();
         };
+    </script>
+    <script>
+        // Relative scope confines installation to this microsite, including on GitHub Pages.
+        if ('serviceWorker' in navigator && window.isSecureContext) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./service-worker.js', {
+                    scope: './', updateViaCache: 'none'
+                }).catch(error => console.warn('No se pudo activar la instalación del micrositio.', error));
+            });
+        }
     </script>
 </body>
 </html>
