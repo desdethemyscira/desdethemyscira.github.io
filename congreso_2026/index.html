@@ -1136,7 +1136,8 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
                 </div>
 
                 <div class="glass-card rounded-3xl p-6 sm:p-10 shadow-2xl">
-                    <form id="registration-form" aria-describedby="registration-privacy-note" onsubmit="handleRegistration(event)" class="space-y-6">
+                    <a href="#asistencia-remota" class="inline-flex mb-5 min-h-[44px] items-center px-4 py-2 rounded-xl border border-themyscira-gold/50 text-themyscira-gold-light text-sm font-semibold">¿Ya tienes credencial? Registrar asistencia remota →</a>
+                <form id="registration-form" aria-describedby="registration-privacy-note" onsubmit="handleRegistration(event)" class="space-y-6">
                         
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                             <div>
@@ -1265,6 +1266,41 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
                     </div>
 
                 </div>
+            </div>
+        </section>
+
+        <section id="asistencia-remota" class="py-12 sm:py-16 bg-themyscira-850 border-b border-themyscira-gold/20 scroll-mt-24">
+            <div class="max-w-3xl mx-auto px-4 sm:px-6">
+                <h2 class="font-cinzel text-2xl sm:text-3xl text-themyscira-gold-light font-bold">Registrar asistencia remota</h2>
+                <p class="mt-3 text-sm text-neutral-300 leading-relaxed">Durante cada sesión en Zoom, el comité compartirá un código. Ingresa el folio de tu credencial, elige la sesión y escribe ese código. Tu pase quedará pendiente de revisión con el reporte de Zoom antes de sumarse a tu asistencia para constancia.</p>
+                <form id="remote-attendance-form" onsubmit="submitRemoteAttendance(event)" class="mt-6 p-5 sm:p-6 rounded-2xl border border-themyscira-gold/30 space-y-4">
+                    <div><label for="remote-folio" class="block mb-2 text-sm text-themyscira-gold">Folio de tu credencial</label>
+                    <input id="remote-folio" name="folio" type="text" required maxlength="45" pattern="[Tt][Hh][Ee][Mm]-[A-Za-z0-9]{6,40}" autocapitalize="characters" spellcheck="false" autocomplete="off" placeholder="THEM-…" class="w-full min-w-0 px-4 py-3 rounded-xl bg-themyscira-950 border border-themyscira-gold/30 text-white focus:outline-none focus:border-themyscira-gold uppercase"></div>
+                    <div><label for="remote-session" class="block mb-2 text-sm text-themyscira-gold">Sesión a la que asististe</label>
+                    <select id="remote-session" name="session" required class="w-full min-w-0 px-4 py-3 rounded-xl bg-themyscira-950 border border-themyscira-gold/30 text-white focus:outline-none focus:border-themyscira-gold text-sm"><option value="">Selecciona la sesión</option>
+                        <option value="L9-Inauguracion">Lunes 9 - Inauguración (10:00) y Magistral Cidre (10:30)</option>
+                        <option value="L9-Mesa1">Lunes 9 - Mesa 1 (12:00)</option>
+                        <option value="L9-Mesa2">Lunes 9 - Mesa 2 (16:00)</option>
+                        <option value="M10-Mesa3">Martes 10 - Mesa 3 (10:00)</option>
+                        <option value="M10-MagistralCarmona">Martes 10 - Magistral Carmona Barón (12:00)</option>
+                        <option value="M10-Mesa4">Martes 10 - Mesa 4 Virtual (16:00)</option>
+                        <option value="W11-MagistralMoreno">Miércoles 11 - Magistral Moreno Conde (10:00)</option>
+                        <option value="W11-Mesa5">Miércoles 11 - Mesa 5 (12:00)</option>
+                        <option value="W11-Mesa6">Miércoles 11 - Mesa 6 · IIFL, UNAM (16:00)</option>
+                        <option value="J12-Plenaria1">Jueves 12 - Plenaria 1 BNM (10:00)</option>
+                        <option value="J12-Mesa7">Jueves 12 - Mesa 7 BNM (12:00)</option>
+                        <option value="J12-Mesa8">Jueves 12 - Mesa 8 (16:00–18:00)</option>
+                        <option value="V13-MagistralGiusti">Viernes 13 - Magistral Giusti (10:00)</option>
+                        <option value="V13-Mesa9">Viernes 13 - Mesa 9 (12:00)</option>
+                        <option value="V13-Plenaria2">Viernes 13 - Plenaria 2 (15:00)</option>
+                        <option value="V13-Clausura">Viernes 13 - Clausura (16:30)</option>
+                    </select></div>
+                    <div><label for="remote-code" class="block mb-2 text-sm text-themyscira-gold">Código compartido en Zoom</label>
+                    <input id="remote-code" name="code" type="text" required minlength="8" maxlength="8" pattern="[A-Za-z0-9]{8}" autocapitalize="characters" spellcheck="false" autocomplete="off" placeholder="8 caracteres" class="w-full min-w-0 px-4 py-3 rounded-xl bg-themyscira-950 border border-themyscira-gold/30 text-white focus:outline-none focus:border-themyscira-gold uppercase tracking-widest"></div>
+                    <p class="text-xs text-neutral-400">El pase se guarda en la hoja del comité para revisar la asistencia. <button type="button" onclick="openPrivacyNotice(this)" class="underline text-themyscira-gold-light">Consultar el aviso de privacidad</button></p>
+                    <button type="submit" class="w-full min-h-[48px] py-3 px-4 rounded-xl bg-themyscira-gold text-themyscira-950 font-bold disabled:opacity-50">Enviar pase remoto</button>
+                    <p id="remote-feedback" role="status" aria-live="polite" class="text-sm text-themyscira-gold-light break-words"></p>
+                </form>
             </div>
         </section>
 
@@ -1640,7 +1676,7 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
                         <p id="attendance-sync-status" role="status" aria-live="polite">Consulta la hoja compartida para actualizar el padrón.</p>
                         <button type="button" onclick="refreshAttendance()" class="px-3 py-2 rounded bg-themyscira-800 text-themyscira-gold whitespace-nowrap">Actualizar padrón</button>
                     </div>
-                    <select id="attendance-session-select" class="w-full px-3 py-2 text-xs rounded-lg bg-themyscira-800 border border-themyscira-stone/40 text-white focus:outline-none focus:border-themyscira-stone">
+                    <select onchange="clearRemoteCodeDisplay()" id="attendance-session-select" class="w-full px-3 py-2 text-xs rounded-lg bg-themyscira-800 border border-themyscira-stone/40 text-white focus:outline-none focus:border-themyscira-stone">
                         <option value="L9-Inauguracion">Lunes 9 - Inauguración (10:00) y Magistral Cidre (10:30)</option>
                         <option value="L9-Mesa1">Lunes 9 - Mesa 1 (12:00)</option>
                         <option value="L9-Mesa2">Lunes 9 - Mesa 2 (16:00)</option>
@@ -1658,6 +1694,18 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
                         <option value="V13-Plenaria2">Viernes 13 - Plenaria 2 (15:00)</option>
                         <option value="V13-Clausura">Viernes 13 - Clausura (16:30)</option>
                     </select>
+
+                    <div class="pt-3 mt-3 border-t border-themyscira-gold/20 space-y-3">
+                        <h4 class="text-sm font-bold text-themyscira-gold">Pase remoto por Zoom</h4>
+                        <label for="remote-code-minutes" class="block text-xs text-neutral-300">Tiempo para recibir pases desde la apertura</label>
+                        <select id="remote-code-minutes" class="w-full p-3 bg-themyscira-800 text-white rounded-lg border border-themyscira-gold/30"><option value="15">15 minutos</option><option value="30" selected>30 minutos</option><option value="60">60 minutos</option><option value="120">120 minutos</option></select>
+                        <div class="flex flex-wrap gap-2">
+                            <button type="button" onclick="manageRemoteCode('remoteCode', this)" class="flex-1 min-h-[44px] px-3 py-2 bg-themyscira-gold text-themyscira-950 font-bold rounded-lg disabled:opacity-50">Abrir / consultar código</button>
+                            <button type="button" onclick="manageRemoteCode('closeRemoteCode', this)" class="min-h-[44px] px-3 py-2 text-themyscira-gold border border-themyscira-gold/40 rounded-lg disabled:opacity-50">Cerrar pase</button>
+                        </div>
+                        <p id="remote-code-feedback" role="status" aria-live="polite" class="text-sm text-themyscira-gold-light whitespace-pre-line break-words"></p>
+                        <p class="text-xs text-neutral-400">Comparte el código durante la sesión. Revisa los pases en la pestaña «Asistencia remota» de Google Sheets. Solo las filas validadas y acreditadas se suman al padrón.</p>
+                    </div>
 
                     <div class="pt-2">
                         <button id="start-scan-btn" onclick="toggleCameraScanner()" class="w-full py-2.5 px-4 rounded-xl bg-themyscira-gold text-themyscira-900 font-cinzel text-xs font-bold flex items-center justify-center gap-2 shadow hover:bg-themyscira-gold-light transition">
@@ -3002,6 +3050,64 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
             } finally { clearTimeout(timer); }
         }
 
+
+        function clearRemoteCodeDisplay() {
+            document.getElementById('remote-code-feedback').textContent = '';
+        }
+
+        async function manageRemoteCode(action, button) {
+            if (!isOrganizerAuthenticated) return;
+            const session = document.getElementById('attendance-session-select').value;
+            const feedback = document.getElementById('remote-code-feedback');
+            const controls = button.parentElement.querySelectorAll('button');
+            controls.forEach(control => control.disabled = true);
+            feedback.textContent = 'Consultando la hoja compartida…';
+            try {
+                const result = await committeeAPI(action, {
+                    session, minutes: Number(document.getElementById('remote-code-minutes').value)
+                });
+                if (!isOrganizerAuthenticated || document.getElementById('attendance-session-select').value !== session) return;
+                if (action === 'closeRemoteCode') {
+                    feedback.textContent = result.message;
+                } else {
+                    if (!/^[A-Z0-9]{8}$/.test(result.code) || !Number.isFinite(Date.parse(result.closesAt))) {
+                        throw new Error('Actualiza Apps Script a la versión de asistencia remota.');
+                    }
+                    const label = document.getElementById('attendance-session-select').selectedOptions[0].textContent;
+                    feedback.textContent = label + '\nCódigo: ' + result.code + '\nCierra: ' +
+                        new Date(result.closesAt).toLocaleString('es-MX', { timeZone: 'America/Mexico_City' }) + ' (Ciudad de México)';
+                }
+            } catch (error) {
+                if (isOrganizerAuthenticated && document.getElementById('attendance-session-select').value === session) feedback.textContent = error.message;
+            } finally { controls.forEach(control => control.disabled = false); }
+        }
+
+        async function submitRemoteAttendance(event) {
+            event.preventDefault();
+            const form = document.getElementById('remote-attendance-form');
+            if (form.dataset.submitting === 'true' || !form.reportValidity()) return;
+            const button = form.querySelector('button[type="submit"]');
+            const feedback = document.getElementById('remote-feedback');
+            form.dataset.submitting = 'true';
+            form.setAttribute('aria-busy', 'true');
+            button.disabled = true;
+            feedback.textContent = 'Enviando tu pase remoto…';
+            try {
+                const result = await committeeAPI('remoteCheckIn', {
+                    folio: document.getElementById('remote-folio').value.trim().toUpperCase(),
+                    session: document.getElementById('remote-session').value,
+                    code: document.getElementById('remote-code').value.trim().toUpperCase()
+                }, '');
+                feedback.textContent = result.message;
+            } catch (error) {
+                feedback.textContent = error.message;
+            } finally {
+                form.dataset.submitting = 'false';
+                form.removeAttribute('aria-busy');
+                button.disabled = false;
+            }
+        }
+
         async function verifyOrganizerPin(e) {
             e.preventDefault();
             if (committeeLoginBusy) return;
@@ -3027,6 +3133,7 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
         function lockOrganizerSession() {
             isOrganizerAuthenticated = false;
             organizerAccessKey = '';
+            clearRemoteCodeDisplay();
             committeeAttendees = [];
             committeeLoaded = false;
             document.getElementById('organizer-pin-input').value = '';
